@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagens Namnsdag</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .policy {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="title">Dagens Namnsdag</div>
+  <div class="subtitle">Privacy policy</div>
+  <div class="policy">
+    <p>The app "Dagens Namnsdag" and the developer "Particle SWE" do not gather, save, or spread any identifiable information about users or usage whatsoever.</p>
+    <p>User settings and data are stored in the application locally on the user's device and are not accessible by anybody else but the user.</p>
+  </div>
+</body>
+</html>
