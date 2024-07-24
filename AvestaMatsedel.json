@@ -1,131 +1,131 @@
 {
-  "Vecka 2": {
+  "Vecka 29": {
     "Måndag": ["Blodpudding/potatisbullar, lingon, keso och frukt."],
     "Tisdag": ["Högsbosoppa", "Asiatisk Kycklinggryta med curry och kokos, serveras med havreris."],
     "Onsdag": ["Blodpudding/potatisbullar, lingon, keso och frukt."],
     "Torsdag": ["Husets matiga köttfärssoppa, mjukt bröd och frukt"],
     "Fredag": ["Asiatisk grönsaksgryta med curry och kokos, serveras med havreris"]
   },
-  "Vecka 3": {
+  "Vecka 30": {
     "Måndag": ["Korv stroganoff med ris", "Vegetarisk korvstroganoff med ris"],
     "Tisdag": ["Fiskgratäng serveras med kokt potatis", "Ostgratinerade grönsaker med kokt potatis."],
     "Onsdag": ["Grönsakswok med pasta serveras med kall sås", "Kycklingwok med pasta och kall sås"],
     "Torsdag": ["Köttfärsfrestelse serveras med varm grönsak", "Grekisk potatislåda"],
     "Fredag": ["Pasta, kycklingsås med smak av oregano och citron", "Pasta med skinksås"]
   },
-  "Vecka 4": {
+  "Vecka 31": {
     "Måndag": ["Mustig köttgryta med kokt potatis och varma grönsaker", "Paprikagulash med kokt potatis"],
     "Tisdag": ["Fisk med kokosmjölk och broccoli, serveras med kokt ris.", "Stekt ris med grönsaker, bönor och kall sås"],
     "Onsdag": ["Mexikansk lasagne med grönsaker", "Mexikansk lasagne med kyckling"],
     "Torsdag": ["Broccolisoppa, hembakt bröd och frukt.", "Soppa med korv, mjukt bröd och frukt"],
     "Fredag": ["Köttfärssås med pasta", "Belugabolognese med pasta"]
   },
-  "Vecka 5": {
+  "Vecka 32": {
     "Måndag": ["Chili sin carne med ris", "Chili con carne med ris"],
     "Tisdag": ["Stekt fisk, serveras med sås, varma grönsaker och kokt potatis.", "Grönsaksbiffar med sås och kokt potatis."],
     "Onsdag": ["Falafel med klyftpotatis, varma grönsaker och kall sås.", "Kycklingkorv med chilitäcke serveras med klyftpotatis"],
     "Torsdag": ["Kebabgryta, serveras med bulgur.", "Jambalaya med bulgur serveras med vitlökssås (veg)"],
     "Fredag": ["Pasta med kyckling i krämig dragonsås", "Pasta med svampsås"]
   },
-  "Vecka 6": {
+  "Vecka 33": {
     "Måndag": ["Grönsaksfräs med havreris och kall sås.", "Pasta med grönsakssås"],
     "Tisdag": ["Pasta med laxsås och varma grönsaker", "Vegetariska kikärtsrutor, sås, kokt potatis"],
     "Onsdag": ["Leverbiff med sås, kokt potatis och lingonsylt"],
     "Torsdag": ["Potatis och purjolökssoppa, mjukt bröd, frukt", "Minestronesoppa, mjukt bröd, ost och frukt"],
     "Fredag": ["Kycklinggryta med currysås och ris.", "Husets vegetariska gryta och kokt ris"]
   },
-  "Vecka 7": {
+  "Vecka 34": {
     "Måndag": ["Pasta med ost och broccolisås", "Köttfärssås med pasta"],
     "Tisdag": ["Krämig fiskgratäng serveras med kokt potatis och kokta grönsaker", "Morotsbiffar med potatis och sås."],
     "Onsdag": ["Ugnstekt falukorv med potatismos", "Ugnsgratinerad vegetarisk korv med täcke, potatismos"],
     "Torsdag": ["Kassler med potatisgratäng", "Vegetarisk Moussaka"],
     "Fredag": ["Kökets val", "Kökets val"]
   },
-  "Vecka 8": {
+  "Vecka 35": {
     "Måndag": ["Linsgryta med smak av spiskummin och havreris", "Husets köttgryta serveras med havreris, grönsaker"],
     "Tisdag": ["Fisk Benedictine, potatismos kokta grönsaker", "GrönsaksBenedictine, potatismos"],
     "Onsdag": ["Nötfärsrutor med sås, grönsaker och potatis", "Medelhavsbiffar med kall sås och kokt potatis"],
     "Torsdag": ["Majssoppa med hummus, mjukt bröd", "Kycklingsoppa, mjukt bröd och frukt"],
     "Fredag": ["Pasta med skinksås", "Pasta med grönsakssås"]
   },
-  "Vecka 9": {
+  "Vecka 36": {
     "Måndag": ["Sportlov"],
     "Tisdag": ["Sportlov"],
     "Onsdag": ["Sportlov"],
     "Torsdag": ["Sportlov"],
     "Fredag": ["Sportlov"]
   },
-  "Vecka 10": {
+  "Vecka 37": {
     "Måndag": ["Blodpudding med keso samt frukt", "Potatisbullar med keso, lingonsylt och frukt."],
     "Tisdag": ["Fiskbiff med remouladsås och kokt potatis.", "Panerade broccolifritters, serveras med kokt potatis och kall sås"],
     "Onsdag": ["Pasta serveras med tomat och färssås", "Köttfärssås med pasta"],
     "Torsdag": ["Kycklingwok med pasta och kall sås", "Grönsakswok"],
     "Fredag": ["Kökets val", "Kökets val"]
   },
-  "Vecka 11": {
+  "Vecka 38": {
     "Måndag": ["Korv stroganoff med ris", "Bönstroganoff med ris."],
     "Tisdag": ["Fiskgratäng serveras med kokt potatis", "Ostgratinerade grönsaker med kokt potatis."],
     "Onsdag": ["Grönsaksbiffar med sås och kokt potatis.", "Kålpudding, brunsås, potatis och lingonsylt"],
     "Torsdag": ["Broccolisoppa, hembakt bröd och frukt.", "Tomatsoppa med pasta, mjukt bröd, frukt"],
     "Fredag": ["Pasta serveras med tonfisksås och grönsaker", "Mac'n'cheese"]
   },
-  "Vecka 12": {
+  "Vecka 39": {
     "Måndag": ["Mustig gulasch med kokt potatis och grönsaker", "Paprikagulash med kokt potatis"],
     "Tisdag": ["Fisk med kokosmjölk och broccoli, serveras med kokt ris.", "Stekt ris med grönsaker, bönor och kall sås"],
     "Onsdag": ["Mexikansk lasagne med grönsaker och tortillabröd", "Kycklinglasagne"],
     "Torsdag": ["Frestelse med kalkonkött, varma grönsaker", "Vegetarisk Moussaka"],
     "Fredag": ["Köttfärssås med pasta", "Belugabolognese med pasta"]
   },
-  "Vecka 13": {
+  "Vecka 40": {
     "Måndag": ["Chili con carne med ris", "Chili sin carne med ris"],
     "Tisdag": ["Påskbord", "Påskbord"],
     "Onsdag": ["Kökets pytt i panna, inlagda rödbetor.", "Kökets val"],
     "Torsdag": ["Kökets val", "Kökets val"],
     "Fredag": ["Påsklov"]
   },
-  "Vecka 14": {
+  "Vecka 41": {
     "Måndag": ["Påsklov"],
     "Tisdag": ["Påsklov"],
     "Onsdag": ["Påsklov"],
     "Torsdag": ["Påsklov"],
     "Fredag": ["Påsklov"]
   },
-  "Vecka 15": {
+  "Vecka 42": {
     "Måndag": ["Blodpudding med keso samt frukt", "Potatisbullar med keso, lingonsylt och frukt."],
     "Tisdag": ["Stekt fisk, serveras med sås, varma grönsaker och kokt potatis.", "Grönsaksbiffar med sås och kokt potatis."],
     "Onsdag": ["Falafel med klyftpotatis, varma grönsaker och kall sås.", "Kycklingkorv med chilitäcke serveras med klyftpotatis"],
     "Torsdag": ["Kebabgryta, serveras med bulgur.", "Jambalaya med bulgur serveras med vitlökssås (veg)"],
     "Fredag": ["Pasta med kyckling i krämig dragonsås", "Pasta med svampsås"]
   },
-  "Vecka 16": {
+  "Vecka 43": {
     "Måndag": ["Grönsaksfräs med havreris och kall sås.", "Pasta med grönsakssås"],
     "Tisdag": ["Pasta med laxsås och varma grönsaker", "Vegetariska kikärtsrutor, sås, kokt potatis"],
     "Onsdag": ["Leverbiff med sås, kokt potatis och lingonsylt"],
     "Torsdag": ["Potatis och purjolökssoppa, mjukt bröd, frukt", "Minestronesoppa, mjukt bröd, ost och frukt"],
     "Fredag": ["Kycklinggryta med currysås och ris.", "Husets vegetariska gryta och kokt ris"]
   },
-  "Vecka 17": {
+  "Vecka 44": {
     "Måndag": ["Pasta med ost och broccolisås", "Köttfärssås med pasta"],
     "Tisdag": ["Krämig fiskgratäng serveras med kokt potatis och kokta grönsaker", "Morotsbiffar med potatis och sås."],
     "Onsdag": ["Ugnstekt falukorv med potatismos", "Ugnsgratinerad vegetarisk korv med täcke, potatismos"],
     "Torsdag": ["Kassler med potatisgratäng", "Vegetarisk Moussaka"],
     "Fredag": ["Kökets val", "Kökets val"]
   },
-  "Vecka 18": {
+  "Vecka 45": {
     "Måndag": ["Linsgryta med smak av spiskummin och havreris", "Husets köttgryta serveras med havreris, grönsaker"],
     "Tisdag": ["Fisk Benedictine, potatismos kokta grönsaker", "GrönsaksBenedictine, potatismos"],
     "Onsdag": ["Nötfärsrutor med sås, grönsaker och potatis", "Medelhavsbiffar med kall sås och kokt potatis"],
     "Torsdag": ["Majssoppa med hummus, mjukt bröd", "Kycklingsoppa, mjukt bröd och frukt"],
     "Fredag": ["Pasta med skinksås", "Pasta med grönsakssås"]
   },
-  "Vecka 19": {
+  "Vecka 46": {
     "Måndag": ["Blodpudding med keso samt frukt", "Potatisbullar med keso, lingonsylt och frukt."],
     "Tisdag": ["Fiskbiff med remouladsås och kokt potatis.", "Panerade broccolifritters, serveras med kokt potatis och kall sås"],
     "Onsdag": ["Pasta serveras med tomat och färssås", "Köttfärssås med pasta"],
     "Torsdag": ["Kycklingwok med pasta och kall sås", "Grönsakswok"],
     "Fredag": ["Kökets val", "Kökets val"]
   },
-  "Vecka 20": {
+  "Vecka 47": {
     "Måndag": ["Korv stroganoff med ris", "Bönstroganoff med ris."],
     "Tisdag": ["Fiskgratäng serveras med kokt potatis", "Ostgratinerade grönsaker med kokt potatis."],
     "Onsdag": ["Grönsaksbiffar med sås och kokt potatis.", "Kålpudding, brunsås, potatis och lingonsylt"],
