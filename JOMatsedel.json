@@ -118,6 +118,144 @@
           "Rotfruktsschnitzel med stuvad spenat och potatis"
         ]
       }
+    },
+    "39": {
+      "veckodag": {
+        "Måndag": [
+          "Tortellini i tomatsås",
+          "Tortellini i skinksås"
+        ],
+        "Tisdag": [
+          "Chili con carne och ris",
+          "Chili sin carne och ris"
+        ],
+        "Onsdag": [
+          "Falafel med kall sås och potatis",
+          "Vegetarisk kebab"
+        ],
+        "Torsdag": [
+          "Gulaschsoppa / Köttsoppa med mjukt bröd och frukt",
+          "Vegetarisk wok"
+        ],
+        "Fredag": [
+          "Laxbullar i röd currysås och potatis",
+          "Vegetarisk röd currygryta med havreris"
+        ]
+      }
+    },
+    "40": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta och sås med rökt höns",
+          "Pasta med svamp och löksås"
+        ],
+        "Tisdag": [
+          "Asiatisk grönsaksgryta med bulgur",
+          "Köttgryta med potatis"
+        ],
+        "Onsdag": [
+          "Fiskbiffar med kall sås och potatis",
+          "Grönsaksbiffar med kall sås och potatis"
+        ],
+        "Torsdag": [
+          "Potatis och rotfruktsfrestelse med kyckling",
+          "Medelhavsfrestelse"
+        ],
+        "Fredag": [
+          "Nötfärsrutor med sås och potatis",
+          "Falafelrutor med sås och potatis"
+        ]
+      }
+    },
+    "41": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff och ris",
+          "Vegetarisk stroganoff och ris"
+        ],
+        "Tisdag": [
+          "Leverbiff med sås, lingonsylt och potatis",
+          "Husets vegetariska alternativ"
+        ],
+        "Onsdag": [
+          "Fiskgratäng och potatis",
+          "Majsbiffar med kall sås och bulgur"
+        ],
+        "Torsdag": [
+          "Soppbuffé med mjukt bröd och frukt"
+        ],
+        "Fredag": [
+          "Pasta med belugabolognese",
+          "Pasta med köttfärssås"
+        ]
+      }
+    },
+    "42": {
+      "veckodag": {
+        "Måndag": [
+          "Korv / kycklingköttbullar med stuvade makaroner",
+          "Vegetarisk korv / falafel med stuvade makaroner"
+        ],
+        "Tisdag": [
+          "Chicken a la king och havreris",
+          "Grönsaksgryta med havreris"
+        ],
+        "Onsdag": [
+          "Kökets pytt i panna med rödbetor",
+          "Rotfruktspytt med rödbetor"
+        ],
+        "Torsdag": [
+          "Potatisgratäng med kotlettrad",
+          "Potatisgratäng med rotfruktsschnitzel"
+        ],
+        "Fredag": [
+          "Fiskgratäng och potatismos",
+          "Grönsaksgratäng och potatis"
+        ]
+      }
+    },
+    "43": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta med ost och broccolisås",
+          "Pasta och skinksås"
+        ],
+        "Tisdag": [
+          "Kycklinggryta tikka masala och ris",
+          "Vegetarisk tikka masala och ris"
+        ],
+        "Onsdag": [
+          "Lasagne",
+          "Lasagne med grönsaker"
+        ],
+        "Torsdag": [
+          "Halloweenbuffé"
+        ],
+        "Fredag": [
+          "Stekt fisk med kall sås och potatis",
+          "Grönsaksbiffar med kall sås och potatis"
+        ]
+      }
+    },
+    "44": {
+      "veckodag": {
+        "Måndag": [
+          "Falukorv med stuvade morötter och potatis"
+        ],
+        "Tisdag": [
+          "Pastagratäng"
+        ],
+        "Onsdag": [
+          "Kycklinggryta med matkorn"
+        ],
+        "Torsdag": [
+          "Morotssoppa och pannkaka"
+        ],
+        "Fredag": [
+          "Fisk benedictine med kall sås och potatis"
+        ]
+      }
     }
   }
 }
+
