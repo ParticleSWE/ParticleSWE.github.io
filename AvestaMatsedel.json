@@ -136,11 +136,11 @@
     },
     "39": {
       "veckodag": {
-        "Måndag": ["Kökets val"],
-        "Tisdag": ["Kökets val"],
-        "Onsdag": ["Kökets val"],
-        "Torsdag": ["Kökets val"],
-        "Fredag": ["Kökets val"]
+        "Måndag": ["Kökets val", "Tortellini i skinksås (Skogsbo)", "Tortellini i tomatsås (Skogsbo)"],
+        "Tisdag": ["Kökets val", "Chili con carne, havreris (Skogsbo)", "Chili sin carne, havreris (Skogsbo)"],
+        "Onsdag": ["Kökets val", "Falafel med havreris och sås (Skogsbo)"],
+        "Torsdag": ["Kökets val", "Gulaschsoppa m. hembakat bröd (Skogsbo)", "Veg. Wok m. ärt & bönflakes (Skogsbo)"],
+        "Fredag": ["Kökets val", "Laxbullar i röd currysås m. mos (Skogsbo)", "Vegetarisk currygryta m. mos (Skogsbo)"]
       }
     },
     "40": {
