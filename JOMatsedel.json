@@ -255,7 +255,172 @@
           "Fisk benedictine med kall sås och potatis"
         ]
       }
+    },
+    "45": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta med tomat och linssås",
+          "Pasta och köttfärssås"
+        ],
+        "Tisdag": [
+          "Kycklinggryta med ris",
+          "Ost och broccolipaj"
+        ],
+        "Onsdag": [
+          "Köttkorv och rotmos",
+          "Färskostbiffar med kall sås och potatis"
+        ],
+        "Torsdag": [
+          "Nikkalouktasoppa med mjukt bröd och frukt",
+          "Sparrissoppa med mjukt bröd och frukt"
+        ],
+        "Fredag": [
+          "Stekt fisk med kall sås och potatis",
+          "Morotsbiffar med stuvad spenat och potatis"
+        ]
+      }
+    },
+    "46": {
+      "veckodag": {
+        "Måndag": [
+          "Gratinerad falukorv och potatismos",
+          "Vegetarisk korv och potatismos"
+        ],
+        "Tisdag": [
+          "Chili con carne och ris",
+          "Chili sin carne och ris"
+        ],
+        "Onsdag": [
+          "Falafel med kall sås och potatis",
+          "Kebabgryta och havreris"
+        ],
+        "Torsdag": [
+          "Pannkaka med kokta bär",
+          "Ugnspannkaka med fläsk och lingonsylt"
+        ],
+        "Fredag": [
+          "Fiskfärsbiffar med kall sås och potatis",
+          "Grönsaksgryta med röd curry och havreris"
+        ]
+      }
+    },
+    "47": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta med sås på rökt höns",
+          "Pasta med svamp och löksås"
+        ],
+        "Tisdag": [
+          "Vegetarisk moussaka",
+          "Isterbandslåda och rödbetor"
+        ],
+        "Onsdag": [
+          "Fiskbullar i dillsås och potatis",
+          "Gröna biffar med stuvad potatis"
+        ],
+        "Torsdag": [
+          "Kycklingsoppa med mjukt bröd och frukt",
+          "Grön ärtsoppa med mjukt bröd och frukt"
+        ],
+        "Fredag": [
+          "Kålpudding med sås, potatis och lingonsylt",
+          "Kökets vegetariska val"
+        ]
+      }
+    },
+    "48": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff och ris",
+          "Vegetarisk stroganoff och ris"
+        ],
+        "Tisdag": [
+          "Leverbiff med sås, potatis och lingonsylt",
+          "Falafelrutor med sås och potatis"
+        ],
+        "Onsdag": [
+          "Laxgratäng",
+          "Majsbiffar med kall sås och potatis"
+        ],
+        "Torsdag": [
+          "Grönsaksbiff med kall sås och klyftpotatis",
+          "Kallt kött, sås och klyftpotatis"
+        ],
+        "Fredag": [
+          "Pasta och köttfärssås",
+          "Pasta med tomat och linssås"
+        ]
+      }
+    },
+    "49": {
+      "veckodag": {
+        "Måndag": [
+          "Stuvade makaroner och falukorv",
+          "Stuvade makaroner och vegetarisk korv"
+        ],
+        "Tisdag": [
+          "Vegetarisk taco",
+          "Taco"
+        ],
+        "Onsdag": [
+          "Pytt i panna och rödbetor",
+          "Grönsaksgryta och potatis"
+        ],
+        "Torsdag": [
+          "Potatis och purjolökssoppa med mjukt bröd och frukt",
+          "Köttsoppa med mjukt bröd och frukt"
+        ],
+        "Fredag": [
+          "Fiskgratäng och potatismos",
+          "Grönsaksgratäng och potatis"
+        ]
+      }
+    },
+    "50": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta och skinksås",
+          "Pasta med ost och broccolisås"
+        ],
+        "Tisdag": [
+          "Nobellunch"
+        ],
+        "Onsdag": [
+          "Kökets val",
+          "Kökets val"
+        ],
+        "Torsdag": [
+          "Köttfärslimpa med sås och potatis",
+          "Vegetarisk färslimpa med sås och potatis"
+        ],
+        "Fredag": [
+          "Stekt fisk med kall sås och potatis",
+          "Grönsaksfräs med kall sås och potatis"
+        ]
+      }
+    },
+    "51": {
+      "veckodag": {
+        "Måndag": [
+          "Korv med stuvade morötter och potatis",
+          "Kökets val"
+        ],
+        "Tisdag": [
+          "Blodpudding med lingonsylt och frukt",
+          "Potatisbullar med keso, lingonsylt och frukt"
+        ],
+        "Onsdag": [
+          "Julbord"
+        ],
+        "Torsdag": [
+          "Morotssoppa med mjukt bröd och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Fisk benedictine med kall sås och potatis",
+          "Kökets val"
+        ]
+      }
     }
   }
 }
-
