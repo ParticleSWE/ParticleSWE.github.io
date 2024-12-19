@@ -21,45 +21,19 @@
     "34": {
       "veckodag": {
         "Måndag": ["Sommarlov"],
-        "Tisdag": [
-          "Blodpudding/potatisbullar med lingon, keso och frukt."
-        ],
-        "Onsdag": [
-          "Pastasallad med korv och kall sås.",
-          "Pastasallad med säsongens primörer och kall sås."
-        ],
-        "Torsdag": [
-          "Högsbosoppa, hembakt bröd och frukt",
-          "Husets matiga soppa, mjukt bröd och frukt"
-        ],
-        "Fredag": [
-          "Köttbullar med kokt potatis, sås och lingon (Skola)",
-          "Vegetariska bullar med kokt potatis, sås och lingon (Skola)"
-        ]
+        "Tisdag": ["Blodpudding/potatisbullar med lingon, keso och frukt."],
+        "Onsdag": ["Pastasallad med korv och kall sås.", "Pastasallad med säsongens primörer och kall sås."],
+        "Torsdag": ["Högsbosoppa, hembakt bröd och frukt", "Husets matiga soppa, mjukt bröd och frukt"],
+        "Fredag": ["Köttbullar med kokt potatis, sås och lingon (Skola)", "Vegetariska bullar med kokt potatis, sås och lingon (Skola)"]
       }
     },
     "35": {
       "veckodag": {
-        "Måndag": [
-          "Korv stroganoff med ris",
-          "Vegetarisk korvstroganoff med ris"
-        ],
-        "Tisdag": [
-          "Fiskgratäng serveras med kokt potatis",
-          "Ostgratinerade grönsaker med kokt potatis."
-        ],
-        "Onsdag": [
-          "Grönsakswok med pasta, serveras med kall sås",
-          "Kycklingwok med pasta och kall sås"
-        ],
-        "Torsdag": [
-          "Grekisk potatislåda",
-          "Potatis och köttfärsgratäng."
-        ],
-        "Fredag": [
-          "Pastasås med pesto",
-          "Pasta med skinksås"
-        ]
+        "Måndag": ["Korv stroganoff med ris", "Vegetarisk korvstroganoff med ris"],
+        "Tisdag": ["Fiskgratäng serveras med kokt potatis", "Ostgratinerade grönsaker med kokt potatis."],
+        "Onsdag": ["Grönsakswok med pasta, serveras med kall sås", "Kycklingwok med pasta och kall sås"],
+        "Torsdag": ["Grekisk potatislåda", "Potatis och köttfärsgratäng."],
+        "Fredag": ["Pastasås med pesto", "Pasta med skinksås"]
       }
     },
     "36": {
@@ -358,32 +332,245 @@
     },
     "50": {
       "veckodag": {
-        "Måndag": [
-          "Vegetarisk persikodoftande gryta med grönsaker och havreris",
-          "Husets köttgryta med havreris och grönsaker"
-        ],
+        "Måndag": ["Vegetarisk persikodoftande gryta med grönsaker och havreris", "Husets köttgryta med havreris och grönsaker"],
         "Tisdag": ["Nobellunch"],
-        "Onsdag": [
-          "Spenatlasagne",
-          "Laxlasagne"
-        ],
-        "Torsdag": [
-          "Köttfärslimpa med brunsås och potatis",
-          "Vegetarisk färslimpa med sås och kokt potatis"
-        ],
+        "Onsdag": ["Spenatlasagne", "Laxlasagne"],
+        "Torsdag": ["Köttfärslimpa med brunsås och potatis", "Vegetarisk färslimpa med sås och kokt potatis"],
         "Fredag": ["Kökets val"]
       }
     },
     "51": {
       "veckodag": {
-        "Måndag": [
-          "Köttfärssås med pasta",
-          "Pasta med grönsakssås"
-        ],
+        "Måndag": ["Köttfärssås med pasta", "Pasta med grönsakssås"],
         "Tisdag": ["Julbord"],
         "Onsdag": ["Kökets val"],
         "Torsdag": ["Kökets val"],
         "Fredag": ["Kökets val"]
+      }
+    },
+    "52": {
+      "veckodag": {
+        "Måndag": ["Jullov"],
+        "Tisdag": ["Jullov"],
+        "Onsdag": ["Jullov"],
+        "Torsdag": ["Jullov"],
+        "Fredag": ["Jullov"]
+      }
+    },
+    "1": {
+      "veckodag": {
+        "Måndag": ["Jullov", "Jullov"],
+        "Tisdag": ["Jullov", "Jullov"],
+        "Onsdag": ["Jullov", "Jullov"],
+        "Torsdag": ["Jullov", "Jullov"],
+        "Fredag": ["Jullov", "Jullov"]
+      }
+    },
+    "2": {
+      "veckodag": {
+        "Måndag": ["Jullov", "Jullov"],
+        "Tisdag": ["Jullov", "Jullov"],
+        "Onsdag": ["Jullov", "Jullov"],
+        "Torsdag": ["Blodpudding/potatisbullar, lingon , keso och frukt.", "Blodpudding/potatisbullar, lingon , keso och frukt."],
+        "Fredag": ["Pasta med kalkonsås", "Pasta med ost och broccolisås"]
+      }
+    },
+    "3": {
+      "veckodag": {
+        "Måndag": ["Korv stroganoff med havreris serveras med varma grönsaker", "Vegetarisk korvstroganoff med havreris serveras med varma grönsaker"],
+        "Tisdag": ["Fiskgratäng serveras med  kokt potatis", "Ostgratinerade grönsaker med kokt potatis."],
+        "Onsdag": ["Grönsakswok", "Wok med kyckling och kall sås"],
+        "Torsdag": ["Grekisk potatislåda", "Potatis och köttfärsgratäng."],
+        "Fredag": ["Kökets val", "Mac'n'cheese"]
+      }
+    },
+    "4": {
+      "veckodag": {
+        "Måndag": ["Mustig köttgryta serveras med (kokt potatis), varma grönsaker", "Mustig paprikagulash med kokt potatis"],
+        "Tisdag": ["Fisk med fräsiga grönsaker och kokosmjölk och broccoli, serveras med kokt ris.", "Stekt ris med grönsaker, bönor och kall sås"],
+        "Onsdag": ["Mexikansk vegetarisk lasagne", "Mexikansk lasagne med grönsaker och tortillabröd"],
+        "Torsdag": ["Broccolisoppa, hembakt bröd och frukt.", "Indisk soppa med mjukt bröd och frukt"],
+        "Fredag": ["Köttfärssås med pasta, varma grönsaker", "Pasta med bolognese på gula linser, varma grönsaker Vegetariskt"]
+      }
+    },
+    "5": {
+      "veckodag": {
+        "Måndag": ["Chili sin carne med (kokt ris) och varma grönsaker", "Chili con carne serveras med (kokt ris) och varma grönsaker"],
+        "Tisdag": ["Stekt fisk med kall sås, kokt potatis och varma grönsaker", "Grönsaksbiffar med sås och kokt potatis."],
+        "Onsdag": ["Kebabgryta", "Simsukebabgryta, serveras med bulgur och varma grönsaker."],
+        "Torsdag": ["Falafel med klyftpotatis och kall sås.", "Falukorv med chilitäcke och klyftpotatis"],
+        "Fredag": ["Pasta med kyckling i dragonsås", "Pasta med svampsås"]
+      }
+    },
+    "6": {
+      "veckodag": {
+        "Måndag": ["Vegetarisk gryta serveras med havreris", "Köttfärsfräs med tacosmak, havreris och kall sås."],
+        "Tisdag": ["Pasta med laxås", "Pastasås med ajvarsås"],
+        "Onsdag": ["Leverbiff med gräddsås, potatis, lingon, varma grönsaker", "Rotsaksrutor, sås, kokt potatis och råröda lingon"],
+        "Torsdag": ["Potatis och purjolökssoppa, hembakat bröd, frukt", "Minestronesoppa, hembakat bröd, ost och frukt"],
+        "Fredag": ["Kycklingcurry och matvete.", "Vegetarisk gryta med blomkål, curry och havreris"]
+      }
+    },
+    "7": {
+      "veckodag": {
+        "Måndag": ["Korvstroganoff med matvete serveras med varma grönsaker", "Vegetarisk korvstroganoff med matvete"],
+        "Tisdag": ["Fiskfärsbiff med kall sås, (kokt potatis) och varma grönsaker", "Falafelrutor med kall sås och potatis"],
+        "Onsdag": ["Kökets pytt i panna", "Rotsakspytt (Skola)"],
+        "Torsdag": ["Majssoppa med hummus, mjukt bröd och frukt", "Kycklingsoppa, mjukt bröd och frukt"],
+        "Fredag": ["Kökets val", "Kökets val"]
+      }
+    },
+    "8": {
+      "veckodag": {
+        "Måndag": ["Asiatisk grönsaksgryta med curry och kokos", "Husets köttgryta med havreris"],
+        "Tisdag": ["Fisk Benedictine serveras med sås och potatismos, och varma grönsaker", "Grönsaks Benedictine serveras med sås, potatis och varma grönsaker"],
+        "Onsdag": ["Grönsaksbiffar med potatis och sås", "Gratinerade köttfärsrutor med potatis och sås"],
+        "Torsdag": ["Frestelse med kycklingfärs, varma grönsaker", "Medelhavsfrestelse"],
+        "Fredag": ["Pasta med skinksås", "Pasta med vegetarisk färssås"]
+      }
+    },
+    "9": {
+      "veckodag": {
+        "Måndag": ["Sportlov", "Sportlov"],
+        "Tisdag": ["Sportlov", "Sportlov"],
+        "Onsdag": ["Sportlov", "Sportlov"],
+        "Torsdag": ["Sportlov", "Sportlov"],
+        "Fredag": ["Sportlov", "Sportlov"]
+      }
+    },
+    "10": {
+      "veckodag": {
+        "Måndag": ["Blodpudding/potatisbullar, lingon , keso och frukt.", "Blodpudding/potatisbullar, lingon , keso och frukt."],
+        "Tisdag": ["Fiskgratäng med ägg och persilja serveras med potatis", "Zuccininuggets med husets tzatsiki"],
+        "Onsdag": ["Köttfärssås med pasta", "Pasta med tomat och linssås, varma grönsaker"],
+        "Torsdag": ["Kassler med potatisgratäng", "Potatisgratäng med falafel."],
+        "Fredag": ["Vegetarisk lasagne", "Lasagne"]
+      }
+    },
+    "11": {
+      "veckodag": {
+        "Måndag": ["Röd currygryta med fläsk och kokt ris", "Röd currygryta med kikärtor och ris"],
+        "Tisdag": ["Fiskgryta med potatis", "Ostgratinerade grönsaker med kokt potatis."],
+        "Onsdag": ["Korvbuffe med tillbehör", "Korvbuffe med tillbehör"],
+        "Torsdag": ["Italiensk grönsakssoppa, mjukt bröd och frukt", "Gulaschsoppa(färs) mjukt bröd, frukt, humus"],
+        "Fredag": ["Husets vegetariska pastagratäng", "Pastagratäng med kyckling"]
+      }
+    },
+    "12": {
+      "veckodag": {
+        "Måndag": ["Chili con carne med bulgur", "Chili sin carne med bulgur"],
+        "Tisdag": ["Stekt fisk med citronsås, potatis och varma grönsaker", "Vegetariska biffar och potatis"],
+        "Onsdag": ["Kycklingcurry och havreris.", "Vegetarisk gryta med blomkål, curry och havreris"],
+        "Torsdag": ["Vegetarisk  frestelse", "Skinkfrestelse"],
+        "Fredag": ["Kökets val", "Kökets val"]
+      }
+    },
+    "13": {
+      "veckodag": {
+        "Måndag": ["Vegetarisk  stroganoff med kokt potatis", "Husets köttgryta med potatis"],
+        "Tisdag": ["Pasta med laxås", "Pasta med paprikasås."],
+        "Onsdag": ["Leverbiff med gräddsås, potatis, lingon, varma grönsaker", "Svampbiffar med gräddsås, potatis och lingon"],
+        "Torsdag": ["Grön Ärtsoppa, mjukt bröd, frukt", "Het nudelsoppa med bröd och frukt"],
+        "Fredag": ["Kökets wok", "Kökets wok"]
+      }
+    },
+    "14": {
+      "veckodag": {
+        "Måndag": ["Stekt ris med kyckling och kall sås", "Stekt ris med grönsaker, bönor och kall sås"],
+        "Tisdag": ["Krämig fiskgratäng serveras med kokt potatis och kokta grönsaker", "Ugnsgratinerade grönsaker och potatis"],
+        "Onsdag": ["Kökets pytt i panna", "Rotsakspytt (Skola)"],
+        "Torsdag": ["Ugnsgratinerad falukorv och potatismos", "Ugnsgratinerad vegitarisk korv med potatismos"],
+        "Fredag": ["Pasta med ost och broccolisås", "Pasta Pomodore"]
+      }
+    },
+    "15": {
+      "veckodag": {
+        "Måndag": ["Simsukebabgryta, serveras med havreris och varma grönsaker.", "Simsukebabgryta, serveras med havreris och varma grönsaker."],
+        "Tisdag": ["Fiskbullar serveras med sås, potatis och varma grönsaker", "Vegetarisk pastagratäng"],
+        "Onsdag": ["Vegetarisk Moussaka", "Knuts frestelse"],
+        "Torsdag": ["Potatis och purjolökssoppa, hembakat bröd, frukt", "Minestronesoppa, hembakat bröd, ost och frukt"],
+        "Fredag": ["Pasta med kycklingsås", "Pasta med svampsås"]
+      }
+    },
+    "16": {
+      "veckodag": {
+        "Måndag": ["Vegetarisk varm pastasallad, kall sås", "Varm pastasallad och kall sås"],
+        "Tisdag": ["Fiskgratäng med potatismos", "Currydoftande vitkålspaj"],
+        "Onsdag": ["Påskbord", "Påskbord"],
+        "Torsdag": ["Kökets val", "Kökets val"],
+        "Fredag": ["Påsklov", "Påsklov"]
+      }
+    },
+    "17": {
+      "veckodag": {
+        "Måndag": ["Påsklov", "Påsklov"],
+        "Tisdag": ["Påsklov", "Påsklov"],
+        "Onsdag": ["Påsklov", "Påsklov"],
+        "Torsdag": ["Påsklov", "Påsklov"],
+        "Fredag": ["Påsklov", "Påsklov"]
+      }
+    },
+    "18": {
+      "veckodag": {
+        "Måndag": ["Blodpudding/potatisbullar, lingon , keso och frukt.", "Blodpudding/potatisbullar, lingon , keso och frukt."],
+        "Tisdag": ["Paella", "Kökets vegetariska val"],
+        "Onsdag": ["Korv stroganoff med havreris serveras med varma grönsaker", "Vegetarisk korvstroganoff"],
+        "Torsdag": ["Lovdag", "Lovdag"],
+        "Fredag": ["Lovdag", "Lovdag"]
+      }
+    },
+    "19": {
+      "veckodag": {
+        "Måndag": ["Pastasallad med kalkon och kall sås (Skola)", "Pastasallad med säsongens primörer och kall sås."],
+        "Tisdag": ["Fiskgratäng med spenat och kokt potatis, kokta grönsaker", "Ostgratinerade grönsaker med kokt potatis."],
+        "Onsdag": ["Grönsaksbiffar med kall sås och bulgur.", "Wok med kyckling och kall sås"],
+        "Torsdag": ["Grekisk potatislåda", "Potatis och köttfärsgratäng."],
+        "Fredag": ["Kökets val", "Mac'n'cheese"]
+      }
+    },
+    "20": {
+      "veckodag": {
+        "Måndag": ["Mustig köttgryta serveras med (kokt potatis), varma grönsaker", "Mustig paprikagulash med kokt potatis"],
+        "Tisdag": ["Fiskfärsbiff med kall sås, (kokt potatis) och varma grönsaker", "Stekt ris med grönsaker, bönor och kall sås"],
+        "Onsdag": ["Mexikansk vegetarisk lasagne", "Mexikansk lasagne med kyckling"],
+        "Torsdag": ["Broccolisoppa, hembakt bröd och frukt.", "Indisk soppa med mjukt bröd och frukt"],
+        "Fredag": ["Köttfärssås med pasta", "Pasta med vegetarisk bolognese"]
+      }
+    },
+    "21": {
+      "veckodag": {
+        "Måndag": ["Chili sin carne med ris", "Chili con carne med ris"],
+        "Tisdag": ["Stekt fisk med dressing, potatis och ärtor.", "Grönsaksbiffar med sås och kokt potatis."],
+        "Onsdag": ["Kebabgryta", "Simsukebabgryta, serveras med bulgur och varma grönsaker."],
+        "Torsdag": ["Falafel med klyftpotatis och kall sås.", "Falukorv med chilitäcke och klyftpotatis"],
+        "Fredag": ["Pasta med kyckling i dragonsås", "Pasta med svampsås"]
+      }
+    },
+    "22": {
+      "veckodag": {
+        "Måndag": ["Röd currygryta med fläsk och kokt ris", "Röd currygryta med grönsaker"],
+        "Tisdag": ["Laxlasagne", "Vegetarisk lasagne"],
+        "Onsdag": ["Leverbiff med sås, kokt potatis och lingonsylt", "Vegetariska Rotsakssbiffar, kokt potatis, sås och lingon."],
+        "Torsdag": ["Lovdag", "Lovdag"],
+        "Fredag": ["Lovdag", "Lovdag"]
+      }
+    },
+    "23": {
+      "veckodag": {
+        "Måndag": ["Korvstroganoff med matvete serveras med varma grönsaker", "Vegetarisk korvstroganoff"],
+        "Tisdag": ["Sommarlunch", "Sommarlunch"],
+        "Onsdag": ["Kökets val", "Kökets val"],
+        "Torsdag": ["Kökets val", "Kökets val"],
+        "Fredag": ["Lovdag", "Lovdag"]
+      }
+    },
+    "24": {
+      "veckodag": {
+        "Måndag": ["Kökets val", "Kökets val"],
+        "Tisdag": ["Kökets val", "Kökets val"],
+        "Onsdag": ["Kökets val", "Kökets val"],
+        "Torsdag": ["---", "---"],
+        "Fredag": ["---", "---"] 
       }
     }
   }
