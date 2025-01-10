@@ -424,6 +424,15 @@
     },
     "2": {
             "veckodag": {
+              "Måndag": [
+                    "Jullov"
+                ],
+              "Tisdag": [
+                    "Jullov"
+                ],
+              "Onsdag": [
+                    "Jullov"
+                ],
                 "Torsdag": [
                     "Vegetarisk wok och kall sås",
                     "Wok med kyckling och kall sås"
