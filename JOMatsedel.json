@@ -422,5 +422,180 @@
         ]
       }
     }
+    "2": {
+            "veckodag": {
+                "Torsdag": [
+                    "Vegetarisk wok och kall sås",
+                    "Wok med kyckling och kall sås"
+                ],
+                "Fredag": [
+                    "Kålpudding med sås, potatis och lingonsylt",
+                    "Broccolibiffar med sås, potatis och lingonsylt"
+                ]
+            }
+        },
+        "3": {
+            "veckodag": {
+                "Måndag": [
+                    "Korv stroganoff och havreris",
+                    "Vegetarisk stroganoff och potatis"
+                ],
+                "Tisdag": [
+                    "Leverbiff med sås, potatis och lingonsylt",
+                    "Rotsaksrutor med kall sås och potatis"
+                ],
+                "Onsdag": [
+                    "Ugnstekt fisk med kall sås och potatis",
+                    "Majsbiffar med kall sås och potatis"
+                ],
+                "Torsdag": [
+                    "Frestelse med kycklingfärs",
+                    "Medelhavsfrestelse"
+                ],
+                "Fredag": [
+                    "Pasta med bolognese på gula linser",
+                    "Pasta och köttfärssås"
+                ]
+            }
+        },
+        "4": {
+            "veckodag": {
+                "Måndag": [
+                    "Korv och stuvade makaroner",
+                    "Vegetarisk korv och stuvade makaroner"
+                ],
+                "Tisdag": [
+                    "Morotsbiffar med kall sås och potatis",
+                    "Köttfärsfräs med kall sås och bulgur"
+                ],
+                "Onsdag": [
+                    "Köttgryta med fläskkött och potatis",
+                    "Vegetarisk gryta och mathavre"
+                ],
+                "Torsdag": [
+                    "Potatis och purjolökssoppa med mjukt bröd och frukt",
+                    "Cowboysoppa med mjukt bröd och frukt"
+                ],
+                "Fredag": [
+                    "Fiskgratäng och potatismos",
+                    "Grönsaksgratäng och potatismos"
+                ]
+            }
+        },
+        "5": {
+            "veckodag": {
+                "Måndag": [
+                    "Pasta och skinksås",
+                    "Pasta med ost och broccolisås"
+                ],
+                "Tisdag": [
+                    "Kycklinggryta tikka masala och matvete",
+                    "Asiatisk grönsaksgryta med potatis"
+                ],
+                "Onsdag": [
+                    "Lasagne med grönsaker och keso",
+                    "Lasagne"
+                ],
+                "Torsdag": [
+                    "Chiligratinerad korv och klyftpotatis",
+                    "Falafel med tomatsås och klyftpotatis"
+                ],
+                "Fredag": [
+                    "Stekt fisk med kall sås och potatis",
+                    "Grönsaksbiffar med kall sås och potatis"
+                ]
+            }
+        },
+        "6": {
+            "veckodag": {
+                "Måndag": [
+                    "Blodpudding med lingonsylt och keso",
+                    "Potatisbullar med lingonsylt och keso"
+                ],
+                "Tisdag": [
+                    "Hermanssons frestelse",
+                    "Grekisk potatislåda"
+                ],
+                "Onsdag": [
+                    "Kycklinggryta och ris",
+                    "Vegetarisk pastagratäng"
+                ],
+                "Torsdag": [
+                    "Morotssoppa med mjukt bröd och frukt",
+                    "Minestronesoppa med mjukt bröd och frukt"
+                ],
+                "Fredag": [
+                    "Fisk med fräsiga grönsaker och potatis",
+                    "Stekt ris med grönsaker och kall sås"
+                ]
+            }
+        },
+        "7": {
+            "veckodag": {
+                "Måndag": [
+                    "Pasta och köttfärssås",
+                    "Pasta med tomat och linssås"
+                ],
+                "Tisdag": [
+                    "Pytt i panna och rödbetor",
+                    "Grönsakspytt och rödbetor"
+                ],
+                "Onsdag": [
+                    "Köttgryta och potatis",
+                    "Paprikagulasch och havreris"
+                ],
+                "Torsdag": [
+                    "Mexikansk vegetarisk lasagne",
+                    "Mexikansk lasagne"
+                ],
+                "Fredag": [
+                    "Kökets val",
+                    "Kökets val"
+                ]
+            }
+        },
+        "8": {
+            "veckodag": {
+                "Måndag": [
+                    "Leksandskorv och potatismos",
+                    "Vegetarisk gratinerad korv och potatismos"
+                ],
+                "Tisdag": [
+                    "Chili con carne och ris",
+                    "Chili sin carne och ris"
+                ],
+                "Onsdag": [
+                    "Falafel med kall sås och potatis",
+                    "Kebabgryta och havreris"
+                ],
+                "Torsdag": [
+                    "Kyckling och rotsaksfrestelse",
+                    "Grönsaksgratäng och potatis"
+                ],
+                "Fredag": [
+                    "Fiskfärsbiffar med kall sås och potatis",
+                    "Grönsaksbiff med kall sås och potatis"
+                ]
+            }
+        },
+        "9": {
+            "veckodag": {
+                "Måndag": [
+                    "Pasta med sås på rökt höns"
+                ],
+                "Tisdag": [
+                    "Fiskgratäng och potatis"
+                ],
+                "Onsdag": [
+                    "Grönsaksbiffar med kall sås och potatis"
+                ],
+                "Torsdag": [
+                    "Grön ärtsoppa och mannagrynspudding med bär"
+                ],
+                "Fredag": [
+                    "Köttbullar med sås, potatis och lingonsylt"
+                ]
+            }
+        }
   }
 }
