@@ -787,6 +787,169 @@
           "Pasta och köttfärssås"
         ]
       }
+    },
+    "18": {
+      "veckodag": {
+        "Måndag": [
+          "Vegetarisk korv och stuvade makaroner",
+          "Korv och stuvade makaroner"
+        ],
+        "Tisdag": [
+          "Köttfärsfräs och ris",
+          "Grönsaksfräs och ris"
+        ],
+        "Onsdag": [
+          "Karlssons frestelse",
+          "Vegetarisk moussaka"
+        ],
+        "Torsdag": [
+          "Lovdag 1:a maj"
+        ],
+        "Fredag": [
+          "Lov",
+          "Fiskgratäng och potatismos"
+        ]
+      }
+    },
+    "19": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta och skinksås",
+          "Pasta med ost och broccolisås"
+        ],
+        "Tisdag": [
+          "Blodpudding med lingonsylt och frukt",
+          "Potatisbullar med keso, lingonsylt och frukt"
+        ],
+        "Onsdag": [
+          "Vegetariska lasagne",
+          "Lasagne"
+        ],
+        "Torsdag": [
+          "Wok med kyckling och ris",
+          "Vegetarisk wok med ris"
+        ],
+        "Fredag": [
+          "Stekt fisk med kall sås och potatis",
+          "Grönsaksbiffar med kall sås och potatis"
+        ]
+      }
+    },
+    "20": {
+      "veckodag": {
+        "Måndag": [
+          "Husets köttgryta med potatis",
+          "Paprikagulasch med potatis"
+        ],
+        "Tisdag": [
+          "Pastasallad med kalkon och kall sås",
+          "Pastasallad med säsongens primörer och kall sås"
+        ],
+        "Onsdag": [
+          "Kycklinggryta och havreris",
+          "Vegetarisk pastagratäng"
+        ],
+        "Torsdag": [
+          "Skogsbos broccolisoppa med mjukt bröd och frukt",
+          "Gulaschsoppa med mjukt bröd och frukt"
+        ],
+        "Fredag": [
+          "Fisk Benedictine med kall sås och potatis",
+          "Grönsaksbiff med kall sås och potatis"
+        ]
+      }
+    },
+    "21": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta med tomat och linssås",
+          "Pasta och köttfärssås"
+        ],
+        "Tisdag": [
+          "Pytt i panna och rödbetor",
+          "Grönskaspytt med rödbetor"
+        ],
+        "Onsdag": [
+          "Laxgratäng",
+          "Grekisk potatislåda"
+        ],
+        "Torsdag": [
+          "Falukorv med chilitäcke , kall sås och klyftpotatis",
+          "Falafel med kall sås och klyftpotatis"
+        ],
+        "Fredag": [
+          "Simsukebab med bröd"
+        ]
+      }
+    },
+    "22": {
+      "veckodag": {
+        "Måndag": [
+          "Leksandskorv och potaismos",
+          "Vegetarisk korv med potatismos"
+        ],
+        "Tisdag": [
+          "Chili sin carne och ris",
+          "Chili con carne och ris"
+        ],
+        "Onsdag": [
+          "Kökets val",
+          "Kökets val"
+        ],
+        "Torsdag": [
+          "Lovdag Krist i himmelfärdsdag"
+        ],
+        "Fredag": [
+          "Lovdag",
+          "Köttbullar med sås och potatis"
+        ]
+      }
+    },
+    "23": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta med sås på rökt höns",
+          "Pasta med ost och svampsås"
+        ],
+        "Tisdag": [
+          "Fiskgratäng och potatis",
+          "Grönsaksgratäng och potatis"
+        ],
+        "Onsdag": [
+          "Sommarlunch"
+        ],
+        "Torsdag": [
+          "Kökets val",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Lov 6: juni nationaldagen"
+        ]
+      }
+    },
+    "24": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff och ris",
+          "Vegetarisk stroganoff och ris"
+        ],
+        "Tisdag": [
+          "Leverbiff med sås, lingonsylt och potatis",
+          "Vegetarisk biff med sås och potatis"
+        ],
+        "Onsdag": [
+          "Kökets val",
+          "Kökets val"
+        ],
+        "Torsdag": [
+          "Skolavslutning",
+          "Husets vegetariska soppa, pannkaka och sylt"
+        ],
+        "Fredag": [
+          "Pasta och köttfärssås",
+          "Pasta med tomat och linssås"
+        ]
+      }
     }
   }
 }
