@@ -1,0 +1,1262 @@
+{
+  "carsByBrand": {
+    "Abarth": [
+      {
+        "car": "Abarth 595 SS '70",
+        "swappableEngines": [
+          "K20C1-Civic-'20 (Honda Civic Type R '20)"
+        ]
+      }
+    ],
+    "Alfa Romeo": [
+      {
+        "car": "Alfa Romeo 4C '14",
+        "swappableEngines": [
+          "F136F-458 (Ferrari 458 Italia '09)"
+        ]
+      },
+      {
+        "car": "Alfa Romeo 4C Gr.3 Road Car",
+        "swappableEngines": [
+          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      },
+      {
+        "car": "Alfa Romeo Giulia Sprint GT Veloce '67",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      }
+    ],
+    "Alpine": [
+      {
+        "car": "Alpine A110 1600S '72",
+        "swappableEngines": [
+          "SR20DET-Silvia-S15 (Nissan Silvia S15)"
+        ]
+      },
+      {
+        "car": "Alpine A110 Premiere Edition '17",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      }
+    ],
+    "Amuse": [
+      {
+        "car": "Amuse Nismo 380RS Superleggera",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
+        ]
+      },
+      {
+        "car": "Amuse S2000 GT1",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      }
+    ],
+    "Audi": [
+      {
+        "car": "Audi R8 Coupe V10 Plus '16",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Audi TTS Coupe '14",
+        "swappableEngines": [
+          "BYH-R8 (Audi R8 4.2)"
+        ]
+      }
+    ],
+    "Autobianchi": [
+      {
+        "car": "Autobianchi A112 Abarth '85",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      }
+    ],
+    "BMW": [
+      {
+        "car": "BMW 3.0 CSL '73",
+        "swappableEngines": [
+          "P65B44-Z4 (BMW Z4 GT3)"
+        ]
+      },
+      {
+        "car": "BMW M2 Competition '18",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "BMW Z4 3.0i '03",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "BMW M3 '89",
+        "swappableEngines": [
+          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      },
+      {
+        "car": "BMW M3 Sport Evolution '89",
+        "swappableEngines": [
+          "B58-GR-Supra-'20 (Toyota GR Supra '20)"
+        ]
+      },
+      {
+        "car": "BMW M3 '97",
+        "swappableEngines": [
+          "LS7-BRZ (Subaru BRZ Drift)"
+        ]
+      },
+      {
+        "car": "BMW M3 '03",
+        "swappableEngines": [
+          "P65B44-Z4 (BMW Z4 GT3)"
+        ]
+      },
+      {
+        "car": "BMW M3 Coupe '07",
+        "swappableEngines": [
+          "P65B44-Z4 (BMW Z4 GT3)"
+        ]
+      },
+      {
+        "car": "BMW M4 Coupe '14",
+        "swappableEngines": [
+          "P65B44-Z4 (BMW Z4 GT3)"
+        ]
+      },
+      {
+        "car": "BMW M4 Gr.4",
+        "swappableEngines": [
+          "LS7-BRZ (Subaru BRZ Drift)"
+        ]
+      }
+    ],
+    "Bugatti": [
+      {
+        "car": "Bugatti Veyron Gr.4",
+        "swappableEngines": [
+          "LS7 BRZ (Subaru BRZ Drift)"
+        ]
+      }
+    ],
+    "Chevrolet": [
+      {
+        "car": "Chevrolet Camaro Z28 ’69",
+        "swappableEngines": [
+          "LT4-Camaro (Chevrolet Camaro ZL1 '18)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C1 '58",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C2 Sting Ray Sport Coupe '63",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C3 Convertible '69",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C3 Stingray '69",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C4 ZR-1 ’89",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C6 ZR1 '09",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C7 Gr.3 Road Car",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
+        ]
+      }
+    ],
+    "Citroen": [
+      {
+        "car": "Citroen DS21 Pallas '70",
+        "swappableEngines": [
+          "M64/03-911 (Porsche 911 964 Carrera RS)"
+        ]
+      }
+    ],
+    "DeLorean": [
+      {
+        "car": "DeLorean DMC-12 S2 '04",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
+        ]
+      }
+    ],
+    "De Tomaso": [
+      {
+        "car": "De Tomaso Pantera '71",
+        "swappableEngines": [
+          "Coyote-5.0L-Mustang (Ford Mustang GT '15)"
+        ]
+      }
+    ],
+    "Dodge": [
+      {
+        "car": "Dodge Challenger R/T '70",
+        "swappableEngines": [
+          "Hellcat-Charger (Dodge Charger SRT Hellcat)"
+        ]
+      },
+      {
+        "car": "Dodge Challenger SRT Demon '18",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Dodge Charger R/T 426 Hemi '68",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Demon Challenger)"
+        ]
+      },
+      {
+        "car": "Dodge Viper GTS '13",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      }
+    ],
+    "Ford": [
+      {
+        "car": "Ford Escort RS Cosworth '92",
+        "swappableEngines": [
+          "L4-Focus-Gr.B (Ford Focus Gr.B)"
+        ]
+      },
+      {
+        "car": "Ford F-150 SVT Raptor '11",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
+        ]
+      },
+      {
+        "car": "Ford Focus RS '18",
+        "swappableEngines": [
+          "V8-Ford-GT-LM-Test (Ford GT LM Spec II Test Car)"
+        ]
+      },
+      {
+        "car": "Ford GT '06",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
+        ]
+      },
+      {
+        "car": "Ford GT '17",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
+        ]
+      },
+      {
+        "car": "Ford Mustang Boss 429 ’69",
+        "swappableEngines": [
+          "Voodoo-5.2L-GT350R (Ford Mustang Shelby GT350R)"
+        ]
+      },
+      {
+        "car": "Ford Mustang Gr.3 Road Car",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
+        ]
+      },
+      {
+        "car": "Ford Mustang Mach 1 '71",
+        "swappableEngines": [
+          "Coyote-5.0L-Mustang (Ford Mustang GT '15)"
+        ]
+      },
+      {
+        "car": "Ford Roadster '32",
+        "swappableEngines": [
+          "Voodoo-5.2L-GT350R (Ford Mustang Shelby GT350R)"
+        ]
+      },
+      {
+        "car": "Ford Shelby GT350R ’16",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
+        ]
+      },
+      {
+        "car": "Ford Sierra RS Cosworth RS500 '87",
+        "swappableEngines": [
+          "L4-Focus-Gr.B (Ford Focus Gr.B)"
+        ]
+      }
+    ],
+    "Ferrari": [
+      {
+        "car": "Ferrari F40 ‘92",
+        "swappableEngines": [
+          "F140B-Enzo (Ferrari Enzo Ferrari ‘02)"
+        ]
+      }
+    ],
+    "FIAT": [
+      {
+        "car": "FIAT 500 F '68",
+        "swappableEngines": [
+          "Honda SE75E-2&4 (Honda 2&4)"
+        ]
+      }
+    ],
+    "Garage RCR": [
+      {
+        "car": "Garage RCR Civic",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      }
+    ],
+    "GReddy": [
+      {
+        "car": "GReddy Fugu Z",
+        "swappableEngines": [
+          "LZ20B-Skyline (Nissan Skyline Super Silhouette '84)"
+        ]
+      }
+    ],
+    "Honda": [
+      {
+        "car": "Honda Beat '91",
+        "swappableEngines": [
+          "K20C1-Civic-'20 (Honda Civic Type R '20)"
+        ]
+      },
+      {
+        "car": "Honda Civic (EF) Si Extra '87",
+        "swappableEngines": [
+          "B18C-Integra-'98 (Honda Integra Type R '98)"
+        ]
+      },
+      {
+        "car": "Honda Civic (EG) SiR-II '93",
+        "swappableEngines": [
+          "B18C-Integra-'98 (Honda Integra Type R '98)"
+        ]
+      },
+      {
+        "car": "Honda Civic (EK) Type R '97",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
+        "car": "Honda Civic (EK) Type R Touring Car",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
+        "car": "Honda Civic (EK) Type R '98",
+        "swappableEngines": [
+          "K20C1-Civic-'20 (Honda Civic Type R '20)"
+        ]
+      },
+      {
+        "car": "Honda Integra (DC2) Type R '95",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
+        "car": "Honda Integra (DC2) Type R '98",
+        "swappableEngines": [
+          "K20C1-Civic-'20 (Honda Civic Type R '20)"
+        ]
+      },
+      {
+        "car": "Honda NSX Gr.4",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
+        ]
+      },
+      {
+        "car": "Honda NSX Type R '92",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      },
+      {
+        "car": "Honda NSX Type R '02",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      },
+      {
+        "car": "Honda S660 '15",
+        "swappableEngines": [
+          "Honda SE75E-2&4 (Honda 2&4)"
+        ]
+      },
+      {
+        "car": "Honda S800 '66",
+        "swappableEngines": [
+          "Honda SE75E-2&4 (Honda 2&4)"
+        ]
+      },
+      {
+        "car": "Honda S2000 '99",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      }
+    ],
+    "Hyundai": [
+      {
+        "car": "Hyundai Genesis Coupe 3.8 Track '13",
+        "swappableEngines": [
+          "690T-Giulia (Alfa Romeo Giulia GTAm '20)"
+        ]
+      }
+    ],
+    "Jaguar": [
+      {
+        "car": "Jaguar F-Type R Coupe '14",
+        "swappableEngines": [
+          "V12-XJR-9 (Jaguar XJR-9 '88)"
+        ]
+      },
+      {
+        "car": "Jaguar XJ220 '92",
+        "swappableEngines": [
+          "V12-XJR-9 (Jaguar XJR-9 '88)"
+        ]
+      }
+    ],
+    "Jeep": [
+      {
+        "car": "Jeep Willys 45",
+        "swappableEngines": [
+          "Hellcat-Charger (Dodge Charger SRT Hellcat)"
+        ]
+      }
+    ],
+    "Lamborghini": [
+      {
+        "car": "Lamborghini Countach 25th Anniversary '88",
+        "swappableEngines": [
+          "L539-Aventador-SV (Lamborghini Aventador LP750-4 SV 15)"
+        ]
+      },
+      {
+        "car": "Lamborghini Huracan LP610-4 '15",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      }
+    ],
+    "Lancia": [
+      {
+        "car": "Lancia Delta HF Integrale '91",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      }
+    ],
+    "Lexus": [
+      {
+        "car": "Lexus LC500 '17",
+        "swappableEngines": [
+          "LS7 BRZ (Subaru BRZ Drift)"
+        ]
+      },
+      {
+        "car": "Lexus RC F '14",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)¹"
+        ]
+      },
+      {
+        "car": "Lexus RC F '14",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)²"
+        ]
+      }
+    ],
+    "Mazda": [
+      {
+        "car": "Mazda 3 '19",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      },
+      {
+        "car": "Mazda Atenza Gr.3 Road Car",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      },
+      {
+        "car": "Mazda Atenza Sedan XD L Package '15",
+        "swappableEngines": [
+          "690T-Giulia (Alfa Romeo Giulia GTAm '20)"
+        ]
+      },
+      {
+        "car": "Mazda Demio XD Touring '15",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mazda Eunos Roadster NA '89",
+        "swappableEngines": [
+          "13B-REW-RX-7 (Mazda RX-7 FD)"
+        ]
+      },
+      {
+        "car": "Mazda Roadster (NA) Touring Car",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      },
+      {
+        "car": "Mazda Roadster (ND) S '15",
+        "swappableEngines": [
+          "LT1-Corvette (Chevrolet Corvette C7 Stingray)"
+        ]
+      },
+      {
+        "car": "Mazda Roadster (ND) NR-A '22",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      },
+      {
+        "car": "Mazda RX-7 (FC) GT-X '90",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      },
+      {
+        "car": "Mazda RX-7 (FD) Spirit R '02",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      },
+      {
+        "car": "Mazda RX-8 Spirit R '12",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      }
+    ],
+    "Mercedes-Benz": [
+      {
+        "car": "Mercedes-Benz 190E 2.5-16 Evolution II '91",
+        "swappableEngines": [
+          "M159-AMG-GT3-'20 (Mercedes-AMG GT3 '20)"
+        ]
+      }
+    ],
+    "Mini": [
+      {
+        "car": "Mini Cooper S '65",
+        "swappableEngines": [
+          "K20C1-Civic-'20 (Honda Civic Type R '20)"
+        ]
+      },
+      {
+        "car": "MINI Cooper S '05",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      }
+    ],
+    "Mitsubishi": [
+      {
+        "car": "Mitsubishi GTO Twin Turbo '91",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Demon Challenger)¹"
+        ]
+      },
+      {
+        "car": "Mitsubishi GTO Twin Turbo '91",
+        "swappableEngines": [
+          "H25A-Escudo (Suzuki Escudo Pikes Peak Special)²"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution III GSR '95",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution IV '96",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution V GSR '98",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution VI Tommi Makinen Edition '99",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution VIII MR GSR '04",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution VIII MR GSR '04",
+        "swappableEngines": [
+          "LS7-BRZ (Subaru BRZ Drift)²"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution IX GSR MR '06",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution Final Edition '15",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)¹"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution Final Edition '15",
+        "swappableEngines": [
+          "H25A-Escudo (Suzuki Escudo Pikes Peak Special)²"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution Final Edition Gr.B Road Car",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      }
+    ],
+    "NISMO": [
+      {
+        "car": "NISMO 400R '96",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      }
+    ],
+    "Nissan": [
+      {
+        "car": "Nissan 180SX Type X '96",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      },
+      {
+        "car": "Nissan Fairlady 240ZG '71",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
+        ]
+      },
+      {
+        "car": "Nissan Fairlady Z432 '69",
+        "swappableEngines": [
+          "RB26DETT-GT-R-R34 (Nissan Skyline R34 GT-R V-Spec II Nur '02)²"
+        ]
+      },
+      {
+        "car": "Nissan Fairlady Z432 '69",
+        "swappableEngines": [
+          "SR20DET-Silvia-S15 (Nissan Silvia S15)¹"
+        ]
+      },
+      {
+        "car": "Nissan Fairlady Z (Z32) 300ZX '89",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)²"
+        ]
+      },
+      {
+        "car": "Nissan Fairlady Z (Z32) 300ZX '89",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)¹"
+        ]
+      },
+      {
+        "car": "Nissan Fairlady Z (Z33) Version S '07",
+        "swappableEngines": [
+          "RB26DETT-GT-R-R34 (Nissan Skyline R34 GT-R V-Spec II Nur '02)"
+        ]
+      },
+      {
+        "car": "Nissan Fairlady Z (Z34) '08",
+        "swappableEngines": [
+          "VK45DE-GT-R (Nissan GT-R Nismo GT500 '08)"
+        ]
+      },
+      {
+        "car": "Nissan GT-R NISMO '17",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Nissan GT-R Premium Edition '17",
+        "swappableEngines": [
+          "LS7-BRZ (Subaru BRZ Drift)"
+        ]
+      },
+      {
+        "car": "Nissan GT-R Premium Edition T-Spec '24",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Nissan SilEighty '98",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S13 Ks '90",
+        "swappableEngines": [
+          "SR20DET-Silvia-S15 (Nissan Silvia S15)¹"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S13 Ks '90",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)²"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S13 Qs '88",
+        "swappableEngines": [
+          "LS7-BRZ (Subaru BRZ Drift)¹"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S13 Qs '88",
+        "swappableEngines": [
+          "SR20DET-Silvia-S15 (Nissan Silvia S15)²"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S14 K’s Type S '94",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)¹"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S14 K’s Type S '94",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)²"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S14 K’s Aero '96",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S15 Spec R '02",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S15 Touring Car",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)¹"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S15 Touring Car",
+        "swappableEngines": [
+          "VK45DE-GT-R (Nissan GT-R Nismo GT500 '08)²"
+        ]
+      },
+      {
+        "car": "Nissan Skyline KPGC10 '70",
+        "swappableEngines": [
+          "LZ20B-Skyline (Nissan Skyline Super Silhouette '84)"
+        ]
+      },
+      {
+        "car": "Nissan Skyline KPGC110 '73",
+        "swappableEngines": [
+          "LZ20B-Skyline (Nissan Skyline Super Silhouette '84)"
+        ]
+      },
+      {
+        "car": "Nissan Skyline R31 GTS-R '87",
+        "swappableEngines": [
+          "RB26DETT-GT-R-R34 (Nissan Skyline R34 GT-R V-Spec II Nur '02)"
+        ]
+      },
+      {
+        "car": "Nissan Skyline R32 GT-R NISMO '90",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      },
+      {
+        "car": "Nissan Skyline R32 GT-R V-Spec II '94",
+        "swappableEngines": [
+          "VRH35Z-R92CP (Nissan R92CP)"
+        ]
+      },
+      {
+        "car": "Nissan Skyline R33 GT-R V-Spec '97",
+        "swappableEngines": [
+          "VRH35Z-R92CP (Nissan R92CP)"
+        ]
+      },
+      {
+        "car": "Nissan Skyline R34 GT-R V-Spec II Nur '02",
+        "swappableEngines": [
+          "VRH35Z-R92CP (Nissan R92CP)"
+        ]
+      },
+      {
+        "car": "Nissan Z Performance '23",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      }
+    ],
+    "Plymouth": [
+      {
+        "car": "Plymouth Superbird '70",
+        "swappableEngines": [
+          "Hellcat-Charger (Dodge Charger SRT Hellcat)"
+        ]
+      }
+    ],
+    "Pontiac": [
+      {
+        "car": "Pontiac Firebird Trans Am '78",
+        "swappableEngines": [
+          "LS9-Corvette (Chevrolet Corvette C6 ZR1)"
+        ]
+      }
+    ],
+    "Porsche": [
+      {
+        "car": "Porsche 356 A/1500 GS Carrera '56",
+        "swappableEngines": [
+          "959.50-959 (Porsche 959 '87)"
+        ]
+      },
+      {
+        "car": "Porsche 356 A/1500 GS GT Carrera Speedster '56",
+        "swappableEngines": [
+          "959.50-959 (Porsche 959 '87)"
+        ]
+      },
+      {
+        "car": "Porsche 911 (901) Carrera RS '73",
+        "swappableEngines": [
+          "959.50-959 (Porsche 959 '87)"
+        ]
+      },
+      {
+        "car": "Porsche 911 (930) Turbo '81",
+        "swappableEngines": [
+          "M97/80-911 (Porsche 911 991 RSR ‘17)"
+        ]
+      },
+      {
+        "car": "Porsche 911 (964) Carrera RS '92",
+        "swappableEngines": [
+          "959.50-959 (Porsche 959 '87)"
+        ]
+      },
+      {
+        "car": "Porsche 911 (993) Carrera RS '95",
+        "swappableEngines": [
+          "CTR38-CTR3 (Ruf CTR3)"
+        ]
+      },
+      {
+        "car": "Porsche 911 (993) Carrera RS CS '95",
+        "swappableEngines": [
+          "MDYA-911 (Porsche 992 911 GT3 RS '22)"
+        ]
+      },
+      {
+        "car": "Porsche 911 (997) GT3 '09",
+        "swappableEngines": [
+          "M97/80-911 (Porsche 911 991 RSR ‘17)"
+        ]
+      },
+      {
+        "car": "Porsche 911 (991) GT3 RS '16",
+        "swappableEngines": [
+          "DKH-911 (Porsche 911 992 Turbo S '20)¹"
+        ]
+      },
+      {
+        "car": "Porsche 911 (991) GT3 RS '16",
+        "swappableEngines": [
+          "M97/80-911 (Porsche 911 991 RSR ‘17)²"
+        ]
+      },
+      {
+        "car": "Porsche 911 (992) GT3 RS '22",
+        "swappableEngines": [
+          "DKH-911 (Porsche 911 992 Turbo S '20)"
+        ]
+      },
+      {
+        "car": "Porsche Cayman GT4 '16",
+        "swappableEngines": [
+          "MDYA-911 (Porsche 992 911 GT3 RS '22)²"
+        ]
+      },
+      {
+        "car": "Porsche Cayman GT4 '16",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)¹"
+        ]
+      },
+      {
+        "car": "Porsche Cayman GT4 Clubsport '16",
+        "swappableEngines": [
+          "MDYA-911 (Porsche 992 911 GT3 RS '22)"
+        ]
+      }
+    ],
+    "Radical": [
+      {
+        "car": "Radical SR3 SL '13",
+        "swappableEngines": [
+          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      }
+    ],
+    "RE Amemiya": [
+      {
+        "car": "RE Amemiya FD3S",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
+        ]
+      }
+    ],
+    "Renault": [
+      {
+        "car": "Renault 5 Turbo '80",
+        "swappableEngines": [
+          "SR20DET-Silvia-S15 (Nissan Silvia S15)"
+        ]
+      },
+      {
+        "car": "Renault R8 Gordini '66",
+        "swappableEngines": [
+          "SR20DET-Silvia-S15 (Nissan Silvia S15)"
+        ]
+      }
+    ],
+    "Shelby": [
+      {
+        "car": "Shelby GT350 ’65",
+        "swappableEngines": [
+          "Voodoo-5.2L-GT350R (Ford Mustang Shelby GT350R)"
+        ]
+      }
+    ],
+    "Subaru": [
+      {
+        "car": "Subaru BRZ Drift Car",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      },
+      {
+        "car": "Subaru BRZ S '15",
+        "swappableEngines": [
+          "EJ20-Impreza-Rally (Subaru Impreza Rally Car '99)¹"
+        ]
+      },
+      {
+        "car": "Subaru BRZ S '15",
+        "swappableEngines": [
+          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)²"
+        ]
+      },
+      {
+        "car": "Subaru BRZ S '21",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)¹"
+        ]
+      },
+      {
+        "car": "Subaru BRZ S '21",
+        "swappableEngines": [
+          "DKH-911 (Porsche 911 992 Turbo S '20)²"
+        ]
+      },
+      {
+        "car": "Subaru BRZ STI Sport '18",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Subaru Impreza 22B '98",
+        "swappableEngines": [
+          "EJ20-Impreza-Rally (Subaru Impreza Rally Car '99)"
+        ]
+      },
+      {
+        "car": "Subaru Impreza Coupe WRX Type R '99",
+        "swappableEngines": [
+          "EJ20-Impreza-Rally (Subaru Impreza Rally Car '99)"
+        ]
+      },
+      {
+        "car": "Subaru Impreza Sedan WRX STi '04",
+        "swappableEngines": [
+          "DKH-911 (Porsche 911 992 Turbo S '20)"
+        ]
+      },
+      {
+        "car": "Subaru WRX Gr.B Road Car",
+        "swappableEngines": [
+          "CTR38-CTR3 (Ruf CTR3)"
+        ]
+      },
+      {
+        "car": "Subaru WRX STI Type S '14",
+        "swappableEngines": [
+          "DKH-911 (Porsche 911 992 Turbo S '20)"
+        ]
+      }
+    ],
+    "Suzuki": [
+      {
+        "car": "Suzuki Cappuccino '91",
+        "swappableEngines": [
+          "13B-REW-RX-7 (Mazda RX-7 FD)"
+        ]
+      },
+      {
+        "car": "Suzuki Escudo Pikes Peak '98",
+        "swappableEngines": [
+          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      },
+      {
+        "car": "Suzuki Jimny Sierra JC '18",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
+        "car": "Suzuki Jimny XC '18",
+        "swappableEngines": [
+          "K14C-Swift (Suzuki Swift Sport '17)"
+        ]
+      },
+      {
+        "car": "Suzuki Swift Sport '17",
+        "swappableEngines": [
+          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      }
+    ],
+    "Toyota": [
+      {
+        "car": "Toyota 86 Gr.4",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      },
+      {
+        "car": "Toyota 86 GT '15",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
+        "car": "Toyota 86 GT GRMN '16",
+        "swappableEngines": [
+          "3UZ-FE-SC430 (Lexus SC430 GT500)"
+        ]
+      },
+      {
+        "car": "Toyota 86 GT \"Limited\" '16",
+        "swappableEngines": [
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+        ]
+      },
+      {
+        "car": "Toyota Alphard Executive Lounge '18",
+        "swappableEngines": [
+          "1LR-GUE-LFA (Lexus LFA '10)"
+        ]
+      },
+      {
+        "car": "Toyota Corolla Levin (AE86) '83",
+        "swappableEngines": [
+          "3S-GTE-MR2 (Toyota MR2 '97)"
+        ]
+      },
+      {
+        "car": "Toyota Crown Athlete G",
+        "swappableEngines": [
+          "3UZ-FE-SC430 (Lexus SC430 GT500)"
+        ]
+      },
+      {
+        "car": "Toyota GR86 RZ '21",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)¹"
+        ]
+      },
+      {
+        "car": "Toyota GR86 RZ '21",
+        "swappableEngines": [
+          "MDYA-911 (Porsche 992 911 GT3 RS '22)²"
+        ]
+      },
+      {
+        "car": "Toyota GR Corolla '22",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "Toyota GR Supra '19",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "Toyota GR Supra '20",
+        "swappableEngines": [
+          "1LR-GUE-LFA (Lexus LFA '10)"
+        ]
+      },
+      {
+        "car": "Toyota GR Yaris '20",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "Toyota HiAce Van DX '16",
+        "swappableEngines": [
+          "LS7-BRZ (Subaru BRZ Drift)"
+        ]
+      },
+      {
+        "car": "Toyota MR2 GT-S '97",
+        "swappableEngines": [
+          "BYH-R8 (Audi R8 4.2)"
+        ]
+      },
+      {
+        "car": "Toyota Sprinter Trueno (AE86) '83",
+        "swappableEngines": [
+          "3S-GTE-MR2 (Toyota MR2 '97)"
+        ]
+      },
+      {
+        "car": "Toyota Supra 3.0GT Turbo '88",
+        "swappableEngines": [
+          "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "Toyota Supra RZ '97",
+        "swappableEngines": [
+          "M158-AMG-Huayra (Pagani Huayra)"
+        ]
+      },
+      {
+        "car": "Toyota Tundra TRD Pro '19",
+        "swappableEngines": [
+          "3UZ-FE-SC430 (Lexus SC430 GT500)¹"
+        ]
+      },
+      {
+        "car": "Toyota Tundra TRD Pro '19",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)²"
+        ]
+      }
+    ],
+    "TVR": [
+      {
+        "car": "TVR Tuscan Speed Six '00",
+        "swappableEngines": [
+          "LT4-Camaro (Chevrolet Camaro ZL1 '18)"
+        ]
+      }
+    ],
+    "Volkswagen": [
+      {
+        "car": "Volkswagen 1200 '66",
+        "swappableEngines": [
+          "M64/03-911 (Porsche 911 964 Carrera RS)"
+        ]
+      },
+      {
+        "car": "Volkswagen Golf I GTI '83",
+        "swappableEngines": [
+          "R5-20vT-Quattro-Pikes (Audi S1 Quattro Pikes Peak '87)"
+        ]
+      },
+      {
+        "car": "Volkswagen Sambabus '62",
+        "swappableEngines": [
+          "M64/03-911 (Porsche 911 964 Carrera RS)"
+        ]
+      }
+    ],
+    "Volvo": [
+      {
+        "car": "Volvo 240 SE Estate '93",
+        "swappableEngines": [
+          "LS7-BRZ (Subaru BRZ Drift)"
+        ]
+      }
+    ]
+  }
+}
