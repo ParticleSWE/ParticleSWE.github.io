@@ -18,8 +18,28 @@
           "Så fixar jag den så snart som möjligt.", "Med vänlig hälsning, Patrik."
         ]
       }
+    },
+    "35": {
+      "veckodag": {
+        "Måndag": [
+          "Någon form av mat."
+        ],
+        "Tisdag": [
+          "Det är lite oklart vad."
+        ],
+        "Onsdag": [
+          "Johan-Olovskolan har fortfarande inte svarat på min förfrågan"
+        ],
+        "Torsdag": [
+          "eller fått upp höstens matsedel på avesta.se"
+        ],
+        "Fredag": [
+          "Om någon har den så kan ni skicka den till mig för att skynda på att den blir med här.", "Med vänlig hälsning, Patrik."
+        ]
+      }
     }
   }
 }
+
 
 
