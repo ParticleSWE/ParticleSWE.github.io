@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Policy – ENGINE SWAP GUIDE FOR GT7</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for ENGINE SWAP GUIDE FOR GT7">
+  <style>
+    :root { --text:#111; --muted:#555; --bg:#fff; --card:#f7f7f9; --link:#0b57d0; }
+    body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--text); background:var(--bg); }
+    main { max-width: 850px; margin: 0 auto; padding: 32px 20px; }
+    h1,h2 { line-height:1.2; margin: 0 0 12px; }
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.2rem; margin-top: 28px; }
+    p,li { color: var(--muted); }
+    .card { background: var(--card); border-radius: 12px; padding: 16px; }
+    a { color: var(--link); }
+    footer { margin-top: 32px; font-size: .9rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p><strong>Effective date:</strong> DD MMM YYYY</p>
+  <div class="card">
+    <p>This Privacy Policy describes how <strong>ParticleSWE</strong> (“we”, “us”) handles information when you use the mobile application <strong>ENGINE SWAP GUIDE FOR GT7</strong> (“the App”).</p>
+  </div>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>We do <strong>not</strong> collect, store, or sell personal data.</li>
+    <li>The App only needs the <code>INTERNET</code> permission to download a read-only JSON file with public engine swap data.</li>
+    <li>No accounts, no analytics, no ads, no in-app purchases.</li>
+  </ul>
+
+  <h2>Information We Do Not Collect</h2>
+  <p>We do not collect personal information such as your name, email, address, identifiers, precise location, contacts, photos, or any usage analytics.</p>
+
+  <h2>Data the App Accesses</h2>
+  <p>The App makes a single network request to fetch public game data:</p>
+  <ul>
+    <li>JSON source: <code>https://particle.se/engine_swap_database.json</code></li>
+  </ul>
+  <p>No data is uploaded from your device to us.</p>
+
+  <h2>Network & Server Logs</h2>
+  <p>When your device requests the JSON file, the hosting web server may automatically log standard technical information (e.g., IP address, user agent, timestamp) for security and reliability. We do not use these logs to identify you and do not combine them with any other data.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>The App does not include third-party SDKs (e.g., analytics or advertising). The only third party involved is the web host serving the JSON file.</p>
+
+  <h2>Children’s Privacy</h2>
+  <p>The App is suitable for general audiences and does not knowingly collect personal data from children.</p>
+
+  <h2>Data Security</h2>
+  <p>The App retrieves content over HTTPS. As we do not collect personal data, there is no personal data stored by us.</p>
+
+  <h2>Your Choices</h2>
+  <p>You can stop all network activity by uninstalling the App or using the App offline (it will simply not refresh data).</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy to reflect the App’s features or legal requirements. We will update the “Effective date” above. Continued use of the App after changes means you accept the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this policy, contact us at <a href="mailto:android@particle.se">android@particle.se</a>.</p>
+
+  <footer>
+    <p>&copy; 2025 / ParticleSWE. All rights reserved.</p>
+  </footer>
+</main>
+</body>
+</html>
