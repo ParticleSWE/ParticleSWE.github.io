@@ -18,7 +18,7 @@
       {
         "car": "Alfa Romeo 4C Gr.3 Road Car",
         "swappableEngines": [
-          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
         ]
       },
       {
@@ -100,7 +100,7 @@
       {
         "car": "BMW M3 '89",
         "swappableEngines": [
-          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
         ]
       },
       {
@@ -144,7 +144,7 @@
       {
         "car": "Bugatti Veyron Gr.4",
         "swappableEngines": [
-          "LS7 BRZ (Subaru BRZ Drift)"
+          "LS7-BRZ (Subaru BRZ Drift)"
         ]
       }
     ],
@@ -274,6 +274,12 @@
         ]
       },
       {
+        "car": "Ford Mustang GT ’15",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
+        ]
+      },
+      {
         "car": "Ford GT '17",
         "swappableEngines": [
           "Windsor-351-Maverick (GAC Maverick)"
@@ -328,7 +334,7 @@
       {
         "car": "FIAT 500 F '68",
         "swappableEngines": [
-          "Honda SE75E-2&4 (Honda 2&4)"
+          "Honda-SE75E-2&4 (Honda 2&4)"
         ]
       }
     ],
@@ -345,6 +351,14 @@
         "car": "GReddy Fugu Z",
         "swappableEngines": [
           "LZ20B-Skyline (Nissan Skyline Super Silhouette '84)"
+        ]
+      }
+    ],
+    "Genesis": [
+      {
+        "car": "Genesis G70 3.3T '22",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
         ]
       }
     ],
@@ -386,6 +400,18 @@
         ]
       },
       {
+        "car": "Honda Civic (FK8) Type R '20",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      },
+      {
+        "car": "Honda Civic (FL5) Type R '22",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      },
+      {
         "car": "Honda Integra (DC2) Type R '95",
         "swappableEngines": [
           "K24A-Civic (Garage RCR Civic)"
@@ -418,13 +444,13 @@
       {
         "car": "Honda S660 '15",
         "swappableEngines": [
-          "Honda SE75E-2&4 (Honda 2&4)"
+          "Honda-SE75E-2&4 (Honda 2&4)"
         ]
       },
       {
         "car": "Honda S800 '66",
         "swappableEngines": [
-          "Honda SE75E-2&4 (Honda 2&4)"
+          "Honda-SE75E-2&4 (Honda 2&4)"
         ]
       },
       {
@@ -490,7 +516,7 @@
       {
         "car": "Lexus LC500 '17",
         "swappableEngines": [
-          "LS7 BRZ (Subaru BRZ Drift)"
+          "LS7-BRZ (Subaru BRZ Drift)"
         ]
       },
       {
@@ -574,9 +600,15 @@
         ]
       }
     ],
-    "Mercedes-Benz": [
+    "Mercedes-Benz / Mercedes-AMG": [
       {
         "car": "Mercedes-Benz 190E 2.5-16 Evolution II '91",
+        "swappableEngines": [
+          "M159-AMG-GT3-'20 (Mercedes-AMG GT3 '20)"
+        ]
+      },
+      {
+        "car": "Mercedes-AMG A45 AMG 4MATIC '13",
         "swappableEngines": [
           "M159-AMG-GT3-'20 (Mercedes-AMG GT3 '20)"
         ]
@@ -790,7 +822,13 @@
       {
         "car": "Nissan Silvia S14 K’s Aero '96",
         "swappableEngines": [
-          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)¹"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S14 K’s Aero '96",
+        "swappableEngines": [
+          "RB26DETT-GT-R-R34 (Nissan Skyline R34 GT-R V-Spec II Nur '02)²"
         ]
       },
       {
@@ -966,7 +1004,7 @@
       {
         "car": "Radical SR3 SL '13",
         "swappableEngines": [
-          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
         ]
       }
     ],
@@ -974,11 +1012,23 @@
       {
         "car": "RE Amemiya FD3S",
         "swappableEngines": [
-          "LS7-Rampage (Roadster Shop Rampage)"
+          "LS7-Rampage (Roadster Shop Rampage)¹"
+        ]
+      },
+      {
+        "car": "RE Amemiya FD3S",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)²"
         ]
       }
     ],
     "Renault": [
+      {
+        "car": "Renault Avantime 3.0 V6 24V '02",
+        "swappableEngines": [
+          "GTI-VGT-Gr.3 (Volkswagen GTI VGT Gr.3)"
+        ]
+      },
       {
         "car": "Renault 5 Turbo '80",
         "swappableEngines": [
@@ -1016,7 +1066,7 @@
       {
         "car": "Subaru BRZ S '15",
         "swappableEngines": [
-          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)²"
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)²"
         ]
       },
       {
@@ -1034,7 +1084,13 @@
       {
         "car": "Subaru BRZ STI Sport '18",
         "swappableEngines": [
-          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
+          "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)¹"
+        ]
+      },
+      {
+        "car": "Subaru BRZ STI Sport '18",
+        "swappableEngines": [
+          "M97/80-911 (Porsche 911 991 RSR ‘17)²"
         ]
       },
       {
@@ -1078,7 +1134,7 @@
       {
         "car": "Suzuki Escudo Pikes Peak '98",
         "swappableEngines": [
-          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
         ]
       },
       {
@@ -1096,7 +1152,7 @@
       {
         "car": "Suzuki Swift Sport '17",
         "swappableEngines": [
-          "Suzuki V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
         ]
       }
     ],
@@ -1241,6 +1297,12 @@
         "car": "Volkswagen Golf I GTI '83",
         "swappableEngines": [
           "R5-20vT-Quattro-Pikes (Audi S1 Quattro Pikes Peak '87)"
+        ]
+      },
+      {
+        "car": "Volkswagen Golf VII GTI '14",
+        "swappableEngines": [
+          "GTI-VGT-Gr.3 (Volkswagen GTI VGT Gr.3)"
         ]
       },
       {
