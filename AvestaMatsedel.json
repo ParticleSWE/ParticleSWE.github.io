@@ -138,19 +138,22 @@
     "39": {
       "veckodag": {
         "Måndag": [
-          "Beredskapsvecka - mer info kommer."
+          "Vicentköttgryta, rotfrukter och kokt potatis",
+          "Vegetarisk rotfruktsgryta med bönor och kokt potatis"
         ],
         "Tisdag": [
-          "Beredskapsvecka - mer info kommer."
+          "Fiskbullar och kokt potatis",
+          "Simsu-Falafel och kokt potatis"
         ],
         "Onsdag": [
-          "Beredskapsvecka - mer info kommer."
+          "Vegetarisk wok på ärt- och bönbitar, grönsaker och svenskt havreris"
         ],
         "Torsdag": [
-          "Beredskapsvecka - mer info kommer."
+          "Köttsoppa, mjukt bröd, spread och frukt",
+          "Vegetarisk ärtsoppa, mjukt bröd, spread och frukt"
         ],
         "Fredag": [
-          "Beredskapsvecka - mer info kommer."
+          "Vegetarisk Mac 'n' Cheese på sojafärssås"
         ]
       }
     },
@@ -451,3 +454,4 @@
     }
   }
 }
+
