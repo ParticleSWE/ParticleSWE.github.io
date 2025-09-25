@@ -78,6 +78,14 @@
         ]
       }
     ],
+    "BAC": [
+      {
+        "car": "BAC Mono '16",
+        "swappableEngines": [
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      }
+    ],
     "BMW": [
       {
         "car": "BMW 3.0 CSL '73",
@@ -200,6 +208,12 @@
     ],
     "Citroen": [
       {
+        "car": "Citroen BX 19 TRS '87",
+        "swappableEngines": [
+          "R5-20vT-Quattro-Pikes (Audi S1 Quattro Pikes Peak '87)"
+        ]
+      },
+      {
         "car": "Citroen DS21 Pallas '70",
         "swappableEngines": [
           "M64/03-911 (Porsche 911 964 Carrera RS)"
@@ -230,6 +244,12 @@
         ]
       },
       {
+        "car": "Dodge Challenger R/T '70",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
+        ]
+      },
+      {
         "car": "Dodge Challenger SRT Demon '18",
         "swappableEngines": [
           "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
@@ -238,7 +258,7 @@
       {
         "car": "Dodge Charger R/T 426 Hemi '68",
         "swappableEngines": [
-          "Demon-Challenger (Dodge Demon Challenger)"
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
         ]
       },
       {
@@ -490,6 +510,14 @@
         ]
       }
     ],
+    "KTM": [
+      {
+        "car": "KTM X-BOW R '12",
+        "swappableEngines": [
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      }
+    ],
     "Lamborghini": [
       {
         "car": "Lamborghini Countach 25th Anniversary '88",
@@ -632,7 +660,7 @@
       {
         "car": "Mitsubishi GTO Twin Turbo '91",
         "swappableEngines": [
-          "Demon-Challenger (Dodge Demon Challenger)"
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
         ]
       },
       {
@@ -835,6 +863,12 @@
         "car": "Nissan Silvia S15 Spec R '02",
         "swappableEngines": [
           "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "Nissan Silvia S15 Spec R Aero '02",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
         ]
       },
       {
@@ -1170,6 +1204,12 @@
         ]
       },
       {
+        "car": "Toyota 86 GT '15",
+        "swappableEngines": [
+          "690T-Giulia (Alfa Romeo Giulia GTAm '20)"
+        ]
+      },
+      {
         "car": "Toyota 86 GT GRMN '16",
         "swappableEngines": [
           "3UZ-FE-SC430 (Lexus SC430 GT500)"
@@ -1218,6 +1258,12 @@
         ]
       },
       {
+        "car": "Toyota GR Corolla MORIZO Edition '22",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
+        ]
+      },
+      {
         "car": "Toyota GR Supra '19",
         "swappableEngines": [
           "2JZ-GTE-Supra (Toyota Supra '97)"
@@ -1236,6 +1282,12 @@
         ]
       },
       {
+        "car": "Toyota GR Yaris 1st Edition RZ \"High Performance\" '20",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
+        ]
+      },
+      {
         "car": "Toyota HiAce Van DX '16",
         "swappableEngines": [
           "LS7-BRZ (Subaru BRZ Drift)"
@@ -1245,6 +1297,12 @@
         "car": "Toyota MR2 GT-S '97",
         "swappableEngines": [
           "BYH-R8 (Audi R8 4.2)"
+        ]
+      },
+      {
+        "car": "Toyota Land Cruiser FJ40V '74",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
         ]
       },
       {
@@ -1301,6 +1359,12 @@
       },
       {
         "car": "Volkswagen Golf VII GTI '14",
+        "swappableEngines": [
+          "GTI-VGT-Gr.3 (Volkswagen GTI VGT Gr.3)"
+        ]
+      },
+      {
+        "car": "Volkswagen Polo GTI '14",
         "swappableEngines": [
           "GTI-VGT-Gr.3 (Volkswagen GTI VGT Gr.3)"
         ]
