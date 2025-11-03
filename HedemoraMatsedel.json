@@ -258,30 +258,6 @@
     "45": {
       "veckodag": {
         "Måndag": [
-          "Kycklinggryta med curry, bulgur",
-          "Currygryta med grönsaker, bulgur"
-        ],
-        "Tisdag": [
-          "Fiskgratäng med chilisås och dill, potatis",
-          "Kökets gröna gratäng"
-        ],
-        "Onsdag": [
-          "Korv stroganoff med pasta",
-          "Grönsaksås med korv, pasta"
-        ],
-        "Torsdag": [
-          "Raggmunk, lingonsylt",
-          "Kockens valfria soppa"
-        ],
-        "Fredag": [
-          "Köttgryta med potatis",
-          "Grönsaksgulasch med potatis"
-        ]
-      }
-    },
-    "46": {
-      "veckodag": {
-        "Måndag": [
           "Färsbiff med sås och potatis",
           "Grönsaksburgare med dressing, potatis"
         ],
@@ -302,7 +278,7 @@
         ]
       }
     },
-    "47": {
+    "46": {
       "veckodag": {
         "Måndag": [
           "Varmkorv med potatismos",
@@ -326,7 +302,7 @@
         ]
       }
     },
-    "48": {
+    "47": {
       "veckodag": {
         "Måndag": [
           "Potatisbullar med lingonsylt och keso",
@@ -350,7 +326,7 @@
         ]
       }
     },
-    "49": {
+    "48": {
       "veckodag": {
         "Måndag": [
           "Köttbullar, sås och potatis",
@@ -373,7 +349,7 @@
         ]
       }
     },
-    "50": {
+    "49": {
       "veckodag": {
         "Måndag": [
           "Ugnsstekt falukorv med potatismos",
@@ -397,7 +373,7 @@
         ]
       }
     },
-    "51": {
+    "50": {
       "veckodag": {
         "Måndag": [
           "Sista veckan innan Jullovet, ändringar kan ske.",
@@ -422,7 +398,7 @@
         ]
       }
     },
-    "52": {
+    "51": {
       "veckodag": {
         "Måndag": [
           "Jullov"
