@@ -401,6 +401,27 @@
     "51": {
       "veckodag": {
         "Måndag": [
+          "Färsbiff med sås och potatis",
+          "Grönsaksburgare med dressing, potatis"
+        ],
+        "Tisdag": [
+          "Kökets lilla julbord"
+        ],
+        "Onsdag": [
+          "Kockens val"
+        ],
+        "Torsdag": [
+          "Panerad fisk med remouladsås och potatis",
+          "Couscous-schnitzel med sås och potatis"
+        ],
+        "Fredag": [
+          "Julgröt, mjukt bröd, pålägg"
+        ]
+      }
+    },
+    "52": {
+      "veckodag": {
+        "Måndag": [
           "Jullov"
         ],
         "Tisdag": [
