@@ -164,6 +164,12 @@
         ]
       },
       {
+        "car": "Chevrolet Camaro ZL1 1LE Package ’18",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
         "car": "Chevrolet Corvette C1 '58",
         "swappableEngines": [
           "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
@@ -195,6 +201,24 @@
       },
       {
         "car": "Chevrolet Corvette C6 ZR1 '09",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C7 ZR1 '19",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette C8 Stingray '20",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Chevrolet Corvette Z06 (C5) '01",
         "swappableEngines": [
           "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
         ]
@@ -233,6 +257,12 @@
         "car": "De Tomaso Pantera '71",
         "swappableEngines": [
           "Coyote-5.0L-Mustang (Ford Mustang GT '15)"
+        ]
+      },
+      {
+        "car": "De Tomaso Pantera '71",
+        "swappableEngines": [
+          "L539-Aventador-SV (Lamborghini Aventador LP750-4 SV 15)"
         ]
       }
     ],
@@ -336,6 +366,12 @@
         ]
       },
       {
+        "car": "Ford Shelby GT350R ’16",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
         "car": "Ford Sierra RS Cosworth RS500 '87",
         "swappableEngines": [
           "L4-Focus-Gr.B (Ford Focus Gr.B)"
@@ -363,6 +399,32 @@
         "car": "Garage RCR Civic",
         "swappableEngines": [
           "HR-414E-NSX (Honda NSX GT500 '16)"
+        ]
+      }
+    ],
+    "Gran Turismo": [
+      {
+        "car": "Gran Turismo F3500-A",
+        "swappableEngines": [
+          "RS4-Espace (Renault Espace F1 '95)"
+        ]
+      },
+      {
+        "car": "Gran Turismo F3500-A",
+        "swappableEngines": [
+          "V8-F3500-B (Gran Turismo F3500-B)"
+        ]
+      },
+      {
+        "car": "Gran Turismo F3500-B",
+        "swappableEngines": [
+          "RS4-Espace (Renault Espace F1 '95)"
+        ]
+      },
+      {
+        "car": "Gran Turismo F3500-B",
+        "swappableEngines": [
+          "V12-F3500-A (Gran Turismo F3500-A)"
         ]
       }
     ],
@@ -441,6 +503,12 @@
         "car": "Honda Integra (DC2) Type R '98",
         "swappableEngines": [
           "K20C1-Civic-'20 (Honda Civic Type R '20)"
+        ]
+      },
+      {
+        "car": "Honda N-ONE RS '22",
+        "swappableEngines": [
+          "Honda-SE75E-2&4 (Honda 2&4)"
         ]
       },
       {
@@ -527,6 +595,12 @@
       },
       {
         "car": "Lamborghini Huracan LP610-4 '15",
+        "swappableEngines": [
+          "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
+        ]
+      },
+      {
+        "car": "Lamborghini Urus '18",
         "swappableEngines": [
           "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
         ]
@@ -626,6 +700,12 @@
         "swappableEngines": [
           "R26B-787B (Mazda 787B)"
         ]
+      },
+      {
+        "car": "Mazda SPIRIT RACING Roadster 12R '25",
+        "swappableEngines": [
+          "13B-REW-RX-7 (Mazda RX-7 FD)"
+        ]
       }
     ],
     "Mercedes-Benz / Mercedes-AMG": [
@@ -657,6 +737,12 @@
       }
     ],
     "Mitsubishi": [
+      {
+        "car": "Mitsubishi FTO GP Version R '97",
+        "swappableEngines": [
+          "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
       {
         "car": "Mitsubishi GTO Twin Turbo '91",
         "swappableEngines": [
@@ -788,6 +874,18 @@
         ]
       },
       {
+        "car": "Nissan GT-R GP-Tuned (KPGC10)",
+        "swappableEngines": [
+          "LZ20B-Skyline (Nissan Skyline Super Silhouette '84)"
+        ]
+      },
+      {
+        "car": "Nissan GT-R NISMO (R32) '90",
+        "swappableEngines": [
+          "RB26DETT-Mine's (Mine's BNR34 GT-R N1 Base)"
+        ]
+      },
+      {
         "car": "Nissan GT-R NISMO '17",
         "swappableEngines": [
           "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
@@ -893,6 +991,12 @@
         "car": "Nissan Skyline KPGC110 '73",
         "swappableEngines": [
           "LZ20B-Skyline (Nissan Skyline Super Silhouette '84)"
+        ]
+      },
+      {
+        "car": "Nissan Skyline GT-R V-Spec (R33) '97",
+        "swappableEngines": [
+          "RB26DETT-Mine's (Mine's BNR34 GT-R N1 Base)"
         ]
       },
       {
@@ -1074,6 +1178,12 @@
         "swappableEngines": [
           "SR20DET-Silvia-S15 (Nissan Silvia S15)"
         ]
+      },
+      {
+        "car": "Renault Megane Trophy '11",
+        "swappableEngines": [
+          "RS4-Espace (Renault Espace F1 '95)"
+        ]
       }
     ],
     "Shelby": [
@@ -1166,6 +1276,12 @@
         ]
       },
       {
+        "car": "Suzuki Carry KC '12",
+        "swappableEngines": [
+          "Honda-SE75E-2&4 (Honda 2&4)"
+        ]
+      },
+      {
         "car": "Suzuki Escudo Pikes Peak '98",
         "swappableEngines": [
           "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
@@ -1192,6 +1308,12 @@
     ],
     "Toyota": [
       {
+        "car": "Toyota AE86 Levin D-Tuned",
+        "swappableEngines": [
+          "Power Pack DLC"
+        ]
+      },
+      {
         "car": "Toyota 86 Gr.4",
         "swappableEngines": [
           "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
@@ -1210,9 +1332,15 @@
         ]
       },
       {
-        "car": "Toyota 86 GT GRMN '16",
+        "car": "Toyota 86 GRMN '16",
         "swappableEngines": [
           "3UZ-FE-SC430 (Lexus SC430 GT500)"
+        ]
+      },
+      {
+        "car": "Toyota 86 GRMN '16",
+        "swappableEngines": [
+          "1LR-GUE-LFA (Lexus LFA '10)"
         ]
       },
       {
@@ -1267,6 +1395,12 @@
         "car": "Toyota GR Supra '19",
         "swappableEngines": [
           "2JZ-GTE-Supra (Toyota Supra '97)"
+        ]
+      },
+      {
+        "car": "Toyota GR Supra '19",
+        "swappableEngines": [
+          "RS4-Espace (Renault Espace F1 '95)"
         ]
       },
       {
