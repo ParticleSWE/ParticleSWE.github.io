@@ -1,0 +1,70 @@
+{
+  "weeks": {
+    "50": {
+      "veckodag": {
+        "Måndag": [
+          "Pytt i panna serveras med krämig äggröra & rödbetor",
+          "Vegetarisk pytt i panna"
+        ],
+        "Tisdag": [
+          "Pastasås med ost- och rökt kött & Fullkornspasta",
+          "Krämig pastasås med broccoli serveras med fullkornspasta"
+        ],
+        "Onsdag": [
+          "Marinerad kycklingfilé med klyftpotatis, rostade höstprimörer & dragonsås",
+          "Marinerad quornfilé med *klyftpotatis, rostade höstprimörer & dragonsås"
+        ],
+        "Torsdag": [
+          "Lunchkorv med potatismos",
+          "Sojakorv med potatismos"
+        ],
+        "Fredag": [
+          "Blomkålssoppa med bröd & frukt"
+        ]
+      }
+    },
+    "51": {
+      "veckodag": {
+        "Måndag": [
+          "Pannbiff serveras med *stekt potatis, brunsås & lingonsylt",
+          "Kikärtsbiff med brunsås och stekt potatis"
+        ],
+        "Tisdag": [
+          "Korvstroganoff serveras med svenskt havreris",
+          "Vinjestroganoff med svenskt havreris"
+        ],
+        "Onsdag": [
+          "Fiskpanetter serveras med kokt potatis och dansk remouladsås",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Julbuffé",
+          "Vegetarisk Julbuffé"
+        ],
+        "Fredag": [
+          "Tomtegröt med skinksmörgås",
+          "Tomtegröt med smörgås"
+        ]
+      }
+    },
+    "52": {
+      "veckodag": {
+        "Måndag": [
+          "Jullov"
+        ],
+        "Tisdag": [
+          "Jullov"
+        ],
+        "Onsdag": [
+          "Julafton"
+        ],
+        "Torsdag": [
+          "Juldagen"
+        ],
+        "Fredag": [
+          "Annandag Jul"
+        ]
+      }
+    }
+  }
+}
