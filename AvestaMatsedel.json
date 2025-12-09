@@ -400,7 +400,10 @@
           "Grönsaksrutor med kall sås, kokt potatis, varma grönsaker"
         ],
         "Onsdag": [
-          "Nobellunch"
+          "Nobellunch",
+          "Helstekt kotlettrad eller kyckling med potatisgratäng och bearnaisesås (Skogsbo skola)",
+          "Veg. biffar med potatisgratäng och bearnaisesås (Skogsbo skola)",
+          "Efterrätt: Kanelbulle (Skogsbo skola)"
         ],
         "Torsdag": [
           "Majssoppa med hummus, mjukt bröd och frukt",
@@ -454,4 +457,5 @@
     }
   }
 }
+
 
