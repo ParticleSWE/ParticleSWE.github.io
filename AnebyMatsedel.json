@@ -65,6 +65,113 @@
           "Annandag Jul"
         ]
       }
+    },
+    "1": {
+      "veckodag": {
+        "Måndag": [
+          "Jullov"
+        ],
+        "Tisdag": [
+          "Jullov"
+        ],
+        "Onsdag": [
+          "Jullov"
+        ],
+        "Torsdag": [
+          "Jullov"
+        ],
+        "Fredag": [
+          "Jullov"
+        ]
+      }
+    },
+    "2": {
+      "veckodag": {
+        "Måndag": [
+          "Crispy Chicken Nuggets serveras med jasminris och varm sötsur sås",
+          "Green nuggets med jasminris och sötsur sås"
+        ],
+        "Tisdag": [
+          "Trettondagen"
+        ],
+        "Onsdag": [
+          "Fisk Björkeby serveras med kökets potatismos",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Kycklingkebab med tortillabröd, goda tillbehör och vitlökssås",
+          "Vegetarisk kebab med tortillabröd, goda tillbehör och vitlökssås"
+        ],
+        "Fredag": [
+          "Tomatsoppa med pasta och bröd & frukt",
+          "Tomatsoppa med pasta och bröd & frukt"
+        ]
+      }
+    },
+    "3": {
+      "veckodag": {
+        "Måndag": [
+          "Köttfärspanna med brunsås och kokt potatis",
+          "Vegetarisk färspanna med tomatsås och kokt potatis"
+        ],
+        "Tisdag": [
+          "Smakrik kycklingwok med kall sweetchilidressing",
+          "Smakrik Oumphwok med kall sweetchilidressing"
+        ],
+        "Onsdag": [
+          "Krämig laxgryta med saffran och grönsaker, serveras med svenskt havreris"
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Lunchkorv med potatismos",
+          "Sojakorv med potatismos"
+        ],
+        "Fredag": [
+          "Blomkålssoppa med bröd & frukt"
+        ]
+      }
+    },
+    "4": {
+      "veckodag": {
+        "Måndag": [
+          "Pannbiff serveras med stekt potatis, brunsås & lingonsylt",
+          "Kikärtsbiff med brunsås och stekt potatis"
+        ],
+        "Tisdag": [
+          "Korvstroganoff serveras med svenskt havreris",
+          "Vinjestroganoff med svenskt havreris"
+        ],
+        "Onsdag": [
+          "Fiskpanetter serveras med kokt potatis och dansk remouladsås",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Köttfärssås serveras med fullkornspagetti",
+          "Vegetarisk köttfärssås och fullkornspagetti"
+        ],
+        "Fredag": [
+          "Potatis- och purjolöksoppa serveras med bröd & frukt"
+        ]
+      }
+    },
+    "5": {
+      "veckodag": {
+        "Måndag": [
+          "Ingen lunchdata ännu"
+        ],
+        "Tisdag": [
+          "Ingen lunchdata ännu"
+        ],
+        "Onsdag": [
+          "Ingen lunchdata ännu"
+        ],
+        "Torsdag": [
+          "Ingen lunchdata ännu"
+        ],
+        "Fredag": [
+          "Ingen lunchdata ännu"
+        ]
+      }
     }
   }
 }
