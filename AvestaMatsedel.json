@@ -454,8 +454,95 @@
           "Annandag Jul"
         ]
       }
+    },
+    "1": {
+      "veckodag": {
+        "Måndag": [
+          "Jullov"
+        ],
+        "Tisdag": [
+          "Jullov"
+        ],
+        "Onsdag": [
+          "Jullov"
+        ],
+        "Torsdag": [
+          "Jullov"
+        ],
+        "Fredag": [
+          "Jullov"
+        ]
+      }
+    },
+    "2": {
+      "veckodag": {
+        "Måndag": [
+          "Jullov"
+        ],
+        "Tisdag": [
+          "Jullov"
+        ],
+        "Onsdag": [
+          "Jullov"
+        ],
+        "Torsdag": [
+          "Jullov"
+        ],
+        "Fredag": [
+          "Jullov"
+        ]
+      }
+    },
+    "3": {
+      "veckodag": {
+        "Måndag": [
+          "Blodpudding, lingonsylt",
+          "Potatisbullar, lingonsylt"
+        ],
+        "Tisdag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ],
+        "Onsdag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ],
+        "Torsdag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ],
+        "Fredag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ]
+      }
+    },
+    "4": {
+      "veckodag": {
+        "Måndag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ],
+        "Tisdag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ],
+        "Onsdag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ],
+        "Torsdag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ],
+        "Fredag": [
+          "Ingen lunchdata",
+          "publicerad ännu."
+        ]
+      }
     }
   }
 }
+
 
 
