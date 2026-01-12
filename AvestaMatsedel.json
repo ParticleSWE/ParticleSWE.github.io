@@ -496,52 +496,508 @@
     "3": {
       "veckodag": {
         "Måndag": [
-          "Pasta och skinksås (Skogsbo skola)"
+          "Potatisbullar, lingon, keso och frukt.",
+          "Pasta med skinksås (Skogsbo)"
         ],
         "Tisdag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Pasta med krämig lax och örtsås",
+          "Pasta med krämig tomatsås"
         ],
         "Onsdag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Ugnsgratinerad falukorv serveras med kokt potatis",
+          "Ugnsgratinerad vegetarisk korv serveras med kokt potatis"
         ],
         "Torsdag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Broccolisoppa, mjukt bröd, spread, frukt",
+          "Kökets val"
         ],
         "Fredag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Varm pastasallad serveras med dressing",
+          "Vegetarisk varm pastasallad serveras med dressing"
         ]
       }
     },
     "4": {
       "veckodag": {
         "Måndag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Chili con carne serveras med havreris",
+          "Chili sin carne serveras med havreris"
         ],
         "Tisdag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Gratinerad fisk serveras med kokt potatis",
+          "Krämig broccoligratäng serveras med kokt potatis"
         ],
         "Onsdag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Falafel serveras med klyftpotatis och kall sås.",
+          "Kökets val"
         ],
         "Torsdag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Kökets val",
+          "Ärtsoppa med fläsk, husets bröd, spread, frukt"
         ],
         "Fredag": [
-          "Ingen lunchdata",
-          "publicerad ännu."
+          "Pasta med skinksås",
+          "Pasta med krämig svampsås"
+        ]
+      }
+    },
+    "5": {
+      "veckodag": {
+        "Måndag": [
+          "Röd currygryta med fläskkött serveras med bulgur",
+          "Vegetarisk thaigryta serveras med bulgur"
+        ],
+        "Tisdag": [
+          "Panerad fisk serveras med kall sås och kokt potatis",
+          "Panerad rotselleri med kall sås och kokt potatis, ärtor"
+        ],
+        "Onsdag": [
+          "Kökets frestelse",
+          "Grönsaksfrestelse"
+        ],
+        "Torsdag": [
+          "Rostad majssoppa serveras med hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Simsukebab med tillbehör (skola)"
+        ]
+      }
+    },
+    "6": {
+      "veckodag": {
+        "Måndag": [
+          "Spaghetti med köttfärssås",
+          "Spaghetti med Bolognese på gula linser"
+        ],
+        "Tisdag": [
+          "Fiskgryta med kokosgrädde och lime serveras med kokt ris",
+          "Blomkålscurry med rostade kikärtor serveras med ris (Skola)"
+        ],
+        "Onsdag": [
+          "Leverbiff serveras med gräddsås, kokt potatis och lingon",
+          "Vegetariska biffar serveras med potatis och kall sås"
+        ],
+        "Torsdag": [
+          "Husets soppa, hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Vegetarisk lasagne",
+          "Lasagne"
+        ]
+      }
+    },
+    "7": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff serveras med ris",
+          "Veganoff serveras med ris"
+        ],
+        "Tisdag": [
+          "Fiskfärsbiff med remouladsås och kokt potatis",
+          "Fried rice (havreris) med kall sås, varma grönsaker"
+        ],
+        "Onsdag": [
+          "Grönsaksbiffar serveras med kall sås, matvete",
+          "Husets pastagratäng"
+        ],
+        "Torsdag": [
+          "Kökets val",
+          "Blomkålssoppa med kikärtstopping, mjukt bröd och frukt."
+        ],
+        "Fredag": [
+          "Kycklinggryta med soltorkade tomater och pasta",
+          "Pasta med tomat och linssås"
+        ]
+      }
+    },
+    "8": {
+      "veckodag": {
+        "Måndag": [
+          "Persikodoftande gryta serveras med bulgur",
+          "Köttfärsfräs med tacosmak, bulgur och kall sås."
+        ],
+        "Tisdag": [
+          "Chiligratinerad fisk serveras med potatismos",
+          "Havreschnitzel med kokt potatis och sås"
+        ],
+        "Onsdag": [
+          "Köttfärsrutor med sås, potatis och lingon",
+          "Färslimpa med sås, kokt potatis och lingon"
+        ],
+        "Torsdag": [
+          "Potatis och purjolökssoppa, hembakat bröd, spread och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Lasagne",
+          "Vegetarisk lasagne"
+        ]
+      }
+    },
+    "9": {
+      "veckodag": {
+        "Måndag": [
+          "Sportlov"
+        ],
+        "Tisdag": [
+          "Sportlov"
+        ],
+        "Onsdag": [
+          "Sportlov"
+        ],
+        "Torsdag": [
+          "Sportlov"
+        ],
+        "Fredag": [
+          "Sportlov"
+        ]
+      }
+    },
+    "10": {
+      "veckodag": {
+        "Måndag": [
+          "Kycklinggryta tikka masala serveras med kokt ris",
+          "Vegetarisk tikka masala serveras med kokt ris"
+        ],
+        "Tisdag": [
+          "Pasta med krämig lax och örtsås",
+          "Pasta med krämig tomatsås"
+        ],
+        "Onsdag": [
+          "Ugnsgratinerad falukorv och kokt potatis",
+          "Ugnsgratinerad vegetarisk korv serveras med kokt potatis"
+        ],
+        "Torsdag": [
+          "Broccolisoppa, hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Varm pastasallad serveras med dressing",
+          "Vegetarisk varm pastasallad serveras med dressing"
+        ]
+      }
+    },
+    "11": {
+      "veckodag": {
+        "Måndag": [
+          "Chili con carne serveras med havreris",
+          "Chili sin carne serveras med havreris"
+        ],
+        "Tisdag": [
+          "Citrondoftande fiskgratäng med dragon serveras med kokt potatis",
+          "Kökets vegetariska val"
+        ],
+        "Onsdag": [
+          "Vegetariska biffar serveras med klyftpotatis och kall sås",
+          "Kökets val"
+        ],
+        "Torsdag": [
+          "Kökets val",
+          "Ärtsoppa med fläsk, husets bröd, spread, frukt"
+        ],
+        "Fredag": [
+          "Pasta med skinksås",
+          "Pasta med krämig svampsås"
+        ]
+      }
+    },
+    "12": {
+      "veckodag": {
+        "Måndag": [
+          "Röd currygryta med fläsk serveras med kokt ris",
+          "Vegetarisk Thaigryta serveras med ris"
+        ],
+        "Tisdag": [
+          "Panerad fisk serveras med kall sås och kokt potatis",
+          "Grönsaksrutor med kall sås, kokt potatis, varma grönsaker"
+        ],
+        "Onsdag": [
+          "Leverbiff serveras med gräddsås, kokt potatis och lingon",
+          "Havreschnitzel med kokt potatis och sås"
+        ],
+        "Torsdag": [
+          "Rostad majssoppa serveras med hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Pasta med ost och broccolisås",
+          "Pasta med vitlöksdoftande kycklingfärssås, tomat och basilika"
+        ]
+      }
+    },
+    "13": {
+      "veckodag": {
+        "Måndag": [
+          "Mustig köttgryta med kokt potatis",
+          "Mustig paprikagoulash med kokt potatis"
+        ],
+        "Tisdag": [
+          "Husets fisk med utvalda tillbehör",
+          "Kökets val"
+        ],
+        "Onsdag": [
+          "Wok med grönsaker och kall sås",
+          "Nudelwok med grönsaker och kall sås"
+        ],
+        "Torsdag": [
+          "Kökets val",
+          "Minestronesoppa, hembakat bröd, hummus och frukt"
+        ],
+        "Fredag": [
+          "Kyckling i currysås och havreris.",
+          "Indisk currygryta med havreris"
+        ]
+      }
+    },
+    "14": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff serveras med ris",
+          "Veganoff serveras med ris"
+        ],
+        "Tisdag": [
+          "Saffransdoftande fiskgryta serveras med kokt potatis",
+          "Kökets vegetariska val"
+        ],
+        "Onsdag": [
+          "Påskbord"
+        ],
+        "Torsdag": [
+          "Kökets val",
+          "Lovdag"
+        ],
+        "Fredag": [
+          "Påsklov"
+        ]
+      }
+    },
+    "15": {
+      "veckodag": {
+        "Måndag": [
+          "Påsklov"
+        ],
+        "Tisdag": [
+          "Påsklov"
+        ],
+        "Onsdag": [
+          "Påsklov"
+        ],
+        "Torsdag": [
+          "Påsklov"
+        ],
+        "Fredag": [
+          "Påsklov"
+        ]
+      }
+    },
+    "16": {
+      "veckodag": {
+        "Måndag": [
+          "Spaghetti med köttfärssås",
+          "Spaghetti med Bolognese på gula linser"
+        ],
+        "Tisdag": [
+          "Fisk Benedictine serveras med potatismos",
+          "Ostgratinerade grönsaker serveras med potatismos."
+        ],
+        "Onsdag": [
+          "Grönsaksbiffar serveras med kall sås, matvete",
+          "Vegetarisk pastagratäng serveras med kokta grönsaker"
+        ],
+        "Torsdag": [
+          "Potatis och purjolökssoppa, hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Persikodoftande gryta serveras med bulgur",
+          "Köttfärsfräs med tacosmak, bulgur och kall sås."
+        ]
+      }
+    },
+    "17": {
+      "veckodag": {
+        "Måndag": [
+          "Kycklinggryta tikka masala serveras med kokt ris",
+          "Vegetarisk tikka masala serveras med kokt ris"
+        ],
+        "Tisdag": [
+          "Pasta med krämig lax och örtsås",
+          "Pasta med krämig tomatsås"
+        ],
+        "Onsdag": [
+          "Ugnsgratinerad falukorv och kokt potatis",
+          "Ugnsgratinerad vegetarisk korv serveras med kokt potatis"
+        ],
+        "Torsdag": [
+          "Broccolisoppa, hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Varm pastasallad serveras med dressing",
+          "Vegetarisk varm pastasallad serveras med dressing"
+        ]
+      }
+    },
+    "18": {
+      "veckodag": {
+        "Måndag": [
+          "Chili con carne serveras med havreris",
+          "Chili sin carne serveras med havreris"
+        ],
+        "Tisdag": [
+          "Krämig fiskgratäng serveras med kokt potatis",
+          "Kökets vegetariska val"
+        ],
+        "Onsdag": [
+          "Falafelfbiffar serveras med klyftpotatis och kall sås.",
+          "Kökets val"
+        ],
+        "Torsdag": [
+          "Vegetarisk tex mex buffe"
+        ],
+        "Fredag": [
+          "Lovdag"
+        ]
+      }
+    },
+    "19": {
+      "veckodag": {
+        "Måndag": [
+          "Mustig köttgryta med kokt potatis",
+          "Vegetarisk Thaigryta serveras med ris"
+        ],
+        "Tisdag": [
+          "Stekt fisk med kall sås och kokt potatis",
+          "Grönsaksrutor med kall sås, kokt potatis, varma grönsaker"
+        ],
+        "Onsdag": [
+          "Kökets val"
+        ],
+        "Torsdag": [
+          "Majssoppa hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Pasta med rökt kyckling i krämig sås",
+          "Pasta med krämig svampsås"
+        ]
+      }
+    },
+    "20": {
+      "veckodag": {
+        "Måndag": [
+          "Spaghetti med köttfärssås",
+          "Pasta med tomat och linssås"
+        ],
+        "Tisdag": [
+          "Mustig fiskgryta serveras med kokt ris",
+          "Blomkålscurry med rostade kikärtor serveras med ris (Skola)"
+        ],
+        "Onsdag": [
+          "Simsukebab med tillbehör (skola)"
+        ],
+        "Torsdag": [
+          "Lovdag"
+        ],
+        "Fredag": [
+          "Lovdag"
+        ]
+      }
+    },
+    "21": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta med skinksås",
+          "Pasta med ost och broccolisås"
+        ],
+        "Tisdag": [
+          "Husets fisk med utvalda tillbehör",
+          "Kökets val"
+        ],
+        "Onsdag": [
+          "Vegetarisk pytt i panna med inlagda rödbetor",
+          "Kökets pytt i panna, inlagda rödbetor."
+        ],
+        "Torsdag": [
+          "Broccolisoppa, hembakat bröd, hummus och frukt",
+          "Kökets val"
+        ],
+        "Fredag": [
+          "Kyckling och rotsaksfrestelse",
+          "Vegetarisk frestelse"
+        ]
+      }
+    },
+    "22": {
+      "veckodag": {
+        "Måndag": [
+          "Stekt falukorv med makaroner",
+          "Stekt falukorv med stuvade makaroner"
+        ],
+        "Tisdag": [
+          "Laxgratäng",
+          "Medelhavsgratäng"
+        ],
+        "Onsdag": [
+          "Grönsaksbiffar med kall sås och bulgur.",
+          "Nötfärsrutor serveras med kokt potatis och sås"
+        ],
+        "Torsdag": [
+          "Kökets val",
+          "Tomatsoppa serveras med hembakat bröd, hummus och frukt"
+        ],
+        "Fredag": [
+          "Pastawok serveras med kall sås",
+          "Grönsakswok serveras med kall sås"
+        ]
+      }
+    },
+    "23": {
+      "veckodag": {
+        "Måndag": [
+          "Pasta med tomat och linssås",
+          "Pasta med rökt kyckling i krämig sås"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med dill och citron, kokt potatis",
+          "Blomkålsgratäng serveras med kokt potatis"
+        ],
+        "Onsdag": [
+          "Köttfärsfrestelse",
+          "Vegetarisk Moussaka serveras med husets tzatsiki"
+        ],
+        "Torsdag": [
+          "Sommarlunch"
+        ],
+        "Fredag": [
+          "Kökets val"
+        ]
+      }
+    },
+    "24": {
+      "veckodag": {
+        "Måndag": [
+          "Kökets val"
+        ],
+        "Tisdag": [
+          "Kökets val"
+        ],
+        "Onsdag": [
+          "Kökets val"
+        ],
+        "Torsdag": [
+          "Skolavslutning"
+        ],
+        "Fredag": [
+          "Skolavslutning"
         ]
       }
     }
   }
 }
+
 
 
 
