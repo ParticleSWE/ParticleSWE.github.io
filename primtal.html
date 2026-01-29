@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Primtalstest med förklaring</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 780px; margin: 24px auto; padding: 0 16px; }
+    h1 { margin-bottom: 6px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin-top: 16px; }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: end; }
+    label { display: block; font-weight: 600; margin-bottom: 6px; }
+    input[type="text"] { font-size: 18px; padding: 10px 12px; border-radius: 10px; border: 1px solid #bbb; min-width: 240px; }
+    button { font-size: 16px; padding: 10px 14px; border-radius: 10px; border: 0; cursor: pointer; }
+    button.primary { background: #111; color: #fff; }
+    button.secondary { background: #eee; }
+    .status { font-size: 18px; font-weight: 700; }
+    .ok { color: #0a7a0a; }
+    .bad { color: #b00020; }
+    pre { white-space: pre-wrap; word-break: break-word; background: #fafafa; border: 1px solid #eee; padding: 12px; border-radius: 10px; margin: 10px 0 0; }
+    .hint { color: #555; margin: 0; }
+    .small { font-size: 14px; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Primtalstest</h1>
+  <p class="hint">Skriv ett heltal ≥ 0. Appen berättar om talet är ett primtal och visar varför.</p>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <label for="n">Tal</label>
+        <input id="n" type="text" inputmode="numeric" placeholder="t.ex. 29" />
+        <div class="small">Tips: Du kan också skriva negativa tal och decimaltal – då förklarar appen varför det inte blir primtal.</div>
+      </div>
+      <button class="primary" id="btn">Testa</button>
+      <button class="secondary" id="btnExample">Exempel (97)</button>
+      <button class="secondary" id="btnClear">Rensa</button>
+    </div>
+
+    <div style="margin-top:14px">
+      <div id="result" class="status"></div>
+      <pre id="explain" aria-live="polite"></pre>
+    </div>
+  </div>
+
+  <script>
+    const nInput = document.getElementById("n");
+    const resultEl = document.getElementById("result");
+    const explainEl = document.getElementById("explain");
+
+    function isIntegerString(s) {
+      return /^-?\d+$/.test(s.trim());
+    }
+
+    function formatList(arr) {
+      if (arr.length === 0) return "inga";
+      return arr.join(", ");
+    }
+
+    function checkPrimeWithExplanation(raw) {
+      const s = raw.trim();
+
+      if (s.length === 0) {
+        return { ok: false, title: "", body: "Skriv in ett tal först." };
+      }
+
+      // Hantera decimaltal / konstiga inmatningar
+      if (!isIntegerString(s)) {
+        const num = Number(s.replace(",", ".")); // tillåt kommatecken som decimal i viss mån
+        if (!Number.isFinite(num)) {
+          return { ok: false, title: "Ogiltig inmatning", body: `“${raw}” är inte ett tal jag kan räkna med.` };
+        }
+        if (!Number.isInteger(num)) {
+          return {
+            ok: false,
+            title: "Inte primtal",
+            body:
+`Primtal definieras för positiva heltal större än 1.
+Du skrev ${num}, som inte är ett heltal, så det kan inte vara ett primtal.`
+          };
+        }
+        // Om det blev heltal via Number, fortsätt med det.
+      }
+
+      const n = BigInt(s); // klarar stora heltal
+      if (n < 0n) {
+        return {
+          ok: false,
+          title: "Inte primtal",
+          body:
+`Primtal definieras för positiva heltal större än 1.
+${n.toString()} är negativt, så det räknas inte som primtal.`
+        };
+      }
+
+      if (n === 0n || n === 1n) {
+        return {
+          ok: false,
+          title: "Inte primtal",
+          body:
+`${n.toString()} är inte ett primtal.
+Ett primtal måste vara ett heltal större än 1 och ha exakt två positiva delare: 1 och talet självt.`
+        };
+      }
+
+      if (n === 2n) {
+        return {
+          ok: true,
+          title: "Primtal",
+          body:
+`2 är ett primtal.
+Det har exakt två positiva delare: 1 och 2.`
+        };
+      }
+
+      if (n % 2n === 0n) {
+        const half = n / 2n;
+        return {
+          ok: false,
+          title: "Inte primtal",
+          body:
+`${n.toString()} är inte ett primtal eftersom det är jämnt.
+Det går att dela med 2: ${n.toString()} = 2 × ${half.toString()}.
+Alltså har talet fler delare än bara 1 och ${n.toString()}.`
+        };
+      }
+
+      // Testa udda delare upp till √n
+      // Vi använder en enkel loop med d*d <= n (funkar med BigInt).
+      const tested = [];
+      let foundFactor = null;
+
+      for (let d = 3n; d * d <= n; d += 2n) {
+        // samla de första testade för förklaringen (inte oändligt många)
+        if (tested.length < 40) tested.push(d.toString());
+
+        if (n % d === 0n) {
+          foundFactor = d;
+          break;
+        }
+      }
+
+      if (foundFactor !== null) {
+        const other = n / foundFactor;
+        return {
+          ok: false,
+          title: "Inte primtal",
+          body:
+`${n.toString()} är inte ett primtal eftersom det har en delare som inte är 1 eller talet självt.
+Vi hittar att ${foundFactor.toString()} delar ${n.toString()} exakt:
+
+${n.toString()} = ${foundFactor.toString()} × ${other.toString()}
+
+Därför är talet sammansatt (inte primtal).
+
+Varför räcker det att testa upp till √n?
+Om ${n.toString()} = a × b så måste minst en av faktorerna a eller b vara ≤ √${n.toString()}.
+Därför räcker det att leta efter en delare d där d·d ≤ ${n.toString()}.`
+        };
+      }
+
+      return {
+        ok: true,
+        title: "Primtal",
+        body:
+`${n.toString()} är ett primtal.
+Det är inte delbart med 2 och vi hittar ingen udda delare d där d·d ≤ ${n.toString()}.
+
+Testade delare (urval): ${formatList(tested)}${tested.length === 40 ? ", …" : ""}
+
+Varför räcker det att testa upp till √n?
+Om ${n.toString()} = a × b så måste minst en av faktorerna a eller b vara ≤ √${n.toString()}.
+Eftersom ingen sådan faktor finns, finns inga delare (förutom 1 och ${n.toString()}).`
+      };
+    }
+
+    function run() {
+      const { ok, title, body } = checkPrimeWithExplanation(nInput.value);
+      if (!title) {
+        resultEl.textContent = "";
+        explainEl.textContent = body;
+        return;
+      }
+      resultEl.textContent = title;
+      resultEl.className = "status " + (ok ? "ok" : "bad");
+      explainEl.textContent = body;
+    }
+
+    document.getElementById("btn").addEventListener("click", run);
+    document.getElementById("btnExample").addEventListener("click", () => { nInput.value = "97"; run(); });
+    document.getElementById("btnClear").addEventListener("click", () => {
+      nInput.value = "";
+      resultEl.textContent = "";
+      resultEl.className = "status";
+      explainEl.textContent = "";
+      nInput.focus();
+    });
+
+    nInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") run();
+    });
+
+    // Startfokus
+    nInput.focus();
+  </script>
+</body>
+</html>
