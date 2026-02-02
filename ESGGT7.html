@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Engine Swap Database</title>
+  <style>
+    :root{
+      --bg:#070a10;
+      --panel:#0c1220;
+      --panel2:#0a0f1a;
+      --line:#1a2a44;
+      --text:#e9f1ff;
+      --muted:#a9b8d6;
+      --blue:#1e6bff;
+      --blue2:#3aa0ff;
+      --good:#37d67a;
+      --warn:#ffcc66;
+      --bad:#ff5b6e;
+      --shadow: 0 20px 60px rgba(0,0,0,.55);
+      --radius: 14px;
+      --radius2: 20px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:
+        radial-gradient(1200px 800px at 20% -10%, rgba(30,107,255,.25), transparent 55%),
+        radial-gradient(1000px 700px at 90% 10%, rgba(58,160,255,.18), transparent 55%),
+        linear-gradient(180deg, #050812 0%, #060a12 50%, #04060d 100%);
+      color:var(--text);
+      font-family:var(--sans);
+      letter-spacing:.2px;
+    }
+    a{color:var(--blue2)}
+    .wrap{max-width:1200px;margin:0 auto;padding:22px 16px 40px}
+    header{
+      display:flex;gap:14px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;
+      padding:16px 18px;
+      background:linear-gradient(180deg, rgba(12,18,32,.9), rgba(10,15,26,.8));
+      border:1px solid var(--line);
+      border-radius:var(--radius2);
+      box-shadow:var(--shadow);
+      position:sticky;top:12px;z-index:10;
+      backdrop-filter: blur(10px);
+    }
+    .title{
+      display:flex;flex-direction:column;gap:4px;min-width:280px
+    }
+    .title h1{
+      margin:0;
+      font-weight:800;
+      font-size:22px;
+      letter-spacing:.6px;
+      text-transform:uppercase;
+    }
+    .title .sub{
+      color:var(--muted);
+      font-size:13px;
+      font-family:var(--mono);
+    }
+    .controls{
+      display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:flex-end;
+    }
+    .seg{
+      display:flex;
+      border:1px solid var(--line);
+      background:rgba(7,10,16,.6);
+      border-radius:999px;
+      overflow:hidden;
+    }
+    .seg button{
+      border:0;
+      background:transparent;
+      color:var(--muted);
+      padding:10px 12px;
+      cursor:pointer;
+      font-weight:700;
+      text-transform:uppercase;
+      letter-spacing:.6px;
+      font-size:12px;
+    }
+    .seg button.active{
+      color:var(--text);
+      background:linear-gradient(180deg, rgba(30,107,255,.35), rgba(30,107,255,.18));
+      box-shadow: inset 0 0 0 1px rgba(58,160,255,.35);
+    }
+    .input, select{
+      background:rgba(7,10,16,.55);
+      border:1px solid var(--line);
+      color:var(--text);
+      border-radius:12px;
+      padding:10px 12px;
+      outline:none;
+      min-width:220px;
+    }
+    .input::placeholder{color:#7f93bb}
+    .btn{
+      border:1px solid rgba(58,160,255,.55);
+      background:linear-gradient(180deg, rgba(30,107,255,.35), rgba(30,107,255,.18));
+      color:var(--text);
+      padding:10px 12px;
+      border-radius:12px;
+      font-weight:800;
+      letter-spacing:.6px;
+      text-transform:uppercase;
+      cursor:pointer;
+    }
+    .btn:active{transform:translateY(1px)}
+    .grid{
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      gap:14px;
+      margin-top:14px;
+    }
+    @media (max-width: 980px){
+      header{position:static}
+      .grid{grid-template-columns:1fr}
+    }
+    .panel{
+      background:linear-gradient(180deg, rgba(12,18,32,.9), rgba(10,15,26,.85));
+      border:1px solid var(--line);
+      border-radius:var(--radius2);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .panel .hd{
+      padding:14px 14px 10px;
+      border-bottom:1px solid var(--line);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+    }
+    .panel .hd .label{
+      font-weight:900;
+      letter-spacing:.7px;
+      text-transform:uppercase;
+      font-size:12px;
+      color:var(--muted);
+      font-family:var(--mono);
+    }
+    .panel .hd .count{
+      font-family:var(--mono);
+      color:#bcd0ff;
+      font-size:12px;
+    }
+    .list{
+      max-height: calc(100vh - 220px);
+      overflow:auto;
+    }
+    .item{
+      padding:12px 14px;
+      border-bottom:1px solid rgba(26,42,68,.65);
+      cursor:pointer;
+    }
+    .item:hover{background:rgba(30,107,255,.08)}
+    .item.active{background:rgba(30,107,255,.16)}
+    .item .primary{font-weight:800}
+    .item .secondary{
+      margin-top:4px;
+      color:var(--muted);
+      font-size:12px;
+      font-family:var(--mono);
+      line-height:1.35;
+    }
+    .content{
+      padding:14px;
+    }
+    .hero{
+      display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;
+      padding:14px;
+      border:1px solid rgba(58,160,255,.25);
+      background:
+        linear-gradient(180deg, rgba(30,107,255,.18), rgba(10,15,26,.55)),
+        radial-gradient(700px 350px at 10% 10%, rgba(58,160,255,.24), transparent 65%);
+      border-radius:18px;
+      margin-bottom:14px;
+    }
+    .hero .h2{
+      margin:0;
+      font-size:18px;
+      font-weight:900;
+      letter-spacing:.3px;
+    }
+    .hero .meta{
+      color:var(--muted);
+      font-family:var(--mono);
+      font-size:12px;
+      margin-top:6px;
+      line-height:1.5;
+    }
+    .chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+    .chip{
+      padding:7px 10px;
+      border-radius:999px;
+      border:1px solid rgba(26,42,68,.9);
+      background:rgba(7,10,16,.45);
+      font-family:var(--mono);
+      font-size:12px;
+      color:#cfe0ff;
+      cursor:pointer;
+    }
+    .chip:hover{border-color:rgba(58,160,255,.55)}
+    .chip.active{
+      border-color:rgba(58,160,255,.7);
+      box-shadow: inset 0 0 0 1px rgba(58,160,255,.35);
+      background:rgba(30,107,255,.12);
+    }
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap:12px;
+    }
+    @media (max-width: 980px){
+      .cards{grid-template-columns:1fr}
+    }
+    .card{
+      border:1px solid rgba(26,42,68,.9);
+      background:rgba(7,10,16,.35);
+      border-radius:18px;
+      overflow:hidden;
+    }
+    .card .top{
+      padding:12px 12px 10px;
+      border-bottom:1px solid rgba(26,42,68,.65);
+      display:flex;gap:10px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;
+    }
+    .card .top .t{
+      font-weight:900;
+      margin:0;
+    }
+    .card .top .k{
+      color:var(--muted);
+      font-family:var(--mono);
+      font-size:12px;
+    }
+    .card .body{
+      padding:10px 12px 12px;
+    }
+    .engine{
+      display:flex;gap:10px;justify-content:space-between;align-items:flex-start;
+      padding:10px 10px;
+      border-radius:12px;
+      background:rgba(12,18,32,.75);
+      border:1px solid rgba(26,42,68,.85);
+      margin-top:8px;
+    }
+    .engine .e{
+      font-family:var(--mono);
+      font-size:12px;
+      color:#d7e6ff;
+      line-height:1.35;
+    }
+    .engine .badge{
+      font-family:var(--mono);
+      font-size:11px;
+      color:#0b1020;
+      background:linear-gradient(180deg, rgba(58,160,255,.9), rgba(30,107,255,.8));
+      padding:5px 8px;
+      border-radius:999px;
+      font-weight:900;
+      letter-spacing:.4px;
+      white-space:nowrap;
+    }
+    .status{
+      margin-top:14px;
+      color:var(--muted);
+      font-family:var(--mono);
+      font-size:12px;
+      line-height:1.5;
+      opacity:.95;
+    }
+    .tiny{
+      font-family:var(--mono);
+      font-size:12px;
+      color:var(--muted);
+    }
+    .footer{
+      margin-top:18px;
+      display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;
+      color:var(--muted);
+      font-family:var(--mono);
+      font-size:12px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+  <header>
+    <div class="title">
+      <h1>Engine Swap Database</h1>
+      <div class="sub">Gran Turismo–style viewer • search + filter • by car / by engine</div>
+    </div>
+
+    <div class="controls">
+      <div class="seg" role="tablist" aria-label="View mode">
+        <button id="modeCars" class="active" role="tab" aria-selected="true">By Car</button>
+        <button id="modeEngines" role="tab" aria-selected="false">By Engine</button>
+      </div>
+
+      <input id="search" class="input" placeholder="Search (car, brand, engine)…" />
+
+      <select id="brandFilter" aria-label="Brand filter">
+        <option value="">All Brands</option>
+      </select>
+
+      <button id="reset" class="btn" title="Reset filters">Reset</button>
+    </div>
+  </header>
+
+  <div class="grid">
+    <aside class="panel">
+      <div class="hd">
+        <div class="label" id="leftTitle">Brands</div>
+        <div class="count" id="leftCount">—</div>
+      </div>
+      <div class="list" id="leftList"></div>
+    </aside>
+
+    <main class="panel">
+      <div class="hd">
+        <div class="label" id="rightTitle">Results</div>
+        <div class="count" id="rightCount">—</div>
+      </div>
+      <div class="content">
+        <div class="hero">
+          <div>
+            <h2 class="h2" id="heroTitle">Loading…</h2>
+            <div class="meta" id="heroMeta">Fetching JSON…</div>
+          </div>
+          <div class="chips" id="chips"></div>
+        </div>
+
+        <div class="cards" id="cards"></div>
+
+        <div class="status" id="status"></div>
+
+        <div class="footer">
+          <div>Data source: <span class="tiny" id="dataUrl"></span></div>
+          <div>Tip: host this page on the same domain to avoid CORS headaches.</div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+(() => {
+  const DATA_URL = "https://particle.se/engine_swap_database.json";
+
+  // UI refs
+  const modeCarsBtn = document.getElementById("modeCars");
+  const modeEnginesBtn = document.getElementById("modeEngines");
+  const searchEl = document.getElementById("search");
+  const brandFilterEl = document.getElementById("brandFilter");
+  const resetBtn = document.getElementById("reset");
+
+  const leftTitle = document.getElementById("leftTitle");
+  const rightTitle = document.getElementById("rightTitle");
+  const leftCount = document.getElementById("leftCount");
+  const rightCount = document.getElementById("rightCount");
+
+  const leftList = document.getElementById("leftList");
+  const heroTitle = document.getElementById("heroTitle");
+  const heroMeta = document.getElementById("heroMeta");
+  const chips = document.getElementById("chips");
+  const cards = document.getElementById("cards");
+  const status = document.getElementById("status");
+  const dataUrlEl = document.getElementById("dataUrl");
+  dataUrlEl.textContent = DATA_URL;
+
+  // State
+  let raw = null;
+
+  // Flattened records for fast search & engine view
+  // carRecords: [{ brand, car, engines: [..] }]
+  let carRecords = [];
+
+  // engineIndex: Map(engineString -> [{brand, car}...])
+  let engineIndex = new Map();
+
+  let mode = "cars"; // "cars" or "engines"
+  let selectedLeftKey = ""; // selected brand (cars-mode) or selected engine (engines-mode)
+
+  // active chips for quick filters
+  let chipFilter = "all"; // "all" | "hasSwap"
+
+  function normalize(s){
+    return (s ?? "").toString().toLowerCase().trim();
+  }
+
+  function buildIndexes(data){
+    const carsByBrand = data?.carsByBrand || {};
+    const records = [];
+
+    for (const [brand, cars] of Object.entries(carsByBrand)){
+      for (const entry of (cars || [])){
+        const car = entry?.car ?? "";
+        const engines = Array.isArray(entry?.swappableEngines) ? entry.swappableEngines : [];
+        records.push({ brand, car, engines });
+      }
+    }
+
+    // Sort for nice UI
+    records.sort((a,b) => (a.brand+a.car).localeCompare(b.brand+b.car));
+
+    const eIndex = new Map();
+    for (const r of records){
+      for (const e of r.engines){
+        if (!eIndex.has(e)) eIndex.set(e, []);
+        eIndex.get(e).push({ brand: r.brand, car: r.car });
+      }
+    }
+
+    // Sort engine keys and their lists
+    const sortedEngines = [...eIndex.entries()]
+      .sort((a,b) => a[0].localeCompare(b[0]));
+    const sortedIndex = new Map();
+    for (const [engine, list] of sortedEngines){
+      list.sort((a,b)=> (a.brand+a.car).localeCompare(b.brand+b.car));
+      sortedIndex.set(engine, list);
+    }
+
+    carRecords = records;
+    engineIndex = sortedIndex;
+  }
+
+  function setMode(next){
+    mode = next;
+    selectedLeftKey = "";
+    // Reset filters when switching modes (keeps it simple)
+    searchEl.value = "";
+    brandFilterEl.value = "";
+    chipFilter = "all";
+    renderChips();
+    renderAll();
+  }
+
+  function renderChips(){
+    chips.innerHTML = "";
+
+    const mk = (id, label) => {
+      const el = document.createElement("div");
+      el.className = "chip" + (chipFilter === id ? " active" : "");
+      el.textContent = label;
+      el.onclick = () => { chipFilter = id; renderAll(); renderChips(); };
+      return el;
+    };
+
+    // Chips apply to both modes
+    chips.appendChild(mk("all","All"));
+    chips.appendChild(mk("hasSwap","Has swaps"));
+  }
+
+  function applyFiltersToCarRecords(){
+    const q = normalize(searchEl.value);
+    const brandPick = brandFilterEl.value;
+
+    return carRecords.filter(r => {
+      if (chipFilter === "hasSwap" && (!r.engines || r.engines.length === 0)) return false;
+      if (brandPick && r.brand !== brandPick) return false;
+
+      if (!q) return true;
+      // search car, brand, and engines
+      const hay = normalize(r.brand + " " + r.car + " " + (r.engines || []).join(" "));
+      return hay.includes(q);
+    });
+  }
+
+  function applyFiltersToEngines(){
+    const q = normalize(searchEl.value);
+
+    const items = [];
+    for (const [engine, list] of engineIndex.entries()){
+      // chip filter: hasSwap is inherently true for engines list; keep anyway for consistency
+      if (chipFilter === "hasSwap" && list.length === 0) continue;
+
+      if (!q){
+        items.push([engine, list]);
+      } else {
+        // match in engine string OR any car/brand in that engine bucket
+        const engineMatch = normalize(engine).includes(q);
+        if (engineMatch){
+          items.push([engine, list]);
+          continue;
+        }
+        // else check if any car/brand matches; if so include it
+        const anyMatch = list.some(x => normalize(x.brand + " " + x.car).includes(q));
+        if (anyMatch) items.push([engine, list]);
+      }
+    }
+    return items;
+  }
+
+  function renderBrandFilter(){
+    // Brand filter only meaningful in cars-mode; keep but disable in engines-mode
+    brandFilterEl.disabled = (mode !== "cars");
+
+    // Populate once from carRecords (if not already populated)
+    if (brandFilterEl.options.length > 1) return;
+
+    const brands = [...new Set(carRecords.map(r => r.brand))].sort((a,b)=>a.localeCompare(b));
+    for (const b of brands){
+      const opt = document.createElement("option");
+      opt.value = b;
+      opt.textContent = b;
+      brandFilterEl.appendChild(opt);
+    }
+  }
+
+  function renderLeftList(){
+    leftList.innerHTML = "";
+
+    if (mode === "cars"){
+      leftTitle.textContent = "Brands";
+      rightTitle.textContent = "Cars";
+
+      const filtered = applyFiltersToCarRecords();
+
+      // build counts per brand
+      const counts = new Map();
+      for (const r of filtered){
+        counts.set(r.brand, (counts.get(r.brand) || 0) + 1);
+      }
+
+      const brands = [...counts.entries()].sort((a,b)=>a[0].localeCompare(b[0]));
+      leftCount.textContent = `${brands.length} brands`;
+
+      for (const [brand, count] of brands){
+        const item = document.createElement("div");
+        item.className = "item" + (selectedLeftKey === brand ? " active" : "");
+        item.innerHTML = `
+          <div class="primary">${brand}</div>
+          <div class="secondary">${count} car${count===1?"":"s"} (filtered)</div>
+        `;
+        item.onclick = () => {
+          selectedLeftKey = (selectedLeftKey === brand ? "" : brand);
+          renderAll();
+        };
+        leftList.appendChild(item);
+      }
+
+      if (!brands.length){
+        leftCount.textContent = "0 brands";
+        const empty = document.createElement("div");
+        empty.className = "item";
+        empty.innerHTML = `<div class="primary">No results</div><div class="secondary">Try clearing filters.</div>`;
+        leftList.appendChild(empty);
+      }
+    }
+
+    if (mode === "engines"){
+      leftTitle.textContent = "Engines";
+      rightTitle.textContent = "Cars using engine";
+
+      const enginesFiltered = applyFiltersToEngines();
+      leftCount.textContent = `${enginesFiltered.length} engines`;
+
+      for (const [engine, list] of enginesFiltered){
+        const item = document.createElement("div");
+        item.className = "item" + (selectedLeftKey === engine ? " active" : "");
+        item.innerHTML = `
+          <div class="primary">${engine}</div>
+          <div class="secondary">${list.length} car${list.length===1?"":"s"}</div>
+        `;
+        item.onclick = () => {
+          selectedLeftKey = (selectedLeftKey === engine ? "" : engine);
+          renderAll();
+        };
+        leftList.appendChild(item);
+      }
+
+      if (!enginesFiltered.length){
+        const empty = document.createElement("div");
+        empty.className = "item";
+        empty.innerHTML = `<div class="primary">No results</div><div class="secondary">Try clearing filters.</div>`;
+        leftList.appendChild(empty);
+      }
+    }
+  }
+
+  function renderRight(){
+    cards.innerHTML = "";
+    status.textContent = "";
+
+    if (!raw){
+      heroTitle.textContent = "Loading…";
+      heroMeta.textContent = "Fetching JSON…";
+      rightCount.textContent = "—";
+      return;
+    }
+
+    if (mode === "cars"){
+      const filtered = applyFiltersToCarRecords();
+      const brand = selectedLeftKey;
+
+      const view = brand ? filtered.filter(r => r.brand === brand) : filtered;
+
+      heroTitle.textContent = brand ? brand : "All Brands";
+      heroMeta.textContent =
+        `${view.length} car${view.length===1?"":"s"} shown` +
+        (brand ? ` • filtered by brand` : ` • filtered by search/filters`);
+
+      rightCount.textContent = `${view.length} cars`;
+
+      for (const r of view){
+        const c = document.createElement("div");
+        c.className = "card";
+        const engineCount = (r.engines || []).length;
+
+        c.innerHTML = `
+          <div class="top">
+            <div>
+              <p class="t">${r.car}</p>
+              <div class="k">${r.brand}</div>
+            </div>
+            <div class="k">${engineCount} swap${engineCount===1?"":"s"}</div>
+          </div>
+          <div class="body">
+            ${engineCount === 0
+              ? `<div class="tiny">No swaps listed.</div>`
+              : r.engines.map(e => `
+                <div class="engine">
+                  <div class="e">${e}</div>
+                  <div class="badge">ENGINE</div>
+                </div>
+              `).join("")
+            }
+          </div>
+        `;
+        cards.appendChild(c);
+      }
+
+      if (!view.length){
+        status.textContent = "No cars matched your filters. Try Reset or remove search text.";
+      }
+    }
+
+    if (mode === "engines"){
+      const enginesFiltered = applyFiltersToEngines();
+
+      if (!selectedLeftKey){
+        heroTitle.textContent = "Pick an engine";
+        heroMeta.textContent = `Showing ${enginesFiltered.length} engines on the left. Select one to view cars.`;
+        rightCount.textContent = "0 cars";
+        status.textContent = "Tip: use the search box to find engine codes fast (e.g. “2JZ”, “VR38”, “LS7”).";
+        return;
+      }
+
+      const engine = selectedLeftKey;
+      const list = engineIndex.get(engine) || [];
+      const q = normalize(searchEl.value);
+
+      // If user typed search, optionally narrow within selected engine's car list as well
+      const view = !q ? list : list.filter(x => normalize(x.brand + " " + x.car).includes(q));
+
+      heroTitle.textContent = engine;
+      heroMeta.textContent = `${view.length} car${view.length===1?"":"s"} using this engine`;
+
+      rightCount.textContent = `${view.length} cars`;
+
+      for (const x of view){
+        const c = document.createElement("div");
+        c.className = "card";
+        c.innerHTML = `
+          <div class="top">
+            <div>
+              <p class="t">${x.car}</p>
+              <div class="k">${x.brand}</div>
+            </div>
+            <div class="k">swap target</div>
+          </div>
+          <div class="body">
+            <div class="engine">
+              <div class="e">${engine}</div>
+              <div class="badge">ENGINE</div>
+            </div>
+          </div>
+        `;
+        cards.appendChild(c);
+      }
+
+      if (!view.length){
+        status.textContent = "No cars matched inside this engine bucket. Try clearing the search box.";
+      }
+    }
+  }
+
+  function renderAll(){
+    renderBrandFilter();
+    renderLeftList();
+    renderRight();
+  }
+
+  async function load(){
+    try{
+      const res = await fetch(DATA_URL, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      raw = await res.json();
+
+      buildIndexes(raw);
+
+      heroTitle.textContent = "Ready";
+      heroMeta.textContent = `${carRecords.length} cars • ${engineIndex.size} engines`;
+      renderChips();
+      renderAll();
+    }catch(err){
+      heroTitle.textContent = "Could not load database";
+      heroMeta.textContent = "Check that the JSON is reachable and that CORS is allowed.";
+      status.textContent =
+        `Fetch failed (${err?.message || err}). If you open this file locally (file://), many browsers block fetch.
+Host it on your domain (or run a local server) and try again.`;
+      console.error(err);
+    }
+  }
+
+  // Events
+  modeCarsBtn.onclick = () => {
+    modeCarsBtn.classList.add("active");
+    modeEnginesBtn.classList.remove("active");
+    modeCarsBtn.setAttribute("aria-selected","true");
+    modeEnginesBtn.setAttribute("aria-selected","false");
+    setMode("cars");
+  };
+
+  modeEnginesBtn.onclick = () => {
+    modeEnginesBtn.classList.add("active");
+    modeCarsBtn.classList.remove("active");
+    modeEnginesBtn.setAttribute("aria-selected","true");
+    modeCarsBtn.setAttribute("aria-selected","false");
+    setMode("engines");
+  };
+
+  searchEl.addEventListener("input", () => {
+    // keep selection but re-render
+    renderAll();
+  });
+
+  brandFilterEl.addEventListener("change", () => {
+    // Selecting a brand in dropdown should also select it on left for coherence
+    if (mode === "cars"){
+      selectedLeftKey = brandFilterEl.value || "";
+    }
+    renderAll();
+  });
+
+  resetBtn.onclick = () => {
+    searchEl.value = "";
+    brandFilterEl.value = "";
+    selectedLeftKey = "";
+    chipFilter = "all";
+    renderChips();
+    renderAll();
+  };
+
+  renderChips();
+  load();
+})();
+</script>
+</body>
+</html>
