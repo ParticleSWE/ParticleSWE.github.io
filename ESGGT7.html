@@ -341,7 +341,7 @@
         <div class="status" id="status"></div>
 
         <div class="footer">
-          <div>Data source: <span class="tiny" id="dataUrl"></span></div>
+          <div>Data source: Famine's list on gtplanet.net</div>
           <div>Please contact support@particle.se if you find any errors.</div>
         </div>
       </div>
@@ -371,8 +371,6 @@
   const chips = document.getElementById("chips");
   const cards = document.getElementById("cards");
   const status = document.getElementById("status");
-  const dataUrlEl = document.getElementById("dataUrl");
-  dataUrlEl.textContent = DATA_URL;
 
   // State
   let raw = null;
@@ -764,5 +762,6 @@ Host it on your domain (or run a local server) and try again.`;
 </script>
 </body>
 </html>
+
 
 
