@@ -392,6 +392,12 @@
         "swappableEngines": [
           "Honda-SE75E-2&4 (Honda 2&4)"
         ]
+      },
+      {
+        "car": "FIAT Panda 30CL '85",
+        "swappableEngines": [
+          "B18C-Integra-'98 (Honda Integra Type R '98)"
+        ]
       }
     ],
     "Garage RCR": [
@@ -553,6 +559,12 @@
         "car": "Hyundai Genesis Coupe 3.8 Track '13",
         "swappableEngines": [
           "690T-Giulia (Alfa Romeo Giulia GTAm '20)"
+        ]
+      },
+      {
+        "car": "Hyundai Elantra N '22",
+        "swappableEngines": [
+          "3UZ-FE-SC430 (Lexus SC430 GT500)"
         ]
       }
     ],
@@ -1036,6 +1048,14 @@
         ]
       }
     ],
+    "Peugeot": [
+      {
+        "car": "Peugeot 205 GTI '88",
+        "swappableEngines": [
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      }
+    ],
     "Plymouth": [
       {
         "car": "Plymouth Superbird '70",
@@ -1368,6 +1388,12 @@
         ]
       },
       {
+        "car": "Toyota Crown Athlete G",
+        "swappableEngines": [
+          "M158-AMG-Huayra (Pagani Huayra)"
+        ]
+      },
+      {
         "car": "Toyota GR86 RZ '21",
         "swappableEngines": [
           "2JZ-GTE-Supra (Toyota Supra '97)"
@@ -1475,6 +1501,12 @@
         "car": "TVR Tuscan Speed Six '00",
         "swappableEngines": [
           "LT4-Camaro (Chevrolet Camaro ZL1 '18)"
+        ]
+      },
+      {
+        "car": "TVR Tuscan Speed Six '00",
+        "swappableEngines": [
+          "V12-XJR-9 (Jaguar XJR-9 '88)"
         ]
       }
     ],
