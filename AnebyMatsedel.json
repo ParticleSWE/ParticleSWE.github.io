@@ -273,6 +273,125 @@
           "Potatis- och purjolökssoppa med bröd och frukt"
         ]
       }
+    },
+    "10": {
+      "veckodag": {
+        "Måndag": [
+          "Gul kycklinggryta med rotfrukter och bulgur",
+          "Böngryta med bulgur"
+        ],
+        "Tisdag": [
+          "Potatisbullar med skinka, blodpudding och lingonsylt",
+          "Potatisbullar och keso"
+        ],
+        "Onsdag": [
+          "Citron- och persiljestekt fisk med kokt potatis och kall sås",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Gulaschgryta med kokt potatis",
+          "Vegetarisk gulaschgryta med kokt potatis"
+        ],
+        "Fredag": [
+          "Tomat- och majssoppa med linser och krutonger, bröd och frukt",
+          "Tomat- och majssoppa med linser och krutonger, bröd och frukt"
+        ]
+      }
+    },
+    "11": {
+      "veckodag": {
+        "Måndag": [
+          "Köttbullar med makaroner",
+          "Vegobollar med makaroner"
+        ],
+        "Tisdag": [
+          "Vårrullar med stekt ris och mangoraja",
+          "Vegetariska vårrullar med stekt ris och mangoraja"
+        ],
+        "Onsdag": [
+          "Lax- och potatisgratäng med stekta grönsaker",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Chili con carne med ris, picklad rödlök, nachochips och yoghurtklick",
+          "Chili sin carne med ris, picklad rödlök, nachochips och yoghurtklick"
+        ],
+        "Fredag": [
+          "Kycklingsoppa med bröd och frukt",
+          "Quornsoppa med bröd och frukt"
+        ]
+      }
+    },
+    "12": {
+      "veckodag": {
+        "Måndag": [
+          "Crispy chicken nuggets med jasminris och sötsur sås",
+          "Green nuggets med jasminris och sötsur sås"
+        ],
+        "Tisdag": [
+          "Zucchinilasagne med het tomatsalsa",
+          "Zucchinilasagne med het tomatsalsa"
+        ],
+        "Onsdag": [
+          "Fisk Björkeby med potatismos",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Pastasås med ost och rökt kött samt fullkornspasta",
+          "Krämig pastasås med broccoli och fullkornspasta"
+        ],
+        "Fredag": [
+          "Tacosoppa med yoghurtklick, bröd och frukt",
+          "Vegetarisk tacosoppa med yoghurtklick, bröd och frukt"
+        ]
+      }
+    },
+    "13": {
+      "veckodag": {
+        "Måndag": [
+          "Köttfärspanna med brunsås och kokt potatis",
+          "Vegetarisk färspanna med tomatsås och kokt potatis"
+        ],
+        "Tisdag": [
+          "Smakrik kycklingwok med kall sweetchilidressing",
+          "Smakrik Oumphwok med kall sweetchilidressing"
+        ],
+        "Onsdag": [
+          "Pastagratäng med lax",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Lunchkorv med potatismos",
+          "Sojakorv med potatismos"
+        ],
+        "Fredag": [
+          "Morotssoppa med rostade kikärtor, bröd och frukt",
+          "Morotssoppa med rostade kikärtor, bröd och frukt"
+        ]
+      }
+    },
+    "14": {
+      "veckodag": {
+        "Måndag": [
+          "Pannbiff med stekt potatis, brunsås och lingonsylt",
+          "Kikärtsbiff med brunsås och stekt potatis"
+        ],
+        "Tisdag": [
+          "Korvstroganoff med svenskt havreris",
+          "Vinjestroganoff med svenskt havreris"
+        ],
+        "Onsdag": [
+          "Fiskpanetter med kokt potatis och dansk remouladsås",
+          "Vegetariskt alternativ"
+        ],
+        "Torsdag": [
+          "Köttfärssås med fullkornsspagetti",
+          "Vegetarisk köttfärssås med fullkornsspagetti"
+        ],
+        "Fredag": [
+          "Långfredagen"
+        ]
+      }
     }
   }
 }
