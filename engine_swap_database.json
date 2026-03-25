@@ -260,7 +260,7 @@
       {
         "car": "Daihatsu Copen Active Top '02",
         "swappableEngines": [
-          "13B-REW-RX-7 (Mazda RX-7 FD)"
+          "13B-REW-RX-7-Type-6 (Mazda RX-7 FD Spirit R)"
         ]
       }
     ],
@@ -684,6 +684,14 @@
         ]
       }
     ],
+    "Maserati": [
+      {
+        "car": "Maserati Gran Turismo S '08",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
+        ]
+      }
+    ],
     "Mazda": [
       {
         "car": "Mazda 3 '19",
@@ -712,7 +720,7 @@
       {
         "car": "Mazda Eunos Roadster NA '89",
         "swappableEngines": [
-          "13B-REW-RX-7 (Mazda RX-7 FD)"
+          "13B-REW-RX-7-Type-6 (Mazda RX-7 FD Spirit R)"
         ]
       },
       {
@@ -760,7 +768,7 @@
       {
         "car": "Mazda SPIRIT RACING Roadster 12R '25",
         "swappableEngines": [
-          "13B-REW-RX-7 (Mazda RX-7 FD)"
+          "13B-REW-RX-7-Type-6 (Mazda RX-7 FD Spirit R)"
         ]
       }
     ],
@@ -1348,7 +1356,7 @@
       {
         "car": "Suzuki Cappuccino '91",
         "swappableEngines": [
-          "13B-REW-RX-7 (Mazda RX-7 FD)"
+          "13B-REW-RX-7-Type-6 (Mazda RX-7 FD Spirit R)"
         ]
       },
       {
