@@ -6,6 +6,12 @@
         "swappableEngines": [
           "K20C1-Civic-'20 (Honda Civic Type R '20)"
         ]
+      },
+      {
+        "car": "Abarth 500 '09",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
       }
     ],
     "Alfa Romeo": [
@@ -170,6 +176,12 @@
         ]
       },
       {
+        "car": "Chevrolet Chevelle SS 454 Sport Coupe '70",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
+        ]
+      },
+      {
         "car": "Chevrolet Corvette C1 '58",
         "swappableEngines": [
           "LT5-Corvette-C7 (Chevrolet Corvette C7 ZR1)"
@@ -244,6 +256,14 @@
         ]
       }
     ],
+    "Daihatsu": [
+      {
+        "car": "Daihatsu Copen Active Top '02",
+        "swappableEngines": [
+          "13B-REW-RX-7 (Mazda RX-7 FD)"
+        ]
+      }
+    ],
     "DeLorean": [
       {
         "car": "DeLorean DMC-12 S2 '04",
@@ -287,6 +307,12 @@
       },
       {
         "car": "Dodge Charger R/T 426 Hemi '68",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
+        ]
+      },
+      {
+        "car": "Dodge Super Bee '70",
         "swappableEngines": [
           "Demon-Challenger (Dodge Challenger SRT Demon '18)"
         ]
@@ -394,6 +420,12 @@
         ]
       },
       {
+        "car": "FIAT 500 1.2 8V Lounge SS '08",
+        "swappableEngines": [
+          "B18C-Integra-'98 (Honda Integra Type R '98)"
+        ]
+      },
+      {
         "car": "FIAT Panda 30CL '85",
         "swappableEngines": [
           "B18C-Integra-'98 (Honda Integra Type R '98)"
@@ -439,6 +471,12 @@
         "car": "GReddy Fugu Z",
         "swappableEngines": [
           "LZ20B-Skyline (Nissan Skyline Super Silhouette '84)"
+        ]
+      },
+      {
+        "car": "GReddy Fugu Z",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
         ]
       }
     ],
@@ -702,6 +740,12 @@
         ]
       },
       {
+        "car": "Mazda RX-7 (FD) Type R '91",
+        "swappableEngines": [
+          "R26B-787B (Mazda 787B)"
+        ]
+      },
+      {
         "car": "Mazda RX-7 (FD) Spirit R '02",
         "swappableEngines": [
           "R26B-787B (Mazda 787B)"
@@ -725,6 +769,12 @@
         "car": "Mercedes-Benz 190E 2.5-16 Evolution II '91",
         "swappableEngines": [
           "M159-AMG-GT3-'20 (Mercedes-AMG GT3 '20)"
+        ]
+      },
+      {
+        "car": "Mercedes-AMG C63 S '15",
+        "swappableEngines": [
+          "M158-AMG-Huayra (Pagani Huayra)"
         ]
       },
       {
@@ -1069,6 +1119,12 @@
         "car": "Pontiac Firebird Trans Am '78",
         "swappableEngines": [
           "LS9-Corvette (Chevrolet Corvette C6 ZR1)"
+        ]
+      },
+      {
+        "car": "Pontiac GTO 'The Judge' '69",
+        "swappableEngines": [
+          "LS7-Rampage (Roadster Shop Rampage)"
         ]
       }
     ],
