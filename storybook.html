@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <title>Sagomaskinen 3000</title>
 
-<!-- Pixel font -->
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 <style>
@@ -16,7 +15,6 @@ body {
     padding: 20px;
 }
 
-/* CRT glow */
 .container {
     max-width: 900px;
     margin: auto;
@@ -25,30 +23,14 @@ body {
     box-shadow: 0 0 20px #00ff9f;
 }
 
-h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-input {
-    padding: 10px;
+input, button {
     font-family: inherit;
     font-size: 12px;
-    width: 250px;
-    border: 3px solid #00ff9f;
-    background: black;
-    color: #00ff9f;
-}
-
-button {
     margin: 10px;
-    padding: 10px 15px;
-    font-family: inherit;
-    font-size: 12px;
+    padding: 10px;
     background: black;
     color: #00ff9f;
     border: 3px solid #00ff9f;
-    cursor: pointer;
 }
 
 button:hover {
@@ -57,26 +39,10 @@ button:hover {
 }
 
 #story {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: left;
-    line-height: 1.8;
     white-space: pre-line;
-}
-
-/* Scanline effect */
-body::after {
-    content: "";
-    pointer-events: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: repeating-linear-gradient(
-        to bottom,
-        rgba(0,255,159,0.05),
-        rgba(0,255,159,0.05) 2px,
-        transparent 2px,
-        transparent 4px
-    );
+    line-height: 1.8;
 }
 </style>
 </head>
@@ -95,28 +61,29 @@ body::after {
 </div>
 
 <script>
-// === LISTS (UNCHANGED CORE) ===
+
+// === FULL ORIGINAL LISTS ===
 const prefixlist = ["den mäktige","den allsmäktige","den snälle","den omtänksamme","den skruvade","den vänlige","den pålitlige","den galne","den tokige","den hjältemodige","den sluge","den uppfinningsrike","den envise","den rolige","den underlige","den fräcke","den finurlige","den knasige"];
 
 const adjektivlist = ["liten","söt","stor","gullig","stark","snäll","intelligent","busig","glad","fnittrig","vis","smart","klok","speciell","färgstark","galen","tokig","energisk","fräck","rolig"];
 
-const villainlist = ["Darth Vader","Voldemort","Shrek","Mr. Bean","Djävulen","RoboCop","Bowser"];
+const villainlist = ["Björnbrodern Big Ben","Hannibal Lecter","Cruella De Vil","Ursula","Jokern","Lex Luthor","Bowser","Shredder","Spökplumpen","Svarte Petter","Kapten Krok","Shere Khan","Jafar","Scar","Reinard Räv","Darth Vader","Voldemort","Handsome Jack","Jocke med kniven","Blod-svente","Frankensteins monster","Mårran","Rovdjuret","Magica de Hex","Guld-Ivar Flinthjärta","Bobba Fett","Bolibompa-draken","Greta Gris","Mr. Bean","Djävulen","Stora stygga Vargen","Sir Väs","Charles-Ingvar Jönsson","Dynamit-Harry","RoboCop","Shrek","Bill","Bull"];
 
-const animallist = ["häst","katt","brontosaurus","snigel","älg","kanin","zombie","pingvin"];
+const animallist = ["häst","åsna","hund","katt","hamster","brontosaurus","mus","sköldpadda","papegoja","undulat","amöba","bakterie","känguru","skalbagge","orm","daggmask","björn","struts","pingvin","snigel","gris","zebra","zombie","tomtenisse","älva","delfin","flodhäst","giraff","tiger","knäppgök","elefant","råtta","surikat","myrslok","spindel","fluga","älg","ren","pojke","flicka","bebis","kanin","hare","räv"];
 
-const introlist = ["Det var en gång för länge sedan en","I en liten skog bodde en","För länge sedan i en galax långt bort bodde en"];
+const introlist = ["Det var en gång för länge sedan en","I en liten skog för länge sedan fanns ett litet hus. Där bodde en","Någonstans i en jättestor stad belägen någonstans i den stora vida världen bodde en","I en liten grotta mitt ute i öknen bodde en","För länge sedan i en galax långt, långt bort bodde en gång en","Det var en gång en","Vi beger oss ut i cyberrymden, till ett litet ensligt hörn av internet, långt, långt bort. Om man tittar noga kan man där, bland alla ettor och nollor, finna ett litet hus. Där bodde det en"];
 
-const missionlist = ["rädda en prinsessa","baka en kladdkaka","klippa gräsmattan","spöa en boss"];
+const missionlist = ["rädda en prinsessa","bygga ett hus åt de tre små grisarna","fånga en tjuv","hjälpa en gammal dam över vägen","tvätta en bil","baka en tårta","baka en kladdkaka","tapetsera vardagsrummet","gräva en brunn","såga ner ett träd","klippa gräsmattan","spöa en boss i ett svårt tv-spel","äta upp godis med kort bäst före-datum","tämja en häst i Minecraft","bära ut ett gammalt badkar","planera ett bröllop","gräva efter guld","byta en glödlampa"];
 
-const journeylist = ["En dag när","Plötsligt en morgon när","Sent en eftermiddag när"];
-const journeylist2 = ["putsade sina fönster","skulle baka","just var färdig på toaletten"];
-const journeylist3 = ["så ringde telefonen","så kom ett sms","så kom en brevduva"];
+const journeylist = ["En dag när","Plötsligt en morgon när","En morgon när","Sent en eftermiddag när"];
+const journeylist2 = ["skulle så potatis","putsade sina fönster","skulle laga omelett","just var färdig på toaletten","plöjde åkern med sin traktor","satt och spelade banjo på sin altan","satt och virkade","skulle baka en kladdkaka","skulle äta kladdkaka"];
+const journeylist3 = ["så ringde telefonen","så kom brevbäraren med ett brev","så kom ett fax","så kom det en brevduva med ett meddelande","så syntes det röksignaler vid horisonten","så kom det ett sms","så kom ett meddelande på kortvågsradion"];
 
-const strugglelist = ["bygga en pyramid","jonglera med motorsågar","byta däck på bilen"];
+const strugglelist = ["knuffa en sten uppför en brant backe","bära in den nya 100-tums tv:n från bilen","avlägsna ett ilsket getingbo från ett äppelträd","byta däck på cykeln","byta däck på bilen","packa in och köra flera års ackumulerade sopor på tippen","bygga en lådbil","jonglera med motorsågar","hoppa hopprep","resa ett stort tält","bygga en igloo","laga världens godaste maträtt","bygga en pyramid","finna en knappnål i en höstack","putsa Tusse-Tusenfotings alla skor"];
 
-const evilstufflist = ["snatta makaroner","kasta paj på folk","palla äpplen"];
+const evilstufflist = ["bränna biblar på bål","snatta makaroner på Ica","knuffa ner pensionärer från trottoaren","måla fula ord på väggarna","ställa om timern för bagaren så att bullarna blev brända","lossa hjulbultarna på alla parkerade bilar","kasta paj på alla förbipasserande","släppa ut luften ur alla parkerade cyklar","råna den närliggande guldsmedsaffären","smygfilma presidentens dotter","sälja smält glass till barnen","skicka hotfulla vykort till Nalle Puh","byta ut mandelmassan i alla semlor mot tandkräm","busringa till SOS-alarm","palla äpplen"];
 
-const npclist = ["Pippi Långstrump","Yoda","Mario","Gandalf","Bamse","Sonic"];
+const npclist = ["Snövit","Bilbo","Gollum","LegoLars","Törnrosa","Mästerkatten i stövlar","stora bocken Bruse","Nasse","SvampBob Fyrkant","Patrik-Stjärna","Harry Potter","Vampyren Edward","Rödluvan","Stora stygga vargen","Guldlock","Pippi Långstrump","Madicken","Karlsson på taket","Gandalf","Bläckvard","Musse Pigg","Mimmi Mus","Kalle Anka","Kajsa Anka","Farbror Joakim","Sigge McKvack","Greve Duckula","Greve Dracula","Mega Man","Sonic","Knatte","Fnatte","Tjatte","Röjar-Ralf","Aladdin","Timon","Pumba","Bamse","Lille-Skutt","Ior","Skalman","Katten Jansson","Husmusen","Luke Skywalker","R2D2","C3PO","Obi-wan Kenobi","Prinsessan Leiah","Prinsessan Peach","Prinsessan Zelda","Link","Super Mario","Luigi","Robin Hood","Lady","Lufsen","Yoda","Toad","Han Solo","Chewbacca","Långben","Askungen","Rapunzel","Charlie Brown","Snobben","Woodstock"];
 
 function pick(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
@@ -125,11 +92,11 @@ function pick(arr) {
 let currentStory = "";
 
 function generateStory() {
-    const name = document.getElementById("nameInput").value || "NAMNLÖS HJÄLTE";
+    const huvud = document.getElementById("nameInput").value || "Namnlös hjälte";
 
     const prefix = pick(prefixlist);
     const animal = pick(animallist);
-    const adj = pick(adjektivlist);
+    const adjektiv = pick(adjektivlist);
     const intro = pick(introlist);
     const mission = pick(missionlist);
     const struggle = pick(strugglelist);
@@ -137,51 +104,77 @@ function generateStory() {
     const journey = pick(journeylist);
     const journey2 = pick(journeylist2);
     const journey3 = pick(journeylist3);
-    const evil = pick(evilstufflist);
+    const evilstuff = pick(evilstufflist);
     const npc1 = pick(npclist);
     const npc2 = pick(npclist);
     const npc3 = pick(npclist);
 
     currentStory =
-`${intro} ${adj} ${animal} som hette ${name}. ${name} var dock mer känd som ${prefix} ${name}.
+`Din berättelse genereras...
 
-${name} var populär och hade massvis med vänner. Men de två bästa vännerna var ${npc1} och ${npc2}.
+Berättelsen är redo och startar om 3 sekunder.
 
-${journey} ${name} ${journey2} ${journey3}. Det var ${npc1} som behövde hjälp med att ${mission}.
-- Inga problem alls!, tänkte ${prefix} ${name}.
+${intro} ${adjektiv} ${animal} som hette ${huvud}. ${huvud} var dock mer känd som ${prefix} ${huvud}.
 
-På vägen träffade ${name} ${npc2} som kämpade med att ${struggle}.
+${huvud} var populär och hade massvis med vänner. Men de två bästa vännerna var ${npc1} och ${npc2}.
 
-Plötsligt fick ${name} syn på ${villain} som höll på att ${evil}.
-- Hörru du! Vad håller du på med!?
+${journey} ${huvud} ${journey2} ${journey3}. Det var ${npc1} som behövde hjälp med att ${mission}.
+- Inga problem alls!, tänkte ${prefix} ${huvud} och begav sig av för att möta upp med ${npc1}.
 
-- Och vad ska du göra åt det? svarade ${villain}.
+På vägen hem till ${npc1} träffade ${huvud} ${npc2} som kämpade med att ${struggle}.
+- Hej, ${npc2}, sa ${huvud}. Det där såg lite jobbigt ut, vill du att jag ska hjälpa dig?
+${npc2} sken upp som en sol och svarade:
+- Åh, tack gode gud att du är här ${prefix} ${huvud}, du får hemskt gärna hjälpa till!
 
-Då dök ${npc3} upp:
-- Men är det inte ${prefix} ${name}?!
+När ${huvud} var färdig med att hjälpa ${npc2} att ${struggle} tog de två vännerna farväl och ${huvud} fortsatte sin resa till ${npc1}.
 
-${villain} blev livrädd och sprang därifrån.
+När ${prefix} ${huvud} hade hunnit halvvägs till ${npc1} fick ${huvud} plötsligt syn på ${villain} som var i full färd med att ${evilstuff}.
 
-${name} fortsatte sin resa och hjälpte ${npc1} att ${mission}.
+- Hörru du, din nedrans typ! ropade ${huvud}. Vad tror du då att du håller på med!? Det är väl inget snällt att ${evilstuff}? Sluta genast upp med de där dumheterna!
 
-Snipp snapp snut, så var sagan om ${name} slut!`;
+- Och vad ska du göra åt det då? frågade ${villain} spydigt tillbaka. Det finns väl ingenting som du kan göra åt saken ändå? sa ${villain} och hånlog mot ${huvud}.
+
+- Du vet visst inte vem jag är? sa ${huvud} självsäkert.
+
+- Nej, borde jag veta det? frågade ${villain} med en likgiltig ton.
+
+Under tystnaden som följde dök plötsligt ${npc3}, som är ännu en riktigt god vän till ${huvud} upp. ${npc3} fick syn på ${huvud} och utbrast, högt och tydligt:
+- Nämen?! Är det inte min gamle vän ${prefix} ${huvud}?! Vad gör du här?
+
+${villain} stelnade till. Det var tydligt att ${villain} känt igen namnet.
+
+${huvud} tittade roat på när ${villain} efter någon sekunds tvekan avlägsnade sig från platsen med en väldig fart.
+
+${npc3} tittade långt efter ${villain} som försvann allt längre bort och sa sen frågande:
+- Vad tog det åt den där då? Jag har aldrig sett ${villain} ha så bråttom någonstans i hela mitt liv.
+
+${huvud} smålog och spelade oförstående.
+- Du, ${npc3}, det var riktigt trevligt att träffa dig, men jag måste tyvärr dra vidare. sa ${huvud}.
+- Jag är påväg hem till ${npc1} som behöver hjälp med att ${mission}. Snacka mer nästa gång? frågade ${huvud}.
+
+- Absolut!! svarade ${npc3}. Ta hand om dig ${huvud} så ses vi snart igen!
+
+Sen gick ${npc3} sin väg och ${huvud} kunde fortsätta sin resa hem till ${npc1}.
+
+Efter en stund så var ${huvud} äntligen framme hos ${npc1} som kom ut på sin gård och vinkade muntert.
+
+- ${huvud} min gamle vän! Välkommen! Redo att hjälpa mig att ${mission}? frågade ${npc1}.
+- Absolut! svarade ${huvud}. Sen hjälpte ${huvud} ${npc1} med att ${mission} medan ${npc1} fick höra historien om hur ${huvud} träffat både ${npc2} och ${npc3} under sin resa och hur ${huvud} hade stoppat ${villain} från att ${evilstuff} och drivit ${villain} till flykten.
+
+Snipp snapp snut, så var sagan om ${huvud} slut!`;
 
     document.getElementById("story").innerText = currentStory;
 }
 
-// === SWEDISH TTS ===
+// === TTS ===
 function speakStory() {
     if (!currentStory) return;
 
     const utterance = new SpeechSynthesisUtterance(currentStory);
-
-    // Try to force Swedish voice
     const voices = speechSynthesis.getVoices();
-    const swedishVoice = voices.find(v => v.lang.startsWith("sv"));
+    const sv = voices.find(v => v.lang.startsWith("sv"));
 
-    if (swedishVoice) {
-        utterance.voice = swedishVoice;
-    }
+    if (sv) utterance.voice = sv;
 
     utterance.lang = "sv-SE";
     utterance.rate = 0.9;
