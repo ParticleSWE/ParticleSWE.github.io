@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<title>Sagomaskinen 3000</title>
+<style>
+    body {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        background: linear-gradient(135deg, #ffecd2, #fcb69f);
+        text-align: center;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        background: white;
+        border-radius: 20px;
+        padding: 30px;
+        max-width: 800px;
+        margin: auto;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    input {
+        padding: 10px;
+        font-size: 1.2em;
+        border-radius: 10px;
+        border: 2px solid #ddd;
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 10px;
+        background: #ff7a7a;
+        color: white;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    button:hover {
+        background: #ff5252;
+        transform: scale(1.05);
+    }
+
+    #story {
+        margin-top: 30px;
+        text-align: left;
+        line-height: 1.6;
+        font-size: 1.2em;
+    }
+
+    .highlight {
+        color: #ff5252;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<h1>📖 Sagomaskinen 3000</h1>
+<p>Skapa en helt orimlig saga varje gång!</p>
+
+<div class="container">
+    <input id="nameInput" placeholder="Skriv ditt namn här..." />
+    <br>
+    <button onclick="generateStory()">Skapa saga</button>
+
+    <div id="story"></div>
+</div>
+
+<script>
+const prefixlist = ["den mäktige","den galne","den snälle","den tokige","den fräcke","den knasige"];
+const adjektivlist = ["liten","stor","busig","glad","tokig","energisk"];
+const animallist = ["häst","katt","brontosaurus","snigel","älg","kanin"];
+const villainlist = ["Darth Vader","Voldemort","Shrek","Mr. Bean","Djävulen"];
+const missionlist = ["baka en kladdkaka","rädda en prinsessa","klippa gräsmattan","spöa en boss"];
+const npclist = ["Pippi Långstrump","Yoda","Mario","Gandalf","Snobben"];
+const evilstufflist = ["palla äpplen","snatta makaroner","kasta paj på folk"];
+
+function pick(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function generateStory() {
+    const name = document.getElementById("nameInput").value || "Okänd hjälte";
+
+    const prefix = pick(prefixlist);
+    const adj = pick(adjektivlist);
+    const animal = pick(animallist);
+    const villain = pick(villainlist);
+    const mission = pick(missionlist);
+    const npc1 = pick(npclist);
+    const npc2 = pick(npclist);
+    const evil = pick(evilstufflist);
+
+    const story = `
+    <p>Det var en gång en <span class="highlight">${adj} ${animal}</span> som hette <span class="highlight">${name}</span>.</p>
+
+    <p>Men ${name} var mer känd som <span class="highlight">${prefix} ${name}</span>.</p>
+
+    <p>En dag behövde ${npc1} hjälp med att <b>${mission}</b>.</p>
+
+    <p>På vägen träffade ${name} ${npc2}, som kämpade med livet (och antagligen något väldigt dumt).</p>
+
+    <p>Plötsligt dök <span class="highlight">${villain}</span> upp och började ${evil}!</p>
+
+    <p><b>"Hörru!"</b> ropade ${name}. <b>"Så där gör man inte!"</b></p>
+
+    <p>${villain} blev rädd och sprang iväg i panik.</p>
+
+    <p>Och så hjälpte ${name} ${npc1} med att ${mission}.</p>
+
+    <p><b>Snipp snapp snut, så var sagan om ${name} slut!</b></p>
+    `;
+
+    document.getElementById("story").innerHTML = story;
+}
+</script>
+
+</body>
+</html>
