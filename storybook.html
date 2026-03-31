@@ -3,124 +3,191 @@
 <head>
 <meta charset="UTF-8">
 <title>Sagomaskinen 3000</title>
+
+<!-- Pixel font -->
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
 <style>
-    body {
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        background: linear-gradient(135deg, #ffecd2, #fcb69f);
-        text-align: center;
-        padding: 40px;
-    }
+body {
+    background: black;
+    color: #00ff9f;
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+    padding: 20px;
+}
 
-    h1 {
-        font-size: 3em;
-        margin-bottom: 10px;
-    }
+/* CRT glow */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 4px solid #00ff9f;
+    box-shadow: 0 0 20px #00ff9f;
+}
 
-    .container {
-        background: white;
-        border-radius: 20px;
-        padding: 30px;
-        max-width: 800px;
-        margin: auto;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    }
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 
-    input {
-        padding: 10px;
-        font-size: 1.2em;
-        border-radius: 10px;
-        border: 2px solid #ddd;
-        margin-bottom: 20px;
-    }
+input {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 12px;
+    width: 250px;
+    border: 3px solid #00ff9f;
+    background: black;
+    color: #00ff9f;
+}
 
-    button {
-        padding: 12px 20px;
-        font-size: 1.2em;
-        border: none;
-        border-radius: 10px;
-        background: #ff7a7a;
-        color: white;
-        cursor: pointer;
-        transition: 0.2s;
-    }
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-family: inherit;
+    font-size: 12px;
+    background: black;
+    color: #00ff9f;
+    border: 3px solid #00ff9f;
+    cursor: pointer;
+}
 
-    button:hover {
-        background: #ff5252;
-        transform: scale(1.05);
-    }
+button:hover {
+    background: #00ff9f;
+    color: black;
+}
 
-    #story {
-        margin-top: 30px;
-        text-align: left;
-        line-height: 1.6;
-        font-size: 1.2em;
-    }
+#story {
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1.8;
+    white-space: pre-line;
+}
 
-    .highlight {
-        color: #ff5252;
-        font-weight: bold;
-    }
+/* Scanline effect */
+body::after {
+    content: "";
+    pointer-events: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(0,255,159,0.05),
+        rgba(0,255,159,0.05) 2px,
+        transparent 2px,
+        transparent 4px
+    );
+}
 </style>
 </head>
+
 <body>
 
-<h1>📖 Sagomaskinen 3000</h1>
-<p>Skapa en helt orimlig saga varje gång!</p>
-
 <div class="container">
-    <input id="nameInput" placeholder="Skriv ditt namn här..." />
-    <br>
-    <button onclick="generateStory()">Skapa saga</button>
+<h1>📖 SAGOMASKINEN 3000</h1>
 
-    <div id="story"></div>
+<input id="nameInput" placeholder="NAMN..." />
+<br>
+<button onclick="generateStory()">GENERERA SAGA</button>
+<button onclick="speakStory()">🔊 LÄS UPP</button>
+
+<div id="story"></div>
 </div>
 
 <script>
-const prefixlist = ["den mäktige","den galne","den snälle","den tokige","den fräcke","den knasige"];
-const adjektivlist = ["liten","stor","busig","glad","tokig","energisk"];
-const animallist = ["häst","katt","brontosaurus","snigel","älg","kanin"];
-const villainlist = ["Darth Vader","Voldemort","Shrek","Mr. Bean","Djävulen"];
-const missionlist = ["baka en kladdkaka","rädda en prinsessa","klippa gräsmattan","spöa en boss"];
-const npclist = ["Pippi Långstrump","Yoda","Mario","Gandalf","Snobben"];
-const evilstufflist = ["palla äpplen","snatta makaroner","kasta paj på folk"];
+// === LISTS (UNCHANGED CORE) ===
+const prefixlist = ["den mäktige","den allsmäktige","den snälle","den omtänksamme","den skruvade","den vänlige","den pålitlige","den galne","den tokige","den hjältemodige","den sluge","den uppfinningsrike","den envise","den rolige","den underlige","den fräcke","den finurlige","den knasige"];
+
+const adjektivlist = ["liten","söt","stor","gullig","stark","snäll","intelligent","busig","glad","fnittrig","vis","smart","klok","speciell","färgstark","galen","tokig","energisk","fräck","rolig"];
+
+const villainlist = ["Darth Vader","Voldemort","Shrek","Mr. Bean","Djävulen","RoboCop","Bowser"];
+
+const animallist = ["häst","katt","brontosaurus","snigel","älg","kanin","zombie","pingvin"];
+
+const introlist = ["Det var en gång för länge sedan en","I en liten skog bodde en","För länge sedan i en galax långt bort bodde en"];
+
+const missionlist = ["rädda en prinsessa","baka en kladdkaka","klippa gräsmattan","spöa en boss"];
+
+const journeylist = ["En dag när","Plötsligt en morgon när","Sent en eftermiddag när"];
+const journeylist2 = ["putsade sina fönster","skulle baka","just var färdig på toaletten"];
+const journeylist3 = ["så ringde telefonen","så kom ett sms","så kom en brevduva"];
+
+const strugglelist = ["bygga en pyramid","jonglera med motorsågar","byta däck på bilen"];
+
+const evilstufflist = ["snatta makaroner","kasta paj på folk","palla äpplen"];
+
+const npclist = ["Pippi Långstrump","Yoda","Mario","Gandalf","Bamse","Sonic"];
 
 function pick(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
+let currentStory = "";
+
 function generateStory() {
-    const name = document.getElementById("nameInput").value || "Okänd hjälte";
+    const name = document.getElementById("nameInput").value || "NAMNLÖS HJÄLTE";
 
     const prefix = pick(prefixlist);
-    const adj = pick(adjektivlist);
     const animal = pick(animallist);
-    const villain = pick(villainlist);
+    const adj = pick(adjektivlist);
+    const intro = pick(introlist);
     const mission = pick(missionlist);
+    const struggle = pick(strugglelist);
+    const villain = pick(villainlist);
+    const journey = pick(journeylist);
+    const journey2 = pick(journeylist2);
+    const journey3 = pick(journeylist3);
+    const evil = pick(evilstufflist);
     const npc1 = pick(npclist);
     const npc2 = pick(npclist);
-    const evil = pick(evilstufflist);
+    const npc3 = pick(npclist);
 
-    const story = `
-    <p>Det var en gång en <span class="highlight">${adj} ${animal}</span> som hette <span class="highlight">${name}</span>.</p>
+    currentStory =
+`${intro} ${adj} ${animal} som hette ${name}. ${name} var dock mer känd som ${prefix} ${name}.
 
-    <p>Men ${name} var mer känd som <span class="highlight">${prefix} ${name}</span>.</p>
+${name} var populär och hade massvis med vänner. Men de två bästa vännerna var ${npc1} och ${npc2}.
 
-    <p>En dag behövde ${npc1} hjälp med att <b>${mission}</b>.</p>
+${journey} ${name} ${journey2} ${journey3}. Det var ${npc1} som behövde hjälp med att ${mission}.
+- Inga problem alls!, tänkte ${prefix} ${name}.
 
-    <p>På vägen träffade ${name} ${npc2}, som kämpade med livet (och antagligen något väldigt dumt).</p>
+På vägen träffade ${name} ${npc2} som kämpade med att ${struggle}.
 
-    <p>Plötsligt dök <span class="highlight">${villain}</span> upp och började ${evil}!</p>
+Plötsligt fick ${name} syn på ${villain} som höll på att ${evil}.
+- Hörru du! Vad håller du på med!?
 
-    <p><b>"Hörru!"</b> ropade ${name}. <b>"Så där gör man inte!"</b></p>
+- Och vad ska du göra åt det? svarade ${villain}.
 
-    <p>${villain} blev rädd och sprang iväg i panik.</p>
+Då dök ${npc3} upp:
+- Men är det inte ${prefix} ${name}?!
 
-    <p>Och så hjälpte ${name} ${npc1} med att ${mission}.</p>
+${villain} blev livrädd och sprang därifrån.
 
-    <p><b>Snipp snapp snut, så var sagan om ${name} slut!</b></p>
-    `;
+${name} fortsatte sin resa och hjälpte ${npc1} att ${mission}.
 
-    document.getElementById("story").innerHTML = story;
+Snipp snapp snut, så var sagan om ${name} slut!`;
+
+    document.getElementById("story").innerText = currentStory;
+}
+
+// === SWEDISH TTS ===
+function speakStory() {
+    if (!currentStory) return;
+
+    const utterance = new SpeechSynthesisUtterance(currentStory);
+
+    // Try to force Swedish voice
+    const voices = speechSynthesis.getVoices();
+    const swedishVoice = voices.find(v => v.lang.startsWith("sv"));
+
+    if (swedishVoice) {
+        utterance.voice = swedishVoice;
+    }
+
+    utterance.lang = "sv-SE";
+    utterance.rate = 0.9;
+
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
 }
 </script>
 
