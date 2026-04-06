@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>It Was Supposed To Be Cute</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    background: #0b0b0b;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: radial-gradient(circle, #1a0000, #000);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.release {
+    background: #ff1a1a;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.album {
+    background: #111;
+    border: 2px solid #ff1a1a;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.album:hover {
+    transform: scale(1.05);
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ff1a1a;
+}
+
+.album h3 {
+    margin: 10px 0 5px;
+}
+
+.genre {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta a {
+    background: #ff1a1a;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: black;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>IT WAS SUPPOSED TO BE CUTE</h1>
+    <p>Ska • Metalcore • Chaos • Emotion</p>
+</header>
+
+<div class="release">
+    NEW ALBUM DROPS APRIL 8 – "ROCK N ROLL IS WHERE IT’S AT"
+</div>
+
+<section class="section">
+    <h2 style="text-align:center;">Latest Release</h2>
+    <div class="albums">
+        <div class="album">
+            <img src="rock_album.jpg" alt="Rock n Roll Is Where It's At">
+            <h3>Rock n Roll Is Where It’s At</h3>
+            <p>Out April 8</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2 style="text-align:center;">Discography</h2>
+    <div class="albums">
+        <div class="album">
+            <img src="self_titled.jpg" alt="Self Titled Album">
+            <h3>It Was Supposed To Be Cute</h3>
+            <p>Full Length</p>
+        </div>
+
+        <div class="album">
+            <img src="pop_song_writer.jpg" alt="Pop Song Writer">
+            <h3>Pop Song Writer</h3>
+            <p>EP</p>
+        </div>
+    </div>
+</section>
+
+<section class="section genre">
+    <p>
+        A chaotic blend of SKA grooves, metalcore breakdowns,
+        and lyrics that swing between ridiculous comedy and
+        emotional darkness.
+    </p>
+</section>
+
+<section class="section cta">
+    <a href="#">LISTEN NOW</a>
+</section>
+
+<footer>
+    © 2026 It Was Supposed To Be Cute
+</footer>
+
+</body>
+</html>
