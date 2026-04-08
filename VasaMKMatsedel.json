@@ -294,6 +294,227 @@
           "Långfredag - ledigt"
         ]
       }
+    },
+    "15": {
+      "veckodag": {
+        "Måndag": ["Påsklov"],
+        "Tisdag": ["Påsklov"],
+        "Onsdag": ["Påsklov"],
+        "Torsdag": ["Påsklov"],
+        "Fredag": ["Påsklov"]
+      }
+    },
+    "16": {
+      "veckodag": {
+        "Måndag": [
+          "Ostsås med strimlad kyckling, pasta",
+          "Champinjon- och vitlökssås, pasta"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med chilisås & dill, potatis",
+          "Kökets gröna gratäng"
+        ],
+        "Onsdag": [
+          "Köttfärssås, pasta",
+          "Linsbolognese, pasta"
+        ],
+        "Torsdag": [
+          "Majssoppa",
+          "Potatisbullar, lingonsylt"
+        ],
+        "Fredag": [
+          "Kockens val",
+          "Kockens val"
+        ]
+      }
+    },
+    "17": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff, pasta",
+          "Grönsakssås, pasta"
+        ],
+        "Tisdag": [
+          "Fiskpanett med kall örtsås, potatis",
+          "Blodpudding med lingonsylt"
+        ],
+        "Onsdag": [
+          "Stekt kyckling med currysås",
+          "Rotfruktsmedaljong med currysås"
+        ],
+        "Torsdag": [
+          "Grekisk sallad med tzatziki",
+          "Kockens gröna val"
+        ],
+        "Fredag": [
+          "Chili con carne, svenskt ris",
+          "Chili sin carne, svenskt ris"
+        ]
+      }
+    },
+    "18": {
+      "veckodag": {
+        "Måndag": [
+          "Kycklingköttbullar med potatismos",
+          "Vegobullar med potatismos"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med dill och citron, potatis",
+          "Kökets gröna gratäng"
+        ],
+        "Onsdag": [
+          "Köttfärssås, pasta",
+          "Tomat- och basilikasås, pasta"
+        ],
+        "Torsdag": [
+          "Kyckling Supréme med ris",
+          "Kikärtsgryta med vitlökskeso och ris"
+        ],
+        "Fredag": [
+          "Första Maj"
+        ]
+      }
+    },
+    "19": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff med svenskt ris",
+          "Vegetarisk stroganoff, svenskt ris"
+        ],
+        "Tisdag": [
+          "Ugnsstekt fisk med remouladsås, potatis",
+          "Broccolipaj"
+        ],
+        "Onsdag": [
+          "Kockens val",
+          "Kockens val"
+        ],
+        "Torsdag": [
+          "Pannkaka med sylt och keso",
+          "Rostade rotfrukter"
+        ],
+        "Fredag": [
+          "Lasagne",
+          "Grönsakslasagne"
+        ]
+      }
+    },
+    "20": {
+      "veckodag": {
+        "Måndag": [
+          "Färsbiff, brunsås och potatis",
+          "Broccolimedaljong, sås och potatis"
+        ],
+        "Tisdag": [
+          "Kokostoppad fiskgratäng, potatis",
+          "Pastasallad med kyckling, dressing"
+        ],
+        "Onsdag": [
+          "Pastasallad med kyckling, dressing",
+          "Potatisbullar, lingonsylt"
+        ],
+        "Torsdag": [
+          "Kr. himmelfärds dag"
+        ],
+        "Fredag": [
+          "Lovdag"
+        ]
+      }
+    },
+    "21": {
+      "veckodag": {
+        "Måndag": [
+          "Varmkorv med potatismos/korvbröd",
+          "Grönsaksnuggets med potatismos"
+        ],
+        "Tisdag": [
+          "Kockens val",
+          "Kockens val"
+        ],
+        "Onsdag": [
+          "Varm pastasallad med dressing",
+          "Varm pastasallad med vegofärs, dressing"
+        ],
+        "Torsdag": [
+          "Panerad fisk med potatismos, kall sås",
+          "Kikärtsbiffar med potatismos, kall sås"
+        ],
+        "Fredag": [
+          "Kebabgryta med ris",
+          "Kebabkryddad vegogryta med ris"
+        ]
+      }
+    },
+    "22": {
+      "veckodag": {
+        "Måndag": [
+          "Ostsås med strimlad kyckling, pasta",
+          "Champinjon- och vitlökssås, pasta"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med chilisås & dill, potatis",
+          "Kökets gröna gratäng"
+        ],
+        "Onsdag": [
+          "Köttfärssås, pasta",
+          "Linsbolognese, pasta"
+        ],
+        "Torsdag": [
+          "Majssoppa",
+          "Potatisbullar, lingonsylt"
+        ],
+        "Fredag": [
+          "Kockens val",
+          "Kockens val"
+        ]
+      }
+    },
+    "23": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff, pasta",
+          "Grönsakssås, pasta"
+        ],
+        "Tisdag": [
+          "Fiskpanett med kall örtsås, potatis",
+          "Blodpudding med lingonsylt"
+        ],
+        "Onsdag": [
+          "Stekt kyckling med currysås",
+          "Rotfruktsmedaljong med currysås"
+        ],
+        "Torsdag": [
+          "Grekisk sallad med tzatziki",
+          "Kockens gröna val"
+        ],
+        "Fredag": [
+          "Chili con carne, svenskt ris",
+          "Chili sin carne, svenskt ris"
+        ]
+      }
+    },
+    "24": {
+      "veckodag": {
+        "Måndag": [
+          "Kycklingköttbullar med potatismos",
+          "Vegobullar med potatismos"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med dill och citron, potatis",
+          "Kökets gröna gratäng"
+        ],
+        "Onsdag": [
+          "Tacobuffé",
+          "Veggietacos"
+        ],
+        "Torsdag": [
+          "Kockens val",
+          "Kockens val"
+        ],
+        "Fredag": [
+          "Skolavslutning!"
+        ]
+      }
     }
   }
 }
