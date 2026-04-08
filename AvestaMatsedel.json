@@ -795,24 +795,24 @@
     "16": {
       "veckodag": {
         "Måndag": [
-          "Spaghetti med köttfärssås",
-          "Spaghetti med Bolognese på gula linser"
+          "Pasta med skinksås (rökt kyckling)",
+          "Färssås och pasta"
         ],
         "Tisdag": [
-          "Fisk Benedictine serveras med potatismos",
-          "Ostgratinerade grönsaker serveras med potatismos."
+          "Stekt fisk med potatis och kall sås",
+          "Falafel med potatis och kall sås"
         ],
         "Onsdag": [
-          "Grönsaksbiffar serveras med kall sås, matvete",
-          "Vegetarisk pastagratäng serveras med kokta grönsaker"
+          "Blodpudding och lingonsylt",
+          "Potatisbullar och lingonsylt"
         ],
         "Torsdag": [
-          "Potatis och purjolökssoppa, hembakat bröd, hummus och frukt",
-          "Kökets val"
+          "Broccolisoppa, mjukt bröd och frukt",
+          "Majssoppa, mjukt bröd och frukt"
         ],
         "Fredag": [
-          "Persikodoftande gryta serveras med bulgur",
-          "Köttfärsfräs med tacosmak, bulgur och kall sås."
+          "Korv och potatismos med tillbehör",
+          "Vegetarisk Mac n Cheese"
         ]
       }
     },
