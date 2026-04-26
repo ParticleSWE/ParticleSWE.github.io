@@ -32,6 +32,12 @@
         "swappableEngines": [
           "K24A-Civic (Garage RCR Civic)"
         ]
+      },
+      {
+        "car": "Alfa Romeo Giulia Sprint GT Veloce '67",
+        "swappableEngines": [
+          "690T-Giulia (Alfa Romeo Giulia GTAm '20)"
+        ]
       }
     ],
     "Alpine": [
@@ -341,6 +347,12 @@
         "car": "Ford Focus RS '18",
         "swappableEngines": [
           "V8-Ford-GT-LM-Test (Ford GT LM Spec II Test Car)"
+        ]
+      },
+      {
+        "car": "Ford Focus ST '15",
+        "swappableEngines": [
+          "L4-Focus-Gr.B (Ford Focus Gr.B)"
         ]
       },
       {
@@ -672,6 +684,12 @@
         ]
       },
       {
+        "car": "Lexus LFA '10",
+        "swappableEngines": [
+          "S70/3-F1GTR-'97 (BMW McLaren F1 GTR '97)"
+        ]
+      },
+      {
         "car": "Lexus RC F '14",
         "swappableEngines": [
           "8.0-WR16-64v4T-Chiron (Bugatti Chiron)"
@@ -769,6 +787,14 @@
         "car": "Mazda SPIRIT RACING Roadster 12R '25",
         "swappableEngines": [
           "13B-REW-RX-7-Type-6 (Mazda RX-7 FD Spirit R)"
+        ]
+      }
+    ],
+    "McLaren": [
+      {
+        "car": "McLaren 650S '14",
+        "swappableEngines": [
+          "S70/3-F1GTR-'97 (BMW McLaren F1 GTR '97)"
         ]
       }
     ],
@@ -1168,6 +1194,12 @@
         ]
       },
       {
+        "car": "Porsche 911 (964) Turbo S Leichtbau '93",
+        "swappableEngines": [
+          "DKH-911 (Porsche 911 992 Turbo S '20)"
+        ]
+      },
+      {
         "car": "Porsche 911 (993) Carrera RS '95",
         "swappableEngines": [
           "CTR38-CTR3 (Ruf CTR3)"
@@ -1258,6 +1290,18 @@
         ]
       },
       {
+        "car": "Renault Kangoo 1.4 '01",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
+        "car": "Renault R4 GTL '85",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
+        ]
+      },
+      {
         "car": "Renault R8 Gordini '66",
         "swappableEngines": [
           "SR20DET-Silvia-S15 (Nissan Silvia S15)"
@@ -1267,6 +1311,18 @@
         "car": "Renault Megane Trophy '11",
         "swappableEngines": [
           "RS4-Espace (Renault Espace F1 '95)"
+        ]
+      },
+      {
+        "car": "Renault Megane RS Trophy '11",
+        "swappableEngines": [
+          "GTI-VGT-Gr.3 (Volkswagen GTI VGT Gr.3)"
+        ]
+      },
+      {
+        "car": "Renault Twingo '93",
+        "swappableEngines": [
+          "K24A-Civic (Garage RCR Civic)"
         ]
       }
     ],
@@ -1603,6 +1659,12 @@
         "car": "Volkswagen Sambabus '62",
         "swappableEngines": [
           "M64/03-911 (Porsche 911 964 Carrera RS)"
+        ]
+      },
+      {
+        "car": "Volkswagen Scirocco R '10",
+        "swappableEngines": [
+          "GTI-VGT-Gr.3 (Volkswagen GTI VGT Gr.3)"
         ]
       }
     ],
