@@ -979,16 +979,20 @@
     "24": {
       "veckodag": {
         "Måndag": [
-          "Kökets val"
+          "Köttfärssås med pasta",
+          "Linssås med pasta"
         ],
         "Tisdag": [
-          "Kökets val"
+          "Stekt fisk med kokt potatis och kall sås",
+          "Vegetariska biffar med kokt potatis och kall sås"
         ],
         "Onsdag": [
-          "Kökets val"
+          "Kyckling Tikka Masala med ris",
+          "Vegetarisk Tikka Masala med ris"
         ],
         "Torsdag": [
-          "Skolavslutning"
+          "Korvstroganoff med ris",
+          "Vegstroganoff med ris"
         ],
         "Fredag": [
           "Skolavslutning"
