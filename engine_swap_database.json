@@ -80,6 +80,18 @@
         "swappableEngines": [
           "BYH-R8 (Audi R8 4.2)"
         ]
+      },
+      {
+        "car": "Audi TT Coupé 3.2 quattro '03",
+        "swappableEngines": [
+          "R5-20vT-Quattro-Pikes (Audi S1 Quattro Pikes Peak '87)"
+        ]
+      },
+      {
+        "car": "Audi TTS Coupé '09 ",
+        "swappableEngines": [
+          "R5-20vT-Quattro-Pikes (Audi S1 Quattro Pikes Peak '87)"
+        ]
       }
     ],
     "Autobianchi": [
@@ -165,6 +177,14 @@
         "car": "Bugatti Veyron Gr.4",
         "swappableEngines": [
           "LS7-BRZ (Subaru BRZ Drift)"
+        ]
+      }
+    ],
+    "Caterham": [
+      {
+        "car": "Caterham Seven Superlight R500 '08",
+        "swappableEngines": [
+          "R06A-Jimny (Suzuki Jimny XC '18)"
         ]
       }
     ],
@@ -350,6 +370,12 @@
         ]
       },
       {
+        "car": "Ford Focus RS '18",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
+        ]
+      },
+      {
         "car": "Ford Focus ST '15",
         "swappableEngines": [
           "L4-Focus-Gr.B (Ford Focus Gr.B)"
@@ -475,6 +501,12 @@
         "car": "Gran Turismo F3500-B",
         "swappableEngines": [
           "V12-F3500-A (Gran Turismo F3500-A)"
+        ]
+      },
+      {
+        "car": "Gran Turismo Red Bull X2014 Junior",
+        "swappableEngines": [
+          "HR-414E-NSX (Honda NSX GT500 '16)"
         ]
       }
     ],
@@ -806,6 +838,18 @@
         ]
       },
       {
+        "car": "Mercedes-Benz 300 SEL 6.8 AMG '71",
+        "swappableEngines": [
+          "M159-AMG-GT3-'20 (Mercedes-AMG GT3 '20)"
+        ]
+      },
+      {
+        "car": "Mercedes-Benz SLS AMG '10",
+        "swappableEngines": [
+          "M158-AMG-Huayra (Pagani Huayra)"
+        ]
+      },
+      {
         "car": "Mercedes-AMG C63 S '15",
         "swappableEngines": [
           "M158-AMG-Huayra (Pagani Huayra)"
@@ -891,6 +935,12 @@
         "car": "Mitsubishi Lancer Evolution IX GSR MR '06",
         "swappableEngines": [
           "Evo-Final-Gr.B (Mitsubishi Lancer Evolution Gr.B Rally Car)"
+        ]
+      },
+      {
+        "car": "Mitsubishi Lancer Evolution IX GSR MR '06",
+        "swappableEngines": [
+          "Windsor-351-Maverick (GAC Maverick)"
         ]
       },
       {
@@ -1218,6 +1268,12 @@
         ]
       },
       {
+        "car": "Porsche 911 (996) GT3 '01",
+        "swappableEngines": [
+          "DKH-911 (Porsche 911 992 Turbo S '20)"
+        ]
+      },
+      {
         "car": "Porsche 911 (991) GT3 RS '16",
         "swappableEngines": [
           "DKH-911 (Porsche 911 992 Turbo S '20)"
@@ -1287,6 +1343,12 @@
         "car": "Renault 5 Turbo '80",
         "swappableEngines": [
           "SR20DET-Silvia-S15 (Nissan Silvia S15)"
+        ]
+      },
+      {
+        "car": "Renault Espace F1 '95",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
         ]
       },
       {
@@ -1428,6 +1490,12 @@
         ]
       },
       {
+        "car": "Suzuki Escudo Pikes Peak '98",
+        "swappableEngines": [
+          "VR38DETT-GT-R-Nismo (Nissan GT-R NISMO '17)"
+        ]
+      },
+      {
         "car": "Suzuki Jimny Sierra JC '18",
         "swappableEngines": [
           "K24A-Civic (Garage RCR Civic)"
@@ -1441,6 +1509,12 @@
       },
       {
         "car": "Suzuki Swift Sport '17",
+        "swappableEngines": [
+          "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
+        ]
+      },
+      {
+        "car": "Suzuki Swift Sport '07",
         "swappableEngines": [
           "V8-Suzuki-VGT-Gr.3 (Suzuki Vision GT Gr.3)"
         ]
@@ -1499,6 +1573,18 @@
         "car": "Toyota Corolla Levin (AE86) '83",
         "swappableEngines": [
           "3S-GTE-MR2 (Toyota MR2 '97)"
+        ]
+      },
+      {
+        "car": "Toyota Chaser Tourer V '97",
+        "swappableEngines": [
+          "3UZ-FE-SC430 (Lexus SC430 GT500)"
+        ]
+      },
+      {
+        "car": "Toyota Mark II Tourer V '97",
+        "swappableEngines": [
+          "3UZ-FE-SC430 (Lexus SC430 GT500)"
         ]
       },
       {
@@ -1589,6 +1675,12 @@
         "car": "Toyota Sprinter Trueno (AE86) '83",
         "swappableEngines": [
           "3S-GTE-MR2 (Toyota MR2 '97)"
+        ]
+      },
+      {
+        "car": "Toyota RAV4 Adventure '20",
+        "swappableEngines": [
+          "Demon-Challenger (Dodge Challenger SRT Demon '18)"
         ]
       },
       {
