@@ -94,6 +94,125 @@
       "Tikka masala med ärt och bönflakes serverasmed kokt ris"
     ]
   }
+},
+    "40": {
+  "veckodag": {
+    "Måndag": [
+      "Kyckling Tikka Masala serveras med havreris",
+      "Fried rice(havreris) med het ajvar och chili yoghurt"
+    ],
+    "Tisdag": [
+      "Pasta med krämig lax och örtsås",
+      "Pasta med krämig tomatsås"
+    ],
+    "Onsdag": [
+      "Ugnsgratinerad falukorv med potatismos",
+      "Grönsaksbiffar med fetaostcremé och potatismos"
+    ],
+    "Torsdag": [
+      "Falafel med kall sås och potatis.",
+      "Nötfärsrutor serveras med kokt potatis och sås"
+    ],
+    "Fredag": [
+      "Tortellini Crema",
+      "Vegetarisk pastagratäng"
+    ]
+  }
+},
+"41": {
+  "veckodag": {
+    "Måndag": [
+      "Chili con carne serveras med havreris",
+      "Pastagratäng med ost och spenat"
+    ],
+    "Tisdag": [
+      "Gratinerad fisk serveras med kokt potatis",
+      "Krämig broccoli och morotsgratäng serveras med kokt potatis"
+    ],
+    "Onsdag": [
+      "Falafelbiffar serveras med klyftpotatis och kall sås.",
+      "Nudelwok med grönsaker och kall sås"
+    ],
+    "Torsdag": [
+      "Laxfärsbiff serveras med mangosalsa och limeyoghurt",
+      "Ärtsoppa med fläsk, husets bröd, spread, frukt"
+    ],
+    "Fredag": [
+      "Pasta med skinka och purjolöksås",
+      "Pasta med krämig svampsås"
+    ]
+  }
+},
+"42": {
+  "veckodag": {
+    "Måndag": [
+      "Röd currygryta med fläskkött serveras med bulgur",
+      "Grönsaksfritters med yoghurtdipp serveras med kokt potatis"
+    ],
+    "Tisdag": [
+      "Panerad fisk serveras med kall sås och kokt potatis",
+      "Krämig pestopastasallad med kall sås"
+    ],
+    "Onsdag": [
+      "Kyckling och rotfruktfrestelse",
+      "Spaghetti med linsbolognese"
+    ],
+    "Torsdag": [
+      "Rostad majssoppa serveras med hembakat bröd, hummus och frukt",
+      "Korv stroganoff serveras med havreris"
+    ],
+    "Fredag": [
+      "Lasagne på cionafärs"
+    ]
+  }
+},
+"43": {
+  "veckodag": {
+    "Måndag": [
+      "Spaghetti med köttfärssås",
+      "Thaigryta serveras med bulgur"
+    ],
+    "Tisdag": [
+      "Fiskgryta med kokosgrädde och lime serveras med koktris",
+      "Grönsaksrutor serveras med tzatsiki och ris"
+    ],
+    "Onsdag": [
+      "Leverbiff serveras med gräddsås, kokt potatis och lingon",
+      "Pastagratäng serveras med rostade grönsaker"
+    ],
+    "Torsdag": [
+      "Potatis och purjolökssoppa, hembakat bröd, spread och frukt",
+      "Kyckling i currysås och havreris."
+    ],
+    "Fredag": [
+      "Hermanssons frestelse",
+      "Tikka masala med ärt och bönflakes serverasmed koktris"
+    ]
+  }
+},
+"44": {
+  "veckodag": {
+    "Måndag": [
+      "Nudelwook med strimlad omelett och grönsaker serveras med sweet chilisås",
+      "Köttfärsfräs med tacosmak serveras med bulgur och kall örtsås"
+    ],
+    "Tisdag": [
+      "Fiskfärsbiff med remouladsås och kokt potatis",
+      "Blomkålscurry med rostade bönor serveras med ris"
+    ],
+    "Onsdag": [
+      "Kikärtsbiffar serveras med vitlöksdressing och kokt potatis",
+      "Fläskgryta med senapssting och örter serveras med kokt potatis"
+    ],
+    "Torsdag": [
+      "Minestronesoppa, hembakat bröd, hummus och frukt",
+      "Chiligratinerad fisk serveras med potatismos"
+    ],
+    "Fredag": [
+      "Pasta med ost och broccolisås",
+      "Pasta med vitlöksdoftande kycklingfärs i tomat och basilikasås"
+    ]
+  }
 }
   }
 }
