@@ -167,6 +167,145 @@
       }
     },
     "41": {
+          "veckodag": {
+            "Måndag": [
+              "Korv stroganoff med pasta",
+              "Grönsakssås med pasta"
+            ],
+            "Tisdag": [
+              "Fiskpanett med kall örtsås, potatis",
+              "Blodpudding med lingonsylt"
+            ],
+            "Onsdag": [
+              "Stekt kyckling med currysås",
+              "Rotfruktsmedaljong med currysås"
+            ],
+            "Torsdag": [
+              "Risgrynsgröt, mjukt bröd",
+              "Kockens gröna val"
+            ],
+            "Fredag": [
+              "Chili con carne med ris",
+              "Chili sin carne med ris"
+            ]
+          }
+        },
+        "42": {
+      "veckodag": {
+        "Måndag": [
+          "Köttbullar med brunsås och potatis",
+          "Vegobullar med sås och potatis"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med dill och citron, potatis",
+          "Kökets gröna gratäng"
+        ],
+        "Onsdag": [
+          "Köttfärssås med pasta",
+          "Tomat- och basilikasås med pasta"
+        ],
+        "Torsdag": [
+          "Kyckling Supréme med bulgur",
+          "Kikärtsgryta med vitlökskeso och bulgur"
+        ],
+        "Fredag": [
+          "Italiensk tomatsoppa, nybakat bröd",
+          "Potatis- och purjolökssoppa, nybakat bröd"
+        ]
+      }
+    },
+    "43": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff med ris",
+          "Vegetarisk stroganoff med ris"
+        ],
+        "Tisdag": [
+          "Ugnsstekt fisk med remouladsås, potatis",
+          "Broccolipaj"
+        ],
+        "Onsdag": [
+          "Kockens val",
+          "Kockens val"
+        ],
+        "Torsdag": [
+          "Pannkaka med sylt och keso",
+          "Rostade rotfrukter"
+        ],
+        "Fredag": [
+          "Lasagne",
+          "Grönsakslasagne"
+        ]
+      }
+    },
+    "44": {
+      "veckodag": {
+        "Måndag": [
+          "Höstlov"
+        ],
+        "Tisdag": [
+          "Höstlov"
+        ],
+        "Onsdag": [
+          "Höstlov"
+        ],
+        "Torsdag": [
+          "Höstlov"
+        ],
+        "Fredag": [
+          "Höstlov"
+        ]
+      }
+    },
+    "45": {
+      "veckodag": {
+        "Måndag": [
+          "Varmkorv med potatismos/korvbröd",
+          "Grönsaksnuggets med potatismos"
+        ],
+        "Tisdag": [
+          "Kockens val",
+          "Kockens val"
+        ],
+        "Onsdag": [
+          "Varm pastasallad med dressing",
+          "Varm pastasallad med vegofärs, dressing"
+        ],
+        "Torsdag": [
+          "Panerad fisk med potatis, kall sås",
+          "Kikärtsbiffar med potatis, kall sås"
+        ],
+        "Fredag": [
+          "Kebabgryta med ris",
+          "Kebabkryddad vegogryta med ris"
+        ]
+      }
+    },
+    "46": {
+      "veckodag": {
+        "Måndag": [
+          "Ostsås med strimlad kyckling, pasta",
+          "Champinjon- och vitklökssås, pasta"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med chilisås & dill, potatis",
+          "Kökets gröna gratäng"
+        ],
+        "Onsdag": [
+          "Köttfärssås med pasta",
+          "Linsbolognese med pasta"
+        ],
+        "Torsdag": [
+          "Majssoppa",
+          "Potatisbullar med lingonsylt"
+        ],
+        "Fredag": [
+          "Gratinerad makaronilåda ''Mac n' cheese''",
+          "Plocka din egen sallad med dressing"
+        ]
+      }
+    },
+    "47": {
       "veckodag": {
         "Måndag": [
           "Korv stroganoff med pasta",
@@ -187,6 +326,100 @@
         "Fredag": [
           "Chili con carne med ris",
           "Chili sin carne med ris"
+        ]
+      }
+    },
+    "48": {
+      "veckodag": {
+        "Måndag": [
+          "Köttbullar med potatismos",
+          "Vegobullar med potatismos"
+        ],
+        "Tisdag": [
+          "Fiskgratäng med dill och citron, potatis",
+          "Kökets gröna gratäng"
+        ],
+        "Onsdag": [
+          "Köttfärssås med pasta",
+          "Tomat- och basilikasås med pasta"
+        ],
+        "Torsdag": [
+          "Kyckling Supréme med bulgur",
+          "Kikärtsgryta med vitlökskeso och bulgur"
+        ],
+        "Fredag": [
+          "Italiensk tomatsoppa, nybakat bröd",
+          "Potatis- och purjolökssoppa, nybakat bröd"
+        ]
+      }
+    },
+    "49": {
+      "veckodag": {
+        "Måndag": [
+          "Korv stroganoff med ris",
+          "Vegetarisk stroganoff med ris"
+        ],
+        "Tisdag": [
+          "Ugnsstekt fisk med remouladsås, potatis",
+          "Risgrynsgröt, mjukt bröd"
+        ],
+        "Onsdag": [
+          "Kockens val",
+          "Kockens val"
+        ],
+        "Torsdag": [
+          "Pannkaka med sylt och keso",
+          "Rostade rotfrukter"
+        ],
+        "Fredag": [
+          "Lasagne",
+          "Grönsakslasagne"
+        ]
+      }
+    },
+    "50": {
+      "veckodag": {
+        "Måndag": [
+          "Färsbiff med brunsås och potatis",
+          "Broccolimedaljong med sås och potatis"
+        ],
+        "Tisdag": [
+          "Kokostoppad fiskgratäng, potatis",
+          "Broccolipaj"
+        ],
+        "Onsdag": [
+          "Potatisbullar med lingonsylt",
+          "Kockens gröna val"
+        ],
+        "Torsdag": [
+          "Het köttfärssoppa",
+          "Vasas pastagratäng"
+        ],
+        "Fredag": [
+          "Italiensk kycklinggryta med svenskt ris",
+          "Italiensk vegogryta med svenskt ris"
+        ]
+      }
+    },
+    "51": {
+      "veckodag": {
+        "Måndag": [
+          "Varmkorv med potatismos/korvbröd",
+          "Grönsaksnuggets med potatismos"
+        ],
+        "Tisdag": [
+          "Panerad fisk med potatis, kall sås",
+          "Kikärtsbiffar med potatis, kall sås"
+        ],
+        "Onsdag": [
+          "Kökets lilla julbord"
+        ],
+        "Torsdag": [
+          "Kockens val",
+          "Kockens val"
+        ],
+        "Fredag": [
+          "Julgröt, mjukt bröd och pålägg"
         ]
       }
     }
