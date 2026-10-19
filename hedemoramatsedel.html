@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2457a7">
+  <title>Veckans lunch</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --accent: #2457a7;
+      --text: #172337;
+      --muted: #64748b;
+      --page: #f3f5f8;
+      --line: #e8ecf2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--page);
+      color: var(--text);
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    main {
+      width: min(850px, 100%);
+      margin: 0 auto;
+      padding: 28px;
+    }
+    .eyebrow {
+      margin: 0;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .08em;
+    }
+    h1 {
+      margin: 6px 0 2px;
+      font-size: clamp(28px, 5vw, 34px);
+      line-height: 1.2;
+      letter-spacing: -.025em;
+    }
+    #date-range { color: var(--muted); font-size: 16px; }
+    .navigation {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 8px;
+      margin: 22px 0 18px;
+    }
+    button {
+      border: 0;
+      border-radius: 8px;
+      padding: 11px 15px;
+      min-height: 42px;
+      background: #e3eaf5;
+      color: var(--text);
+      font: inherit;
+      font-size: 14px;
+      cursor: pointer;
+      transition: filter .15s ease, transform .15s ease;
+    }
+    button:hover { filter: brightness(.97); }
+    button:active { transform: translateY(1px); }
+    button:focus-visible { outline: 3px solid #8db6f3; outline-offset: 2px; }
+    .current { background: var(--accent); color: white; }
+    .next { justify-self: end; }
+    .menu {
+      padding: 10px 18px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgb(23 35 55 / 4%);
+    }
+    .day {
+      display: grid;
+      grid-template-columns: 125px minmax(0, 1fr);
+      gap: 12px;
+      padding: 17px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .day:last-child { border-bottom: 0; }
+    .day-name { color: var(--accent); font-weight: 750; font-size: 16px; }
+    .day-date { margin-top: 3px; color: var(--muted); font-size: 12px; }
+    .meals { white-space: pre-line; overflow-wrap: anywhere; font-size: 15px; line-height: 1.55; }
+    .status {
+      margin: 14px 2px 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+      overflow-wrap: anywhere;
+    }
+    .status.error { color: #a12626; }
+    .actions { margin-top: 10px; }
+    .retry { padding: 7px 11px; min-height: 34px; font-size: 12px; }
+    @media (max-width: 560px) {
+      main { padding: 22px 16px; }
+      .navigation { grid-template-columns: 1fr 1fr; }
+      .navigation .current { grid-column: 1 / -1; grid-row: 1; }
+      .navigation .previous { grid-column: 1; grid-row: 2; }
+      .navigation .next { grid-column: 2; grid-row: 2; }
+      .day { grid-template-columns: 94px minmax(0, 1fr); gap: 10px; padding: 15px 0; }
+      .meals { font-size: 14px; }
+      button { padding: 10px 11px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">VECKANS MATSEDEL</p>
+      <h1 id="week-title">Hämtar matsedeln…</h1>
+      <div id="date-range"></div>
+    </header>
+
+    <nav class="navigation" aria-label="Veckonavigering">
+      <button class="previous" id="previous-week" type="button">‹ Föregående</button>
+      <button class="current" id="current-week" type="button">Denna vecka</button>
+      <button class="next" id="next-week" type="button">Nästa ›</button>
+    </nav>
+
+    <section class="menu" id="lunch-list" aria-live="polite">
+      <p>Hämtar lunchdata…</p>
+    </section>
+    <p class="status" id="status" role="status">Ansluter till matsedeln…</p>
+    <div class="actions"><button class="retry" id="refresh" type="button">Uppdatera matsedel</button></div>
+  </main>
+
+  <script>
+    "use strict";
+
+    const JSON_URL = "https://particle.se/HedemoraMatsedel.json";
+    const dayNames = ["Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag"];
+    const sv = new Intl.DateTimeFormat("sv-SE", { day: "numeric", month: "long" });
+    const svLong = new Intl.DateTimeFormat("sv-SE", { day: "numeric", month: "long", year: "numeric" });
+
+    let weeks = {};
+    let weekStart = getMonday(new Date());
+    let loadError = "";
+
+    const $ = id => document.getElementById(id);
+
+    function getMonday(date) {
+      const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      const day = (d.getDay() + 6) % 7;
+      d.setDate(d.getDate() - day);
+      return d;
+    }
+
+    function addDays(date, amount) {
+      const d = new Date(date);
+      d.setDate(d.getDate() + amount);
+      return d;
+    }
+
+    // ISO week/year calculation; handles year boundaries.
+    function getIsoWeek(date) {
+      const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+      const day = d.getUTCDay() || 7;
+      d.setUTCDate(d.getUTCDate() + 4 - day);
+      const year = d.getUTCFullYear();
+      const yearStart = new Date(Date.UTC(year, 0, 1));
+      const week = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+      return { week, year };
+    }
+
+    function normaliseWeekData(raw) {
+      // Supports the current structure: { weeks: { "42": { veckodag: {...} } } }
+      // and a direct week dictionary as a fallback.
+      return raw && raw.weeks && typeof raw.weeks === "object" ? raw.weeks : raw;
+    }
+
+    function findWeek(iso) {
+      // The source currently keys data by week number only, not year.
+      return weeks[String(iso.week)] ?? weeks[iso.week] ?? null;
+    }
+
+    function getMealsForDay(weekData, dayName) {
+      if (!weekData) return [];
+      const dayMap = weekData.veckodag || weekData.days || weekData.dagar || weekData;
+      let value = dayMap?.[dayName];
+      if (value == null) {
+        const key = Object.keys(dayMap || {}).find(k => k.toLocaleLowerCase("sv-SE") === dayName.toLocaleLowerCase("sv-SE"));
+        if (key) value = dayMap[key];
+      }
+      if (value == null) return [];
+      if (Array.isArray(value)) {
+        return value.map(item => {
+          if (typeof item === "string") return item;
+          if (item && typeof item === "object") {
+            return item.meal || item.dish || item.name || item.text || JSON.stringify(item);
+          }
+          return String(item);
+        }).filter(Boolean);
+      }
+      if (typeof value === "string") return [value];
+      if (typeof value === "object") {
+        return Object.values(value).flatMap(v => Array.isArray(v) ? v : [v])
+          .map(v => typeof v === "string" ? v : (v?.meal || v?.dish || v?.name || v?.text || ""))
+          .filter(Boolean);
+      }
+      return [String(value)];
+    }
+
+    function renderWeek() {
+      const iso = getIsoWeek(weekStart);
+      const friday = addDays(weekStart, 4);
+      $("week-title").textContent = `Vecka ${iso.week}, ${iso.year}`;
+      $("date-range").textContent = `${sv.format(weekStart)} – ${svLong.format(friday)}`;
+
+      const weekData = findWeek(iso);
+      const list = $("lunch-list");
+      list.replaceChildren();
+
+      dayNames.forEach((name, index) => {
+        const date = addDays(weekStart, index);
+        const meals = getMealsForDay(weekData, name).filter(x => String(x).trim());
+        const row = document.createElement("article");
+        row.className = "day";
+
+        const dateColumn = document.createElement("div");
+        const dayName = document.createElement("div");
+        dayName.className = "day-name";
+        dayName.textContent = name;
+        const dateText = document.createElement("div");
+        dateText.className = "day-date";
+        dateText.textContent = sv.format(date);
+        dateColumn.append(dayName, dateText);
+
+        const mealText = document.createElement("div");
+        mealText.className = "meals";
+        mealText.textContent = meals.length ? meals.join("\n") :
+          (weekData ? "Ingen lunchinformation tillgänglig." : "Ingen matsedel publicerad för denna vecka.");
+
+        row.append(dateColumn, mealText);
+        list.append(row);
+      });
+
+      if (loadError) {
+        $("status").textContent = loadError;
+        $("status").className = "status error";
+      } else if (!weekData) {
+        $("status").textContent = "Det saknas lunchdata för den valda veckan.";
+        $("status").className = "status";
+      } else {
+        $("status").textContent = "Matsedeln är hämtad från particle.se.";
+        $("status").className = "status";
+      }
+    }
+
+    async function loadLunchData() {
+      $("status").textContent = "Hämtar matsedeln från servern…";
+      $("status").className = "status";
+      try {
+        const response = await fetch(JSON_URL, { cache: "no-store" });
+        if (!response.ok) throw new Error(`Servern svarade med HTTP ${response.status}.`);
+        const json = await response.json();
+        const parsed = normaliseWeekData(json);
+        if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+          throw new Error("JSON-filen har ett oväntat format.");
+        }
+        weeks = parsed;
+        loadError = "";
+        renderWeek();
+      } catch (error) {
+        loadError = `Kunde inte hämta matsedeln. ${error.message || "Kontrollera internetanslutningen."} Om felet beror på CORS behöver JSON-servern tillåta anrop från webbplatsens domän.`;
+        renderWeek();
+      }
+    }
+
+    $("previous-week").addEventListener("click", () => {
+      weekStart = addDays(weekStart, -7);
+      renderWeek();
+    });
+    $("next-week").addEventListener("click", () => {
+      weekStart = addDays(weekStart, 7);
+      renderWeek();
+    });
+    $("current-week").addEventListener("click", () => {
+      weekStart = getMonday(new Date());
+      renderWeek();
+    });
+    $("refresh").addEventListener("click", loadLunchData);
+
+    renderWeek();
+    loadLunchData();
+  </script>
+</body>
+</html>
