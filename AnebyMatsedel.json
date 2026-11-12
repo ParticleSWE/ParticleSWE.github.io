@@ -47,6 +47,78 @@
       "Vegetarisk pastasallad. Serveras med Dressing, bröd & frukt"
     ]
   }
+},
+    "46": {
+  "veckodag": {
+    "Måndag": [
+      "Chili con carne och ris. Serveras med picklad rödlök, nachochips och yoghurtklick",
+      "Chili sin carne och ris. Serveras med picklad rödlök, nachochips och yoghurtklick"
+    ],
+    "Tisdag": [
+      "Vego-schnitzel med kall paprikasås och klyftpotatis",
+      "Vego-schnitzel med kall paprikasås och klyftpotatis"
+    ],
+    "Onsdag": [
+      "Lax- & potatisgratäng med stekta grönsaker",
+      "Vegetariskt alternativ"
+    ],
+    "Torsdag": [
+      "Köttbullar med makaroner",
+      "Vegobollar med makaroner"
+    ],
+    "Fredag": [
+      "Kycklingsoppa serveras med bröd och frukt",
+      "Quornsoppa serveras med bröd & frukt"
+    ]
+  }
+},
+"47": {
+  "veckodag": {
+    "Måndag": [
+      "Crispy chicken nuggets serveras med jasminris och varm sötsur sås",
+      "Green nuggets med jasminris och varm sötsur sås"
+    ],
+    "Tisdag": [
+      "Zucchini-lasagne serveras med tomatsalsa",
+      "Zucchini-lasagne serveras med tomatsalsa"
+    ],
+    "Onsdag": [
+      "Fisk Björkeby serveras med kokt potatis och kall citron- och dillkräm",
+      "Vegetariskt alternativ"
+    ],
+    "Torsdag": [
+      "Pastasås med ost- och rökt kött. Serveras med fullkornspasta",
+      "Krämig pastasås med broccoli serveras med fullkornspasta"
+    ],
+    "Fredag": [
+      "Tacosoppa serveras med yoghurtklick, bröd & frukt",
+      "Tacosoppa serveras med yoghurtklick, bröd & frukt"
+    ]
+  }
+},
+"48": {
+  "veckodag": {
+    "Måndag": [
+      "Köttfärspanna med brunsås och kokt potatis",
+      "Vegetarisk färspanna med tomatsås och kokt potatis"
+    ],
+    "Tisdag": [
+      "Smakrik kycklingwok med nudlar. Serveras med kall sweetchilidressing",
+      "Smakrik Oumphwok med kall sweetchilidressing"
+    ],
+    "Onsdag": [
+      "Pastagratäng med lax",
+      "Vegetariskt alternativ"
+    ],
+    "Torsdag": [
+      "Varmkorv serveras med kökets potatismos och rostad lök",
+      "Vegokorv serveras med kökets potatismos"
+    ],
+    "Fredag": [
+      "Morotssoppa med rostade kikärtor. Serveras med bröd och frukt",
+      "Morotssoppa med rostade kikärtor. Serveras med bröd och frukt"
+    ]
+  }
 }
   }
 }
